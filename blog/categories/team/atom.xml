@@ -4,7 +4,7 @@
   <title><![CDATA[Category: team | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/team/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-08-23T13:36:09+04:00</updated>
+  <updated>2014-08-23T13:37:52+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -36,7 +36,7 @@ directives or a bunch of frontend-ish NodeJS apps,
 is devastated as they feel they are missing a third
 element who can help them achieve greatness.</p>
 
-<p><img class="center" src="/images/frontend-sad.png"></p>
+<p>{% img center /images/frontend-sad.png %}</p>
 
 <p>To make Lucio and Shidhin happy, we want to add a new
 member in our team, a <strong>Frontend Developer</strong>, someone who
@@ -59,7 +59,7 @@ knowing how to build the presentation and logic behind a full
 frontend application (AngularJS, Node or something more spicy
 like <a href="http://www.polymer-project.org/">polymer</a>).</p>
 
-<blockquote><p>Drop us an email at <a href="&#x6d;&#x61;&#105;&#108;&#116;&#111;&#58;&#x77;&#111;&#x72;&#x6b;&#x2d;&#x69;&#x6e;&#45;&#x74;&#x65;&#99;&#x68;&#64;&#110;&#x61;&#x6d;&#115;&#104;&#x69;&#46;&#99;&#111;&#109;">&#x77;&#x6f;&#x72;&#107;&#x2d;&#105;&#110;&#45;&#x74;&#101;&#x63;&#104;&#x40;&#110;&#x61;&#109;&#115;&#104;&#105;&#x2e;&#x63;&#111;&#x6d;</a> to apply or simply
+<blockquote><p>Drop us an email at <a href="&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#119;&#x6f;&#114;&#x6b;&#x2d;&#x69;&#110;&#45;&#116;&#x65;&#99;&#104;&#64;&#110;&#97;&#109;&#115;&#x68;&#x69;&#x2e;&#99;&#111;&#x6d;">&#x77;&#x6f;&#114;&#107;&#x2d;&#x69;&#110;&#45;&#116;&#x65;&#99;&#x68;&#64;&#x6e;&#x61;&#109;&#x73;&#104;&#105;&#x2e;&#x63;&#x6f;&#109;</a> to apply or simply
 get more informations about this job opening!</p></blockquote>
 
 <h2>Sitting on an empty (sysadmin) chair&hellip;</h2>
@@ -67,7 +67,7 @@ get more informations about this job opening!</p></blockquote>
 <p>Look at the systeam, so sad: they really
 need some new buddy for their games.</p>
 
-<p><img class="center" src="/images/sys-sad.png"></p>
+<p>{% img center /images/sys-sad.png %}</p>
 
 <p>The chair is empty, and that makes me so sad! If only
 we could find someone who would like to come and join
@@ -86,7 +86,7 @@ our configurations, and would like someone who can get his/her
 hands dirty with both programming and system administration
 to help the team.</p>
 
-<blockquote><p>Drop us an email at <a href="&#109;&#97;&#x69;&#x6c;&#116;&#x6f;&#x3a;&#x77;&#x6f;&#114;&#107;&#x2d;&#x69;&#110;&#x2d;&#x74;&#x65;&#x63;&#x68;&#x40;&#x6e;&#x61;&#109;&#x73;&#x68;&#x69;&#x2e;&#x63;&#111;&#x6d;">&#119;&#111;&#114;&#x6b;&#x2d;&#105;&#110;&#45;&#x74;&#x65;&#99;&#104;&#64;&#x6e;&#97;&#x6d;&#x73;&#104;&#x69;&#46;&#x63;&#111;&#x6d;</a> to apply or simply
+<blockquote><p>Drop us an email at <a href="&#x6d;&#x61;&#x69;&#108;&#116;&#111;&#58;&#x77;&#x6f;&#x72;&#x6b;&#x2d;&#105;&#x6e;&#x2d;&#116;&#x65;&#99;&#x68;&#64;&#110;&#97;&#109;&#x73;&#104;&#105;&#x2e;&#x63;&#x6f;&#109;">&#x77;&#111;&#x72;&#x6b;&#45;&#x69;&#x6e;&#45;&#x74;&#101;&#99;&#104;&#x40;&#110;&#x61;&#x6d;&#x73;&#104;&#x69;&#46;&#x63;&#111;&#109;</a> to apply or simply
 get more informations about this job opening!</p></blockquote>
 
 <h2>I don&rsquo;t know if he&rsquo;s crying because of loneliness or because of NodeJS&hellip;</h2>
@@ -94,7 +94,7 @@ get more informations about this job opening!</p></blockquote>
 <p>Look at how sad Cirpo, our lead API engineer, was
 today:</p>
 
-<p><img class="center" src="/images/cirpo-sad.png"></p>
+<p>{% img center /images/cirpo-sad.png %}</p>
 
 <p>It&rsquo;s true that he might be sad because we decided
 to use a lot of NodeJS instead of PHP, but I
@@ -114,7 +114,7 @@ if we get someone that has been in a few different battlefields :)</p>
 code (or, even better: first solves the problem, then writes the
 test, then the code :-D).</p>
 
-<blockquote><p>Drop us an email at <a href="&#109;&#x61;&#x69;&#x6c;&#116;&#111;&#x3a;&#x77;&#111;&#x72;&#x6b;&#x2d;&#105;&#110;&#x2d;&#116;&#x65;&#x63;&#104;&#x40;&#x6e;&#x61;&#109;&#x73;&#104;&#105;&#46;&#99;&#x6f;&#109;">&#119;&#x6f;&#x72;&#x6b;&#45;&#x69;&#x6e;&#x2d;&#116;&#x65;&#99;&#104;&#64;&#110;&#97;&#x6d;&#115;&#x68;&#105;&#46;&#x63;&#111;&#109;</a> to apply or simply
+<blockquote><p>Drop us an email at <a href="&#x6d;&#x61;&#105;&#x6c;&#116;&#111;&#x3a;&#x77;&#x6f;&#x72;&#107;&#45;&#105;&#110;&#x2d;&#116;&#x65;&#x63;&#104;&#x40;&#x6e;&#x61;&#x6d;&#115;&#104;&#x69;&#x2e;&#99;&#111;&#x6d;">&#119;&#x6f;&#114;&#x6b;&#x2d;&#x69;&#x6e;&#45;&#116;&#101;&#x63;&#104;&#x40;&#x6e;&#97;&#109;&#115;&#x68;&#105;&#46;&#x63;&#x6f;&#x6d;</a> to apply or simply
 get more informations about this job opening!</p></blockquote>
 
 <h2>About Namshi</h2>
@@ -224,7 +224,7 @@ got leads? Got skills? Reach out and let&rsquo;s do Service-Oriented Architectur
     <link href="http://namshi.github.io/blog/2014/06/03/goobye-muhammad/"/>
     <updated>2014-06-03T22:46:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/06/03/goobye-muhammad</id>
-    <content type="html"><![CDATA[<p><img class="left team" src="/images/riaz.jpeg" title="Muhammad Riaz" ></p>
+    <content type="html"><![CDATA[<p>{% img left team /images/riaz.jpeg Muhammad Riaz %}</p>
 
 <p>As much as we hate to see people leaving, I think
 it&rsquo;s a good thing to waive the nostalgic feelings
