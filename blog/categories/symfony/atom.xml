@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: symfony | Tech @ Namshi.com]]></title>
+  <link href="http://namshi.github.io/blog/categories/symfony/atom.xml" rel="self"/>
+  <link href="http://namshi.github.io/"/>
+  <updated>2014-08-23T13:36:09+04:00</updated>
+  <id>http://namshi.github.io/</id>
+  <author>
+    <name><![CDATA[Namshi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Newsletter number #52]]></title>
+    <link href="http://namshi.github.io/blog/2014/08/21/newsletter-number-52/"/>
+    <updated>2014-08-21T12:37:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/08/21/newsletter-number-52</id>
+    <content type="html"><![CDATA[<blockquote><p>As you know the IT team loves opensource and the idea <a href="http://github.com/namshi">to give back to the &ldquo;community&rdquo;</a>! <br />
+That&rsquo;s why on Tuesday evening we did an internal hackathon, we bootstrapped four open source projects that we are going to release soon, <br /> stay tuned!<br />
+<a href="http://tech.namshi.com/team/#Luciano%20Colosio">Lucio</a>, our Nodejs maniac, introduced the team to node&rsquo;s history:</p></blockquote>
+
+<p><img class="center" src="/images/posts/lucio-node-presentation.png" width="800" title="result" ></p>
+
+<p>Below the usual list of interesting links we found this week:</p>
+
+<ul>
+<li><p><a href="http://buff.ly/1z2jZga">On Sexual Harassment in the Tech Industry</a></p></li>
+<li><p><a href="http://buff.ly/1pYrQJF">Promoting Symfony: One step at a time</a></p></li>
+<li><p><a href="http://buff.ly/YsjYqC">Token-base AngularJS auth</a></p></li>
+<li><p><a href="http://buff.ly/1vZZGUm">Welcoming the Orchard and Fig team in Docker</a></p></li>
+<li><p><a href="http://buff.ly/1ptfB8L">HTTP Shaming</a></p></li>
+</ul>
+
+
+<!-- more -->
+
+
+<ul>
+<li><p><a href="http://elnur.pro/symfony-without-bundles/">Symfony without bundles, an interesting approach</a></p></li>
+<li><p><a href="http://labs.qandidate.com/blog/2014/08/18/a-new-feature-toggling-library-for-php/">A new feature toggling library for PHP</a></p></li>
+<li><p><a href="http://buff.ly/1psgj62">Understanding process.nextTick() &ndash; How To Node</a></p></li>
+<li><p><a href="http://bhttp:/%20buff.ly/Vw6Q1J">Way.JS: Simple, lightweight, persistent two-way databinding</a></p></li>
+<li><p><a href="http://bjorn.tipling.com/state-and-regular-expressions-in-javascript">What you should know about JavaScript regular expressions</a>
+(pretending I actually know how to write a regexp ;PPP)</p></li>
+<li><p><a href="http://fdietz.github.io/recipes-with-angular-js/">Recipes with Angular.js</a></p></li>
+<li><p><a href="https://github.com/krakjoe/pthreads">Threading for PHP &ndash; Share Nothing, Do Everything :)</a></p></li>
+<li><p><a href="https://github.com/propelorm/Propel2">Propel2 (ORM) for PHP 5.4</a></p></li>
+<li><p><a href="http://taskjs.org/">generators + promises = tasks</a></p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

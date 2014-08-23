@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: namshi | Tech @ Namshi.com]]></title>
+  <link href="http://namshi.github.io/blog/categories/namshi/atom.xml" rel="self"/>
+  <link href="http://namshi.github.io/"/>
+  <updated>2014-08-23T13:36:09+04:00</updated>
+  <id>http://namshi.github.io/</id>
+  <author>
+    <name><![CDATA[Namshi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[We're hiring...actually, we're hiring MOAR!]]></title>
+    <link href="http://namshi.github.io/blog/2014/08/13/were-hiring-dot-dot-dot-actually-were-hiring-moar/"/>
+    <updated>2014-08-13T12:14:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/08/13/were-hiring-dot-dot-dot-actually-were-hiring-moar</id>
+    <content type="html"><![CDATA[<p>Just an heads up that we are looking for talented
+engineers for our tech team, and our guys are very
+sad they don&rsquo;t have too many new friends!</p>
+
+<!-- more -->
+
+
+<p>Besides looking for a Lead Mobile developer, as we
+<a href="/blog/2014/06/03/like-android-and-ios-lets-change-shopping-in-the-middle-east-together/">announced a few weeks back</a>,
+we are looking for some other key figures in our team.</p>
+
+<h2>No HTML/CSS love&hellip;</h2>
+
+<p>Our frontend team, usually happy to write AngularJS
+directives or a bunch of frontend-ish NodeJS apps,
+is devastated as they feel they are missing a third
+element who can help them achieve greatness.</p>
+
+<p><img class="center" src="/images/frontend-sad.png"></p>
+
+<p>To make Lucio and Shidhin happy, we want to add a new
+member in our team, a <strong>Frontend Developer</strong>, someone who
+is skilled on HTML5 and CSS3 and knows the basics of
+JavaScript but wants to expand his knowledge in that
+direction.</p>
+
+<p>You will work on a whole lot of new internal applications
+as well as help streamlining our frontend processes, together
+with the rest of the team: which frameworks shall we use? Bootstrap or
+Foundation? How can we use Yeoman&rsquo;s generator to speed up
+most of our code generation? How can we make our web apps
+faster <a href="https://github.com/addyosmani/critical">extracting critical styles</a>
+and so on? These are just a few questions you will need to
+ask yourself once you come here.</p>
+
+<p>You will come here knowing how to design a frontend (mastering
+the presentation layer, so HTML, CSS, jQuery) but will leave Namshi
+knowing how to build the presentation and logic behind a full
+frontend application (AngularJS, Node or something more spicy
+like <a href="http://www.polymer-project.org/">polymer</a>).</p>
+
+<blockquote><p>Drop us an email at <a href="&#109;&#x61;&#105;&#x6c;&#x74;&#111;&#x3a;&#x77;&#x6f;&#x72;&#x6b;&#45;&#105;&#x6e;&#x2d;&#x74;&#x65;&#x63;&#104;&#x40;&#x6e;&#97;&#109;&#115;&#104;&#105;&#46;&#x63;&#x6f;&#109;">&#x77;&#x6f;&#x72;&#107;&#45;&#105;&#110;&#45;&#x74;&#x65;&#x63;&#x68;&#64;&#x6e;&#97;&#x6d;&#115;&#x68;&#x69;&#x2e;&#99;&#111;&#x6d;</a> to apply or simply
+get more informations about this job opening!</p></blockquote>
+
+<h2>Sitting on an empty (sysadmin) chair&hellip;</h2>
+
+<p>Look at the systeam, so sad: they really
+need some new buddy for their games.</p>
+
+<p><img class="center" src="/images/sys-sad.png"></p>
+
+<p>The chair is empty, and that makes me so sad! If only
+we could find someone who would like to come and join
+the hottest SOA of the Middle East&hellip;</p>
+
+<p>So yeah, we&rsquo;re also looking for a <strong>System Administrator</strong>,
+someone who knows how configuration management works,
+who has relevant experience on cloud infrastructures as
+AWS and wants to use some of the latest technologies, like
+Docker or Deis, to help us automate and scale the hell out
+of our architecture; we are trying to switch towards a more
+devops oriented organization, and need someone with that
+mindset to improve the current state of the team: as an example,
+we use <a href="http://serverspec.org/">serverspec</a> to test some of
+our configurations, and would like someone who can get his/her
+hands dirty with both programming and system administration
+to help the team.</p>
+
+<blockquote><p>Drop us an email at <a href="&#x6d;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#58;&#x77;&#111;&#x72;&#107;&#45;&#105;&#110;&#x2d;&#116;&#101;&#99;&#x68;&#x40;&#110;&#97;&#x6d;&#115;&#x68;&#105;&#x2e;&#99;&#111;&#x6d;">&#x77;&#x6f;&#114;&#107;&#45;&#x69;&#x6e;&#45;&#116;&#101;&#99;&#104;&#64;&#110;&#x61;&#x6d;&#115;&#x68;&#105;&#x2e;&#99;&#111;&#x6d;</a> to apply or simply
+get more informations about this job opening!</p></blockquote>
+
+<h2>I don&rsquo;t know if he&rsquo;s crying because of loneliness or because of NodeJS&hellip;</h2>
+
+<p>Look at how sad Cirpo, our lead API engineer, was
+today:</p>
+
+<p><img class="center" src="/images/cirpo-sad.png"></p>
+
+<p>It&rsquo;s true that he might be sad because we decided
+to use a lot of NodeJS instead of PHP, but I
+think his struggles also come from the fact that he feels
+we need a good <strong>Senior Software engineer</strong>, specialized in
+NodeJS, who can help the team getting more skilled with
+this &ldquo;new&rdquo; platform.</p>
+
+<p>The ideal candidate would have a few years of experience
+on production-ready Node systems, and it would be a great
+plus if we can get someone who has a broader experience
+with different programming paradigms, as we feel the most
+important part of this job is the brain, and it would be great
+if we get someone that has been in a few different battlefields :)</p>
+
+<p>We need someone who first solves the problem, then writes the
+code (or, even better: first solves the problem, then writes the
+test, then the code :-D).</p>
+
+<blockquote><p>Drop us an email at <a href="&#x6d;&#97;&#105;&#x6c;&#x74;&#111;&#x3a;&#x77;&#x6f;&#x72;&#x6b;&#45;&#x69;&#x6e;&#x2d;&#116;&#x65;&#x63;&#104;&#64;&#110;&#97;&#x6d;&#x73;&#104;&#105;&#x2e;&#x63;&#111;&#109;">&#119;&#x6f;&#114;&#x6b;&#45;&#105;&#x6e;&#x2d;&#x74;&#x65;&#99;&#104;&#x40;&#110;&#x61;&#109;&#115;&#x68;&#105;&#46;&#x63;&#111;&#109;</a> to apply or simply
+get more informations about this job opening!</p></blockquote>
+
+<h2>About Namshi</h2>
+
+<p>We have a <a href="/join-us">JOIN US</a> page where we listed some of the key
+benefits in working with us, but to recap the most important ones:</p>
+
+<ul>
+<li>the environment is great, young and people are passionate</li>
+<li>the office is 1 minute away from the metro station</li>
+<li>we offer competitive salaries</li>
+<li>flexible working hours</li>
+<li>being paid to write <a href="https://github.com/namshi">Open Source code</a></li>
+<li>cakes! cakes! cakes!</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[ClusterJS, clusterify your NodeJS applications and achieve zero-downtime deployments]]></title>
+    <link href="http://namshi.github.io/blog/2014/06/27/clusterjs-clusterify-your-nodejs-applications-and-achieve-zero-downtime-deployments/"/>
+    <updated>2014-06-27T00:45:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/06/27/clusterjs-clusterify-your-nodejs-applications-and-achieve-zero-downtime-deployments</id>
+    <content type="html"><![CDATA[<p>NodeJS has a very nice built-in support for clusters
+through its native <a href="http://nodejs.org/api/cluster.html">cluster module</a>:
+by using it and realizing we wanted to achieve zero-downtime
+deployments (ZDD) on our node apps we decided to kick in.</p>
+
+<!-- more -->
+
+
+<p>This afternoon <a href="/team#Luciano%20Colosio">Lucio</a> came up to me
+and asked me a simple question:</p>
+
+<blockquote><p>Let&rsquo;s do some NodeJS today?</p></blockquote>
+
+<p>and my answer was clear and simple: we need a robust solution
+for ZDD, let&rsquo;s do this.</p>
+
+<p>Before jumping with our usual <code>git init</code> and <code>npm init</code>
+we searched a bit and found a few alternatives, which
+weren&rsquo;t exactly fitting our scenarios:</p>
+
+<ul>
+<li><a href="http://learnboost.github.io/cluster/">learnboost/cluster</a>, which is
+quite old, discontinued and hasn&rsquo;t been updated in a couple of years</li>
+<li><a href="https://github.com/isaacs/cluster-master">isaacs/cluster-master</a>, which
+seems to have a whole lot of great things but we wanted to have
+the startup script as a global command rather than having to write
+a script on our own (but we might wrap it, as it
+has a lot of cool features, like resizing your cluster)</li>
+</ul>
+
+
+<p>At the end we decided to go for a simple solution after reading
+<a href="http://jaxbot.me/articles/zero_downtime_nodejs_reloads_with_clusters_7_5_2013">this post from Jax</a>
+that explains how to achieve ZDD on NodeJS.</p>
+
+<p>In a few, very productive hours, Lucio was able to write
+<a href="https://www.npmjs.org/package/clusterjs">ClusterJS</a> and
+we decided to release it to the public, as it might
+be interesting out there (and because we really like
+to receive feedbacks!).</p>
+
+<p>Suppose you have a typical <a href="http://expressjs.com/">ExpressJS</a>
+app that runs through an <code>app.js</code> script, in order to run it through
+ClusterJS you simply have to:</p>
+
+<p>```
+npm install -g clusterjs</p>
+
+<p>clusterjs path/to/app.js
+```</p>
+
+<p>At this point you should be able to see something like this:</p>
+
+<p>```
+~/projects/clusterjs (master ✔) ᐅ clusterjs test/testApp/app.js</p>
+
+<p>Booting a cluster of ./test/testApp/app.js
+We are gonna be launching 4 workers
+The cluster will reload on: SIGUSR2
+&mdash;&ndash; test app loaded as pid: 21543
+&mdash;&ndash; test app loaded as pid: 21544
+&mdash;&ndash; test app loaded as pid: 21546
+&mdash;&ndash; test app loaded as pid: 21547
+Worker 1 running!
+Worker 2 running!
+Worker 3 running!
+Worker 4 running!
+```</p>
+
+<p>Cool! You have just put your app in a cluster with four workers!</p>
+
+<p>By default, ClusterJS will boot as many workers as CPUs
+in your system; if you wanna change it, simply:</p>
+
+<p>```
+~/projects/clusterjs (master ✔) ᐅ clusterjs test/testApp/app.js &mdash;workers 10</p>
+
+<p>Booting a cluster of ./test/testApp/app.js
+We are gonna be launching 10 workers
+The cluster will reload on: SIGUSR2
+&mdash;&ndash; test app loaded as pid: 21636
+&mdash;&ndash; test app loaded as pid: 21635
+Worker 2 running!
+Worker 1 running!
+&mdash;&ndash; test app loaded as pid: 21650
+&mdash;&ndash; test app loaded as pid: 21640
+Worker 9 running!
+&mdash;&ndash; test app loaded as pid: 21639
+&mdash;&ndash; test app loaded as pid: 21641
+Worker 4 running!
+&mdash;&ndash; test app loaded as pid: 21644
+Worker 5 running!
+Worker 3 running!
+Worker 6 running!
+&mdash;&ndash; test app loaded as pid: 21648
+&mdash;&ndash; test app loaded as pid: 21646
+Worker 8 running!
+&mdash;&ndash; test app loaded as pid: 21652
+Worker 7 running!
+Worker 10 running!
+```</p>
+
+<p>How to achieve ZDD? Simply issue a SIGUSR2 command
+to your master process, after updating the files
+in your app:</p>
+
+<p>```
+~/projects/clusterjs (master ✔) ᐅ clusterjs test/testApp/app.js &mdash;workers 2
+Booting a cluster of ./test/testApp/app.js
+We are gonna be launching 2 workers
+The cluster will reload on: SIGUSR2
+&mdash;&ndash; test app loaded as pid: 22007
+&mdash;&ndash; test app loaded as pid: 22008
+Worker 1 running!
+Worker 2 running!</p>
+
+<p>SIGUSR2 received, reloading the app
+<strong><em> reloading workers!
+restarting worker: 1
+Shutdown complete for worker 1
+Worker 1 died :(
+&mdash;&ndash; test app loaded as pid: 22018
+&mdash;&ndash; test app loaded as pid: 22021
+Worker 3 running!
+Worker 4 running!
+Replacement worker online.
+</em></strong> reloading workers!
+restarting worker: 2
+Shutdown complete for worker 2
+Worker 2 died :(
+&mdash;&ndash; test app loaded as pid: 22055
+&mdash;&ndash; test app loaded as pid: 22056
+Worker 5 running!
+Worker 6 running!
+Replacement worker online.
+```</p>
+
+<p>If you want to change the signal used to reload the cluster,
+you can do it with a simple option:</p>
+
+<p><code>
+clusterjs test/testApp/app.js --workers 2 --reloadon SIGUSR1
+</code></p>
+
+<p>That&rsquo;s (basically) it! Kudos to Lucio for his work and&hellip;</p>
+
+<p>&hellip;if you wanna play with ClusterJS or suggest any improvement,
+feel free to have a look around, as
+<a href="https://github.com/namshi/clusterjs">ClusterJS is on GitHub</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Wanna join us? We have cookies, Symfony2, Node, AngularJS and coding challenges for you!]]></title>
+    <link href="http://namshi.github.io/blog/2014/06/08/wanna-join-us-we-have-cookies-symfony2-node-angularjs-and-coding-challenges-for-you/"/>
+    <updated>2014-06-08T11:44:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/06/08/wanna-join-us-we-have-cookies-symfony2-node-angularjs-and-coding-challenges-for-you</id>
+    <content type="html"><![CDATA[<p>A quick update from the trenches: for the past months
+we&rsquo;ve been beefing our team up and by doing so we
+realized that some good coding challenges are
+almost a must.</p>
+
+<p>We just put all the challenges we&rsquo;ve used and are gonna
+be using on a <a href="https://github.com/namshi/coding-challenges">github repo for you to check them out</a>:
+feel free to solve them, fork them, improve them, do anything
+with them! :)</p>
+
+<p>We are currently hiring <a href="https://github.com/namshi/coding-challenges/blob/master/senior-api-engineer.md">senior API engineers</a>, <a href="https://github.com/namshi/coding-challenges/blob/master/senior-frontend-engineer.md">senior frontend
+engineers</a> and are looking to bootstrap our mobile team
+with a <a href="https://github.com/namshi/coding-challenges/blob/master/lead-mobile-engineer.md">Lead Mobile Engineer</a>:
+got leads? Got skills? Reach out and let&rsquo;s do Service-Oriented Architectures together!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Git and Github at Namshi: our flow and tips&tricks]]></title>
+    <link href="http://namshi.github.io/blog/2014/05/04/git-tips-and-tricks/"/>
+    <updated>2014-05-04T20:38:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/05/04/git-tips-and-tricks</id>
+    <content type="html"><![CDATA[<p>At <a href="https://www.namshi.com">Namshi</a> for versioning and managing our large and assorted codebase we use <a href="http://git-scm.com/">GIT</a> and of course <a href="http://github.com/namshi">Github</a> (I like to call it &ldquo;Facebook for nerds&rdquo;).</p>
+
+<p>In the true spirit of &ldquo;giving back to the community&rdquo; we also publicly release some libraries that we use internally, <a href="https://github.com/namshi/NamshiUtilityBundle">feel</a> <a href="https://github.com/namshi/utils">free</a> <a href="https://github.com/namshi/notificator">to</a> <a href="https://github.com/namshi/jose">use</a> <a href="https://github.com/namshi/ng-watchers">them</a> <a href="https://github.com/namshi/emailvision">and</a> <a href="https://github.com/namshi">contribute!</a></p>
+
+<!-- more -->
+
+
+<h3>Our GIT flow</h3>
+
+<p>Git is so powerful and flexible that at the beginning you feel kinda lost: <em>&ldquo;How should I use it?&rdquo;</em>  <em>&ldquo;Should I use merge or rebase?&rdquo;</em>  <em>&ldquo;master, develop, release branches?&rdquo;</em>
+And then you try to find the answer via google and you find the solution: <a href="http://nvie.com/posts/a-successful-git-branching-model/">&ldquo;GIT FLOW!&rdquo;</a>.</p>
+
+<blockquote><p>No, no, and again <strong>NO!</strong> (please say it out loud).</p></blockquote>
+
+<p>&ldquo;Git flow&rdquo; is one of several ways to use git, but it&rsquo;s not a standard and it could not fit well in your current organisation/codebase/team flow.</p>
+
+<p>You should embrace the power of git, and find a tailor-made solution.</p>
+
+<p>At Namshi we basically have two main branches: master and develop.</p>
+
+<p>On master you have, exactly, what&rsquo;s running on production, while develop is our development branch (surprisingly).</p>
+
+<p>When we pick a task we usually create a branch from develop. Once we are done with a task we rebase our feature branch from develop, in order to be sure that the new
+code works and doesn&rsquo;t break anything before being merged in develop. Then we open a pull request (PR) on Github. Once the PR is reviewed and approved
+it gets merged in the develop branch.
+There is (still) a lot of discussion (and flames) about using the rebase command, because basically it rewrites the current commits history.
+It&rsquo;s true that potentially you can screw your codebase, but we are still safe because you can still rely on your teammates local repositories and
+gain from the integrity, stability (before merging on the develop branch you can be sure that you didn&rsquo;t break anything) and clean commits history point of view.</p>
+
+<p>Once we decide that we can ship new stuff, we create a new branch (usually a release branch), tag it, deploy on staging and then deploy on live.
+Then we merge the tag on master (with the <a href="https://www.kernel.org/pub/software/scm/git/docs/git-merge.html">&mdash;no-ff option</a> and rebase develop with master.
+Even here we use the rebase command because we end up with develop that has the same commits sequence as master plus new commits: it&rsquo;s so easy to spot the differences between the two branches.</p>
+
+<h3>Git Config</h3>
+
+<p>There are several configuration settings that you can put in your <code>~/.gitconfig</code> file and get a lot of benefits on your daily git usage.</p>
+
+<h4>colors</h4>
+
+<p>Give some love to git outputs:</p>
+
+<p><code>
+git config --global color.ui true
+</code></p>
+
+<h4>filemode</h4>
+
+<p>Tired of having weird a <code>git status</code> output because some files has just changed file permissions?
+<code>
+git config --global core.filemode false
+</code></p>
+
+<h4>rerere</h4>
+
+<p>The git rerere functionality stands for <em>&ldquo;reuse recorded resolution&rdquo;</em> and as the name implies, it allows you to ask git to remember how you&rsquo;ve resolved a knotty conflict so that the next time you have the same conflict, git can automatically resolve it for you.
+<code>
+git config --global rerere.enabled true
+</code></p>
+
+<h4>global exclude</h4>
+
+<p>Instead of setting common files to be ignored in your local .gitignore file (i.e. your IDE config file, .DS_Store etc) everytime, you can use a global ignore file
+that will automatically apply to all your repos.
+<code>
+git config --global core.excludesfile ~/.gitignore
+</code>
+<strong>tip:</strong> I have a <code>my_temp</code> entry in my .gitignore global file, so that I can create a <code>my_temp</code> dir in my working copies and be free to put any experimental and temporary code/quick testing code
+in it without changing the project on my IDE and using the actual codebase.</p>
+
+<h4>pull with rebase, not merge</h4>
+
+<p>Everytime we pull from a remote repository, we do a <code>git pull --rebase</code> because we don&rsquo;t want to mess up with our local commits.
+Instead of specifying it everytime, you can make it the default beaviour when you pull:
+<code>
+git config --global branch.auto-setuprebase always
+</code></p>
+
+<h4>autocorrect</h4>
+
+<p>Git can autocorrect you:</p>
+
+<p><code>
+git config --global help.autocorrect true
+</code></p>
+
+<p>```
+➜  namshi.github.com git:(source) ✗ git cmmit
+git: &lsquo;cmmit&rsquo; is not a git command. See &lsquo;git &mdash;help&rsquo;.</p>
+
+<p>Did you mean this?</p>
+
+<pre><code>commit
+</code></pre>
+
+<p>```</p>
+
+<h4>default tracking</h4>
+
+<p>Bored of setting up branch tracking by hand?
+<code>
+git config --global push.default upstream
+</code></p>
+
+<h3>Git aliases</h3>
+
+<p>Git supports aliases via the <code>git config --global alias.&lt;alias_name&gt; "&lt;git command&gt;"</code>, but here in Namshi we tend to use the shell aliases
+because you can save even more chars and git is the only revision control and source code management system we use.</p>
+
+<h4>checkout</h4>
+
+<p><code>
+alias ck='git checkout'
+</code></p>
+
+<h4>checkout branch develop</h4>
+
+<p><code>
+alias dev='git checkout develop'
+</code></p>
+
+<h4>checkout branch master</h4>
+
+<p><code>
+alias master='git checkout master'
+</code></p>
+
+<h4>create a new branch</h4>
+
+<p><code>
+alias ckb='git checkout -b'
+</code></p>
+
+<h4>push</h4>
+
+<p><code>
+alias push='git push'
+</code></p>
+
+<h4>force push after a rebase</h4>
+
+<p><code>
+alias pushf='git push -f'
+</code></p>
+
+<h4>pull</h4>
+
+<p><code>
+alias pull='git pull'
+</code></p>
+
+<h4>sync main branches</h4>
+
+<p><code>
+alias align='git pull --rebase origin master &amp;&amp; git pull --rebase origin develop'
+</code></p>
+
+<h4>fetch</h4>
+
+<p><code>
+alias fetch='git fetch'
+</code></p>
+
+<h4>commit</h4>
+
+<p><code>
+alias ci='git commit'
+</code></p>
+
+<h4>tag</h4>
+
+<p><code>
+alias tag='git tag'
+</code></p>
+
+<h4>revert all changes</h4>
+
+<p><code>
+alias undo='git reset --hard HEAD'
+</code></p>
+
+<h4>delete merged branch</h4>
+
+<p>How many times do you have so many branches in your local repo that are already merged?
+Let&rsquo;s get rid of them!
+<code>
+alias dmb='git branch --merged | xargs git branch -d'
+</code></p>
+
+<h4>log</h4>
+
+<p><code>
+alias glog='git log --oneline --decorate'
+</code></p>
+
+<h4>status</h4>
+
+<p>A shorter version:
+<code>
+alias st='git status -sb'
+</code></p>
+
+<h4>diff</h4>
+
+<p>This only highlights the changed words, nicely inline.
+<code>
+alias gdiff='git diff --word-diff'
+</code></p>
+
+<h3>Tips</h3>
+
+<ul>
+<li>You messed up with a merge/rebase? Don&rsquo;t freak out, just use <code>git reflog</code> to check the local history command and sha1, and then <code>git reset --hard &lt;sha1&gt;</code></li>
+<li>After rebasing develop in your feature branch you end up with too many conflicts and messed up commits history? Don&rsquo;t panic, create a new feature branch from develop and
+<code>git cherry-pick</code> all the commits you need from your previous feature branch.</li>
+<li>Is my commit already on branch X? <code>git branch --contains &lt;sha1&gt;</code> is there to rescue you!</li>
+<li>You want to fetch a file from another branch without changing your current branch? <code>git checkout &lt;other_branch_name&gt; -- path/to/file</code></li>
+</ul>
+
+
+<p> Here you can find a complete list of <a href="https://gist.github.com/cirpo/86d43ef8ef87b4cfd031">aliases</a>, and <a href="https://gist.github.com/cirpo/343376f1ac7fb00204a0">here</a> the global .gitconfig we are using</p>
+
+<p> Do you have any other tips or tricks to share? Write them down in the comments :)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Looking for some fun with APIs or JavaScript? We have what you need!]]></title>
+    <link href="http://namshi.github.io/blog/2014/03/24/looking-for-some-fun-with-apis-or-javascript-we-have-what-you-need/"/>
+    <updated>2014-03-24T14:37:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/03/24/looking-for-some-fun-with-apis-or-javascript-we-have-what-you-need</id>
+    <content type="html"><![CDATA[<p>To the army of developers out there: if you are looking to
+boost your nerditude and have some fun, we might have what
+you are looking for.</p>
+
+<p><em>(no, it&rsquo;s not a cookie)</em></p>
+
+<!-- more -->
+
+
+<p>Here at <a href="https://en-ae.namshi.com">Namshi</a>, in the cold (yes, it&rsquo;s an euphemism) lands of Dubai, things have gone quite well
+so far, and we&rsquo;re extremely excited everytime there&rsquo;s room for
+someone else in our little room (actually, our office it&rsquo;s kind of an open-space).</p>
+
+<p>I am very happy to announce that we are now actively looking for 2
+new members of our <a href="/team">team</a> in order to expand our team, vision,
+objectives and count of the <a href="https://www.google.com/search?q=shisha&amp;espv=2&amp;es_sm=125&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ei=zA8wU46_CoezhAePwgE&amp;ved=0CAkQ_AUoAQ&amp;biw=1687&amp;bih=871">shishas</a> we order when we&rsquo;re out together.</p>
+
+<h2>API monkey</h2>
+
+<p>If you know what the <code>PSR-4</code> is&hellip;</p>
+
+<p>If you are willing to switch to HHVM, in production, in the next six months&hellip;</p>
+
+<p>If you have ever heard of Event Sourcing&hellip;</p>
+
+<p>If you get excited everytime someone names Redis (even if it&rsquo;s for no apparent reason at all, the important is to get excited regardless)&hellip;</p>
+
+<p>If you know the 5 tenets of the REST architectural style&hellip;</p>
+
+<p>if you want to give back to the <a href="https://github.com/namshi">opensource community</a></p>
+
+<p>If you like <a href="http://en.wikipedia.org/wiki/Shawarma">shawarma</a>&hellip;</p>
+
+<p>&hellip;if all of this and that, then think of coming over to Dubai to join
+a startup that has been disruptive in his market and has been writing
+a Service-Oriented Architecture (with <a href="http://www.styleisnecessity.com/2012/12/15/namshi-2/">style</a>! :&ndash;))
+based on Symfony2, HTTP APIs and Redis.</p>
+
+<p>We are looking for a <em>Senior API engineer</em>, and will offer a competitive
+retribution plus some other benefits (<a href="/images/cirpo.png">working with cirpo</a>, among others).</p>
+
+<h2>Frontend ducktyper</h2>
+
+<p>As a <em>Senior Frontend Engineer</em>, you will need to get bored with old school
+technologies like <strong>NodeJS, AngularJS, Gulp</strong>, on which our frontends are
+currently running (to be honest, if we had to rewrite today, we would go
+for PERL, #FORSURE).</p>
+
+<p>Unfortunately, your duties will also include having to deal with the DevTools
+in order to speed up performances and eliminate any waste and overengineering
+we might have on our frontends.</p>
+
+<p>Last but not least &ndash; I know, I&rsquo;m sorry :( &ndash; you will be disgusted to be consuming our backend APIs,
+trying to get your head around HTTP headers, caching and everything bad about webservices.</p>
+
+<p>Ah, I almost forgot to mention that we might have to add SPDY and WebP. Yesterday.</p>
+
+<h2>About Namshi</h2>
+
+<p>We honestly want to keep it cool and fun, that&rsquo;s why I wante to give this
+post this kind of tone.</p>
+
+<p>One thing I am really proud of, at Namshi, is that <a href="http://www.slideshare.net/odino/soa-with-symfony2-confoo-2014-in-montreal-ca/159">we don&rsquo;t stick to one
+technology</a> just because we think that we can do everything with it, we use the
+correct technology for each and every context. <strong>We use what makes sense</strong>, which
+means that even PERL could do something, one day, in our architecture.</p>
+
+<p>We&rsquo;d like to hire someone who relies on the community around him, who likes
+to write open source code (and use it as well!), someone who likes enterprise
+design patterns and is afraid every time a feature not covered by a test goes to production.</p>
+
+<p>The team has been steadily growing since I joined the company in 2012,
+both from an headcount perspective and the level of skills.</p>
+
+<p>Our guys and girls tend to have fun on a daily basis, commit to the company
+values (and to github as well!) and (I hope :-P) are having a great run
+with technologies that is not always possible to use in other scenarios.</p>
+
+<p>But we are also aware that without other points of view, without growth,
+without some fresh energy, our journey to perfection would be even harder
+(and I personally make it even harder, I know!).</p>
+
+<p>Even though we are happy with our stack and what we achieved so far, we&rsquo;re aware that
+we are far from being perfect: that&rsquo;s why we need <strong>you</strong> :)</p>
+
+<p>Drop us an email (<code>alessandro.nadalin@namshi.com</code>) and let&rsquo;s have fun together!</p>
+
+<p><a href="https://github.com/namshi">github</a>
+<a href="https://twitter.com/technamshi">twitter</a></p>
+]]></content>
+  </entry>
+  
+</feed>

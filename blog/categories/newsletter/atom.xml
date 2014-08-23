@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Newsletter | Tech @ Namshi.com]]></title>
+  <link href="http://namshi.github.io/blog/categories/newsletter/atom.xml" rel="self"/>
+  <link href="http://namshi.github.io/"/>
+  <updated>2014-08-23T13:36:09+04:00</updated>
+  <id>http://namshi.github.io/</id>
+  <author>
+    <name><![CDATA[Namshi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Newsletter number #52]]></title>
+    <link href="http://namshi.github.io/blog/2014/08/21/newsletter-number-52/"/>
+    <updated>2014-08-21T12:37:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/08/21/newsletter-number-52</id>
+    <content type="html"><![CDATA[<blockquote><p>As you know the IT team loves opensource and the idea <a href="http://github.com/namshi">to give back to the &ldquo;community&rdquo;</a>! <br />
+That&rsquo;s why on Tuesday evening we did an internal hackathon, we bootstrapped four open source projects that we are going to release soon, <br /> stay tuned!<br />
+<a href="http://tech.namshi.com/team/#Luciano%20Colosio">Lucio</a>, our Nodejs maniac, introduced the team to node&rsquo;s history:</p></blockquote>
+
+<p><img class="center" src="/images/posts/lucio-node-presentation.png" width="800" title="result" ></p>
+
+<p>Below the usual list of interesting links we found this week:</p>
+
+<ul>
+<li><p><a href="http://buff.ly/1z2jZga">On Sexual Harassment in the Tech Industry</a></p></li>
+<li><p><a href="http://buff.ly/1pYrQJF">Promoting Symfony: One step at a time</a></p></li>
+<li><p><a href="http://buff.ly/YsjYqC">Token-base AngularJS auth</a></p></li>
+<li><p><a href="http://buff.ly/1vZZGUm">Welcoming the Orchard and Fig team in Docker</a></p></li>
+<li><p><a href="http://buff.ly/1ptfB8L">HTTP Shaming</a></p></li>
+</ul>
+
+
+<!-- more -->
+
+
+<ul>
+<li><p><a href="http://elnur.pro/symfony-without-bundles/">Symfony without bundles, an interesting approach</a></p></li>
+<li><p><a href="http://labs.qandidate.com/blog/2014/08/18/a-new-feature-toggling-library-for-php/">A new feature toggling library for PHP</a></p></li>
+<li><p><a href="http://buff.ly/1psgj62">Understanding process.nextTick() &ndash; How To Node</a></p></li>
+<li><p><a href="http://bhttp:/%20buff.ly/Vw6Q1J">Way.JS: Simple, lightweight, persistent two-way databinding</a></p></li>
+<li><p><a href="http://bjorn.tipling.com/state-and-regular-expressions-in-javascript">What you should know about JavaScript regular expressions</a>
+(pretending I actually know how to write a regexp ;PPP)</p></li>
+<li><p><a href="http://fdietz.github.io/recipes-with-angular-js/">Recipes with Angular.js</a></p></li>
+<li><p><a href="https://github.com/krakjoe/pthreads">Threading for PHP &ndash; Share Nothing, Do Everything :)</a></p></li>
+<li><p><a href="https://github.com/propelorm/Propel2">Propel2 (ORM) for PHP 5.4</a></p></li>
+<li><p><a href="http://taskjs.org/">generators + promises = tasks</a></p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Newsletter #51]]></title>
+    <link href="http://namshi.github.io/blog/2014/08/14/newsletter-number-51/"/>
+    <updated>2014-08-14T13:35:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/08/14/newsletter-number-51</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s #TechThursday again!</p>
+
+<!-- more -->
+
+
+<blockquote><p><a href="http://tech.namshi.com/blog/2014/08/13/were-hiring-dot-dot-dot-actually-were-hiring-moar/">W E &ndash; A R E &ndash; H I R I N G, we are hiring moar&hellip;!</a></p>
+
+<p>Could you spot all those sad faces in the blog post? What are you waiting for? :)
+We are also looking for a Frontend Developer, someone who is skilled on HTML5 and CSS3 and knows the basics of JavaScript but wants to expand his knowledge in that direction, <a href="https://github.com/namshi/coding-challenges/blob/master/frontend-developer.md">here is the coding challenge!</a></p>
+
+<p>Other then open positions in the IT team, Namshi is looking for a <a href="https://www.smartrecruiters.com/Namshi/78541293-merchandising-data-processor-intern">Merchandising Data Processor intern</a>, please spread the word!</p></blockquote>
+
+<p>And below the usual gorgeus list of interesting linkes to spice up your next weekend:</p>
+
+<ul>
+<li><a href="http://buff.ly/Y70Gai">Why I design at Facebook</a></li>
+<li><a href="http://federico.galassi.net/2011/05/25/die-semicolon-die/">Die semicolon die!</a></li>
+<li><a href="http://buff.ly/1osA6U2">Doing good work with bad tools</a></li>
+<li><a href="http://buff.ly/Vgicql">Reserve your favorite username in new startups</a></li>
+<li><a href="http://buff.ly/1kRHhEO">Reasoned PHP</a></li>
+<li><a href="http://bocoup.com/weblog/javascript-arduino-digital-clock-johnny-five/">JavaScript: A Digital Clock with Johnny-Five</a></li>
+<li><a href="https://github.com/jmcunningham/AngularJS-Learning">AngularJS Learning Resources</a></li>
+<li><a href="https://t.co/FL1XdRK4kY">npm-dom Useful npm front-end modules</a></li>
+<li><a href="http://buff.ly/1nyEJFV">Why I am leaving the best job I ever had</a></li>
+<li><a href="http://buff.ly/1u4WIfx">MongoDB Inc. Appoints Dev Ittycheria as President and CEO</a></li>
+<li><a href="http://buff.ly/1vjF3Cn">Greatest pr of all time</a></li>
+<li><a href="http://buff.ly/1sDJhB5">Redis Sentinel at Flickr</a></li>
+<li><a href="http://www.zdnet.com/what-is-docker-and-why-is-it-so-darn-popular-7000032269/">What is Docker and why is it so darn popular?</a></li>
+<li><a href="http://codecondo.com/javascript-framework-showdown-use/">JavaScript Framework Showdown: Which Should You Use?</a></li>
+<li><a href="http://alistapart.com/blog/post/the-most-dangerous-word-in-software-development">The Most Dangerous Word In Software Development</a></li>
+<li><a href="https://github.com/krakjoe/pthreads">Threading for PHP &ndash; Share Nothing, Do Everything :)</a></li>
+<li><a href="https://bugs.launchpad.net/ubuntu/+source/cupsys/+bug/255161/comments/28">A funny bug in Ubuntu&hellip;</a></li>
+<li><a href="https://github.com/propelorm/Propel2">Propel2 (ORM) for PHP 5.4</a></li>
+<li><a href="http://taskjs.org/">Generators + promises = tasks</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>

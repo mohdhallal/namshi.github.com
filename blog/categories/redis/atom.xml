@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: redis | Tech @ Namshi.com]]></title>
+  <link href="http://namshi.github.io/blog/categories/redis/atom.xml" rel="self"/>
+  <link href="http://namshi.github.io/"/>
+  <updated>2014-08-23T13:36:09+04:00</updated>
+  <id>http://namshi.github.io/</id>
+  <author>
+    <name><![CDATA[Namshi]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Newsletter #50]]></title>
+    <link href="http://namshi.github.io/blog/2014/08/07/newsletter-number-50/"/>
+    <updated>2014-08-07T11:21:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/08/07/newsletter-number-50</id>
+    <content type="html"><![CDATA[<p>Hey folks! Hope you had a great week!</p>
+
+<p>Announcement:</p>
+
+<blockquote><p>We are looking for a senior software engineer passionate about NodeJS and a frontend designer who is passionate and kick-ass in CSS and HTML and wants to expand his skillset with some JavaScript &mdash; we &lt;3 javascript :)</p>
+
+<p>We will detail in a separate post but, for the time being, feel free to reach out to submit your linkedin / github profile to <a href="&#x6d;&#97;&#x69;&#x6c;&#116;&#111;&#58;&#119;&#111;&#114;&#x6b;&#45;&#x69;&#x6e;&#45;&#x74;&#x65;&#x63;&#104;&#x40;&#x6e;&#x61;&#x6d;&#115;&#104;&#x69;&#46;&#99;&#x6f;&#x6d;">&#x77;&#111;&#114;&#x6b;&#x2d;&#105;&#x6e;&#x2d;&#116;&#x65;&#x63;&#x68;&#64;&#110;&#97;&#109;&#x73;&#x68;&#x69;&#x2e;&#99;&#x6f;&#109;</a></p></blockquote>
+
+<p>Here are your links for this week!</p>
+
+<!-- more -->
+
+
+<ul>
+<li><a href="http://buff.ly/V0CWSU">Mind-blowing facts about Google</a></li>
+<li><a href="http://buff.ly/1sdQbLl">Is TLS Fast Yet?</a></li>
+<li><a href="http://buff.ly/1s9dGW2">Amazon RDS Now Supports T2 Instances</a></li>
+<li><a href="http://buff.ly/1qKumSE">The One Big Thing That Will Reduce Software Bugs, But No One Does It</a></li>
+<li><a href="http://buff.ly/1ktk8s2">CoreOS and Docker through Deis: Your Paas. Your Rules.</a></li>
+<li><a href="http://buff.ly/1rWPMNg">The Twelve-Factor App</a></li>
+<li><a href="http://buff.ly/UFHnmh">Redis 3.0.0 beta 8 is out</a></li>
+<li><a href="http://buff.ly/1qx66Ds">Critiquing Facebook’s new #PHP spec</a></li>
+<li><a href="http://www.youtube.com/watch?v=UlREhZ-orlk">ideavim &ndash;  plugin that let&rsquo;s you use vim keybindings inside a intellj based ides (phpstorm/webstorm ide</a></li>
+<li><a href="http://mckoss.com/jscript/object.htm">A very old post, but still super good, about object oriented programming in JavaScript</a></li>
+<li><a href="http://superuser.com/questions/792607/why-does-windows-think-that-my-wireless-keyboard-is-a-toaster">Why does windows think that my wireless keyboard is a toaster</a></li>
+<li><a href="http://www.gameofhacks.com/">Game of Hacks</a></li>
+<li><a href="http://www.jvanbaarsen.com/blog/2014/07/02/why-i-think-having-passion-as-a-developer-matters">Why I think having passion as a developer matters</a></li>
+<li><a href="http://nakedsecurity.sophos.com/2014/08/02/badusb-what-if-you-could-never-trust-a-usb-device-again">BadUSB what if you could never trust a USB device again</a></li>
+<li><a href="http://nakedsecurity.sophos.com/2014/07/31/3-security-mistakes-small-companies-make-and-how-to-avoid-them">3 security mistakes small companies make and how to avoid them</a></li>
+<li><a href="https://www.aftership.com/">Track and Audit shipments for free</a></li>
+<li><a href="https://m.youtube.com/watch?v=SqeOPLB2xAM">DConf 2014: Declarative programming in D by Mihails Strasuns aka Dicebot</a></li>
+<li><a href="https://github.com/facebook/rocksdb/wiki">Welcome to RocksDB!</a></li>
+<li><a href="https://github.com/scobal/seyren">Alerting Dashboard for Graphite</a></li>
+<li><a href="http://www.fastcolabs.com/3033680/why-you-cant-learn-to-code-without-open-source">Why You Can&rsquo;t Learn To Code Without Open Source</a></li>
+<li><a href="http://keyholesoftware.com/2014/07/23/javascript-promises-are-cool">JavaScript Promises Are Cool</a></li>
+<li><a href="http://spectrum.ieee.org/static/interactive-the-top-programming-languages">The Top Programming Languages in IEEE Spectrum’s 2014 Ranking</a></li>
+<li><a href="https://blog.engineyard.com/2014/hhvm-hack-part-5">Building a Better PHP &ndash; Part 5: Static Analysis &amp; other CLI tools</a></li>
+<li><a href="http://www.youtube.com/watch?v=gpNbmEnRLBU">dotScale 2014 &ndash; Fabien Potencier &ndash; My Take on PHP</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Newsletter #31]]></title>
+    <link href="http://namshi.github.io/blog/2014/03/27/newsletter-number-31/"/>
+    <updated>2014-03-27T16:17:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/03/27/newsletter-number-31</id>
+    <content type="html"><![CDATA[<p>It&rsquo;s <strong>TechThursday</strong> again: here&rsquo;s what we&rsquo;ve been excited about over the past week!</p>
+
+<p>Oh, before the news, give us <strong>3 seconds</strong> to announce that:</p>
+
+<ul>
+<li>our <a href="https://itunes.apple.com/app/id840127349?mt=8&amp;ls=1">IOS app is available in the AppStore</a>!</li>
+<li>we released a <a href="http://www.youtube.com/watch?v=HN15lWEyRJY">new TV commercial</a>!</li>
+<li>we are looking for a <a href="http://tech.namshi.com/blog/2014/03/24/looking-for-some-fun-with-apis-or-javascript-we-have-what-you-need/">frontend and backend code monkeys</a>!</li>
+</ul>
+
+
+<p>And now&hellip;this week in Tech:</p>
+
+<!-- more -->
+
+
+<ul>
+<li><a href="http://www.hippyvm.com">A PHP VM running over PyPy</a></li>
+<li><a href="http://docs.hhvm.com/manual/en/install.hack.conversion.php">What the heck is Hack?</a></li>
+<li><a href="https://github.com/showcases">Showcases of software built through GitHub</a></li>
+<li><a href="http://blog.meldium.com/home/2013/9/13/benchmarking-redis-on-aws-elasticache">Benchmarking Redis on Elasticache</a></li>
+<li><a href="http://robert.ocallahan.org/2014/03/introducing-rr.html">Debug anything with RR</a></li>
+<li><a href="http://stackoverflow.com/questions/18850860/how-do-i-clone-a-git-repo-that-has-become-too-large">How to clone a 10GB repo?</a></li>
+<li><a href="http://stevelorek.com/how-to-shrink-a-git-repository.html">How to Shrink a Git Repository</a></li>
+<li><a href="http://amasad.me/2014/03/16/why-im-excited-about-objectobserve/">Why I&rsquo;m Excited About Object.observe</a></li>
+<li><a href="http://buff.ly/1oBtm3d">Lesser-Known JavaScript Debugging Techniques</a></li>
+<li><a href="http://www.git-tower.com/blog/git-hosting-services-compared/">12 Git Hosting Services Compared</a></li>
+<li><a href="http://codegeekz.com/best-mobile-app-development-frameworks-for-developers/">Mobile app development frameworks</a></li>
+<li><a href="http://blog.elendev.com/development/php/symfony/use-a-database-as-translation-provider-in-symfony-2/">Loading translations from a db in Symfony 2</a></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Newsletter #23]]></title>
+    <link href="http://namshi.github.io/blog/2014/01/23/newsletter-number-23/"/>
+    <updated>2014-01-23T17:31:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/01/23/newsletter-number-23</id>
+    <content type="html"><![CDATA[<p>Hello, this is <a href="/blog/categories/techthursday/">#TechThursday</a> at <a href="http://namshi.com">#namshi</a>!</p>
+
+<br/>
+
+
+<br/>
+
+
+<!-- more -->
+
+
+<p><a href="http://www.jagregory.com/writings/converting-and-preserving-michael-abrash-graphics-programming-black-book/">Converting and Preserving Michael Abrash&rsquo;s Graphics Programming Black Book</a></p>
+
+<p><a href="http://www.socialpoint.es/blog/using-redis-to-build-your-game-leaderboard/">Using redis to build your game leaderboard</a></p>
+
+<p><a href="http://lab.hakim.se/meny/">A three dimensional and space efficient menu</a></p>
+
+<p><a href="http://graspjs.com/">Search, replace, and refactor your JavaScript code based on its structure rather than its text</a></p>
+
+<p><a href="https://github.com/rossriley/php-scalar-objects/blob/master/README.md">PHP Scalar Object Handlers</a></p>
+
+<p><a href="http://php-and-symfony.matthiasnoback.nl/2013/01/dependency-injection-smells/">Dependency Injection smells</a></p>
+
+<p><a href="http://www.rabbitmq.com/blog/2012/04/25/rabbitmq-performance-measurements-part-2/">Rabbitmq performance measurements</a></p>
+
+<p><a href="https://github.com/domnikl/DesignPatternsPHP">Sample code for several design patterns in PHP</a></p>
+
+<p><a href="http://symfony.com/blog/help-symfony-reach-3-billion-people">Help Symfony reach 3 billion people</a></p>
+
+<p><a href="http://blog.nodejs.org/2014/01/15/the-next-phase-of-node-js/index.html?utm_source=hackernewsletter&amp;utm_medium=email">The Next phase of Node.js</a></p>
+]]></content>
+  </entry>
+  
+</feed>
