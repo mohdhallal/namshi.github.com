@@ -4,7 +4,7 @@
   <title><![CDATA[Category: TechThursday | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/techthursday/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-08-23T13:51:32+04:00</updated>
+  <updated>2014-08-23T13:52:58+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -22,7 +22,7 @@
 That&rsquo;s why on Tuesday evening we did an internal hackathon, we bootstrapped four open source projects that we are going to release soon, <br /> stay tuned!<br />
 <a href="http://tech.namshi.com/team/#Luciano%20Colosio">Lucio</a>, our Nodejs maniac, introduced the team to node&rsquo;s history:</p></blockquote>
 
-<p>{% img center /images/posts/lucio-node-presentation.png 800 result %}</p>
+<p><img class="center" src="/images/posts/lucio-node-presentation.png" width="800" title="result" ></p>
 
 <p>Below the usual list of interesting links we found this week:</p>
 
