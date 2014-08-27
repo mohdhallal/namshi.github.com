@@ -4,7 +4,7 @@
   <title><![CDATA[Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-08-23T13:52:58+04:00</updated>
+  <updated>2014-08-27T15:03:00+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -12,6 +12,92 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[So far... so fun!]]></title>
+    <link href="http://namshi.github.io/blog/2014/08/27/so-far-dot-dot-dot-so-fun/"/>
+    <updated>2014-08-27T13:43:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/08/27/so-far-dot-dot-dot-so-fun</id>
+    <content type="html"><![CDATA[<p> Stardate: <strong>Wed, Apr 23, 2014 at 12:48 PM (GTM+1)</strong></p>
+
+<p> In a cold italian spring day my phone vibrates, as all nerd&rsquo;s phones do many and many times a day.<br>
+ The usual swipe, the screen unlocks and the conclusion of what started just 3 days earlier, in a rushing set of coding challenges and interviews, bears in front of my eyes:</p>
+
+<p><em>&ldquo;Dear Luciano,</em></p>
+
+<p><em>I am delighted to attach an Offer Letter in the capacity of a Senior Frontend Engineer at Namshi, please review and confirm the receipt of the same.</em></p>
+
+<p><em>Your provisional start date is the 11th May, 2014, we require the following scanned documents in order to process your visa:
+Passport – colored copy including first page, renewal page (if any).</em><br>
+<em>Photograph (with a white back ground)</em><br>
+<em>(Optional) Attested degree/high school certificates (stamped from the UAE embassy at the country the degree is issued and the Ministry of Foreign Affairs in Dubai)</em><br>
+<em>2 References (Names, Number &amp; Designation).</em><br>
+<em>If you have any questions, please feel free to get in touch with me directly.&ldquo;</em></p>
+
+<p>And that&rsquo;s how it started.</p>
+
+<br>
+
+
+<p>My departure gets postponed to allow me to attend the <a href="http://2014.jsday.it/">jsDay</a> &amp; <a href="http://2014.phpday.it/">phpDay</a> conference in italy, together with part of what soon will be my new team:</p>
+
+<p><a href="https://twitter.com/TechNamshi/status/467708302143815680"><img class="center" src="http://namshi.github.io/images/posts/rasmus-namshi-scaled.png" width="400" title="result" ></a></p>
+
+<br>
+
+
+<p>I&rsquo;m right now in the middle of my probation period, a 3 months long roller coaster ride in what&rsquo;s probably my most challenging and fulfilling work adventure in my career so far and, bare with me, I&rsquo;d like to share the story if you&rsquo;re pleased.</p>
+
+<!-- more -->
+
+
+<br>
+
+
+<p>In a matter of a couple of weeks I&rsquo;m finally stepping on the groud of Dubai.<br>
+The next morning Alex picks me up from my hotel: <strong>Namshi</strong>, at last.<br></p>
+
+<p>The HR department gives me a warm welcome and I&rsquo;m ready to meet <a href="http://tech.namshi.com/team/#Shidhin%20CR">Shidhin</a>, the other new frontend developer I&rsquo;ll work with, we quickly find ourselves sharing the same keyboard and pair prgramming on our 1st project.<br>
+Easy welcome, really, the 1st task we&rsquo;re faced with is &ldquo;Just remake our checkout&hellip; we&rsquo;ll release it before Ramadan begins&rdquo;, states the boss&hellip; In a month!<br>
+After all it&rsquo;s probably one of the most important parts of an e-commerce&rsquo;s UI, if it doesn&rsquo;t work people cannot pay and you know what they say: <em>no money, no honey!</em><br>
+Peace of cake&hellip; &ndash;_^&#8217;</p>
+
+<p>It&rsquo;s almost 8pm and we manage to finally push out branch and open our 1st PR! Which, the next day, gets nicelly bashed of notes and comments.<br>
+Kind of slapping wake up. Well, nobody said it would have been easy here, one thing it&rsquo;s clear since the beginning: no matter how many years of experience you have, one of the most important things in our job is <strong>&ndash; never stop learning &ndash;</strong>, bring your expertiese within the team but be ready to learn a lot from what it quickly shows as a really high and capable group of professionals.</p>
+
+<p>Days go by and in a rush of javascript, PRs and more slap-in-the-face comments some how my enthusiasm grows and my passion gets refeshed. For once I&rsquo;m really feeling like I&rsquo;m back at 25, with tons of stuff to do and learn and with the push to do it.</p>
+
+<p>Julia, code name for the new checkout, is growing fast. I keep looking at the source, amazed by what it (she?) looks like.<br>
+Probably the cleanest and finest peace of software I ever contributed to at that point in time. With the dear help of Shidhin, often guiding me with good tips on the fine art of Angular&rsquo;s tameing, and <a href="http://tech.namshi.com/team/#Alessandro%20Nadalin">Alex</a> carefully preventing my bias from polluting the new baby.<br> Thanks guys :)<br>
+As said, it&rsquo;s always about learning, and I&rsquo;m in a place where for once in years I&rsquo;m not the one that kind of knows-it-all. After all, it&rsquo;s what I was looking for!</p>
+
+<p>It&rsquo;s well known one of the best ways to grow is to push your self, so don&rsquo;t pick the easy task.<br>
+In this spirit I blindly jump on the error handling. The catch is: the app needs to solve it&rsquo;s own errors.<br>
+It&rsquo;s while working on this part an idea came to my mind that in the evening got me publish my 1st oss project since I was here and 1st npm lib ever:<br>
+<a href="https://github.com/unlucio/vpo">Value Path Objects</a><br>
+It happened to be the last piece Alex was looking for in order to be able to publish one more namshi&rsquo;s oss project: <a href="https://github.com/namshi/reconfig">reconfig</a><br>
+Been shy at base I always had problems publishing my code, but that night I guess I got the right push and I finally did it, and I&rsquo;m glad it happened. A new frenzy grew and shortly after I had the urge of sharing some more <a href="https://github.com/unlucio/CarmenSandiego">CarmenSandiego</a>.</p>
+
+<p>This brings us to the new moon and with it Ramadn cames. Julia is done, but since the holy month is a great opportunity for sales, we hold her back from going public. I&rsquo;m still not sure how we got it done.</p>
+
+<p>With the 1st project reaching maturity I get the opportunity of bugging people to let me code some Node.js (finally :D). Looks like we need a 0 downtime solution for updating our node applications. A little bit of javascrit, and lots of wrestling with capistrano and the filesystem later, and <a href="https://github.com/namshi/clusterjs">clusterjs</a> is born. Published at ~1am on a Thursday night (well, actually Friday morning), it&rsquo;s the 1st oss I push in an official Namshi&rsquo;s public repo. And I obviusly manage to make a mess a couple of times before getting the publishing process right. It&rsquo;s amazing how the excitement sometimes gets you out of control.</p>
+
+<p><img class="center" src="http://namshi.github.io/images/posts/clusterjs-publishing.jpg" width="800" title="result" ></p>
+
+<p>During Ramdan me and Shiddin take the change to refine the dear Julia and as Eid cames the lady is ready for her big Debut in Society.<br> The smoothest rollout I ever experienced.</p>
+
+<p>From that day on another month has gone by. A couple of more libs leaked to the public, and I&rsquo;m now mainly working on internal node project. <br>Everyday there&rsquo;s a new challenge and the fun is always on. In the struggles, the laughs, the shishas and the lines of code flow countlessly and every day the bar is pushed a little higher.</p>
+
+<p>It&rsquo;s not always all perfect, for sure. For instance during the week I don&rsquo;t see much sun light, but I try to catch up as much as possibile during the weekends :)<br>
+Living by the sea is definitely a pro, and I get to scuba dive a lot :D</p>
+
+<p>I always hated mondays (actually now Sundays are my Mondays, crazy reverse weekend ;P) and about an year ago I stumbled on this meme:</p>
+
+<p><img src="http://scontent-a.cdninstagram.com/hphotos-xfa1/t51.2885-15/10009391_636510409754554_1999474227_a.jpg" alt="meme" /></p>
+
+<p>Today I&rsquo;m happy to say: <strong>I don&rsquo;t hate mondays any more!</strong> :D</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[node-file-ensure, a small filesystem utility to make sure a file is there]]></title>
@@ -258,7 +344,7 @@ knowing how to build the presentation and logic behind a full
 frontend application (AngularJS, Node or something more spicy
 like <a href="http://www.polymer-project.org/">polymer</a>).</p>
 
-<blockquote><p>Drop us an email at <a href="&#109;&#97;&#x69;&#108;&#116;&#111;&#58;&#x77;&#x6f;&#114;&#107;&#x2d;&#x69;&#x6e;&#45;&#x74;&#x65;&#99;&#x68;&#x40;&#x6e;&#x61;&#x6d;&#x73;&#104;&#105;&#46;&#x63;&#x6f;&#x6d;">&#119;&#x6f;&#x72;&#x6b;&#45;&#105;&#x6e;&#45;&#x74;&#x65;&#99;&#104;&#64;&#x6e;&#x61;&#x6d;&#115;&#104;&#x69;&#46;&#x63;&#x6f;&#x6d;</a> to apply or simply
+<blockquote><p>Drop us an email at <a href="&#109;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#119;&#111;&#x72;&#107;&#x2d;&#105;&#x6e;&#x2d;&#x74;&#x65;&#x63;&#x68;&#64;&#110;&#x61;&#109;&#115;&#x68;&#105;&#x2e;&#99;&#x6f;&#109;">&#x77;&#x6f;&#x72;&#107;&#45;&#105;&#110;&#45;&#116;&#101;&#x63;&#104;&#x40;&#x6e;&#97;&#109;&#115;&#x68;&#105;&#x2e;&#x63;&#111;&#x6d;</a> to apply or simply
 get more informations about this job opening!</p></blockquote>
 
 <h2>Sitting on an empty (sysadmin) chair&hellip;</h2>
@@ -285,7 +371,7 @@ our configurations, and would like someone who can get his/her
 hands dirty with both programming and system administration
 to help the team.</p>
 
-<blockquote><p>Drop us an email at <a href="&#x6d;&#97;&#x69;&#x6c;&#116;&#111;&#58;&#x77;&#111;&#x72;&#x6b;&#45;&#x69;&#x6e;&#x2d;&#x74;&#101;&#99;&#x68;&#64;&#x6e;&#x61;&#x6d;&#115;&#x68;&#x69;&#x2e;&#x63;&#x6f;&#109;">&#119;&#111;&#114;&#x6b;&#x2d;&#x69;&#110;&#x2d;&#116;&#101;&#99;&#x68;&#64;&#110;&#97;&#109;&#x73;&#x68;&#105;&#x2e;&#x63;&#x6f;&#109;</a> to apply or simply
+<blockquote><p>Drop us an email at <a href="&#109;&#x61;&#105;&#108;&#116;&#x6f;&#x3a;&#119;&#111;&#x72;&#x6b;&#x2d;&#x69;&#x6e;&#x2d;&#x74;&#x65;&#x63;&#x68;&#x40;&#110;&#97;&#x6d;&#115;&#x68;&#105;&#46;&#99;&#111;&#x6d;">&#x77;&#111;&#114;&#107;&#45;&#105;&#x6e;&#45;&#116;&#x65;&#x63;&#x68;&#64;&#110;&#97;&#x6d;&#115;&#x68;&#105;&#x2e;&#99;&#111;&#x6d;</a> to apply or simply
 get more informations about this job opening!</p></blockquote>
 
 <h2>I don&rsquo;t know if he&rsquo;s crying because of loneliness or because of NodeJS&hellip;</h2>
@@ -313,7 +399,7 @@ if we get someone that has been in a few different battlefields :)</p>
 code (or, even better: first solves the problem, then writes the
 test, then the code :-D).</p>
 
-<blockquote><p>Drop us an email at <a href="&#x6d;&#x61;&#x69;&#108;&#x74;&#x6f;&#x3a;&#x77;&#x6f;&#x72;&#107;&#x2d;&#105;&#x6e;&#x2d;&#x74;&#x65;&#x63;&#104;&#x40;&#110;&#97;&#x6d;&#115;&#x68;&#105;&#46;&#99;&#111;&#109;">&#119;&#x6f;&#x72;&#107;&#x2d;&#105;&#x6e;&#x2d;&#116;&#101;&#99;&#104;&#x40;&#x6e;&#x61;&#109;&#115;&#104;&#105;&#46;&#x63;&#111;&#109;</a> to apply or simply
+<blockquote><p>Drop us an email at <a href="&#109;&#x61;&#105;&#108;&#x74;&#x6f;&#58;&#119;&#111;&#114;&#107;&#45;&#x69;&#110;&#x2d;&#x74;&#101;&#x63;&#104;&#x40;&#x6e;&#97;&#x6d;&#x73;&#104;&#105;&#x2e;&#x63;&#x6f;&#109;">&#x77;&#x6f;&#x72;&#x6b;&#x2d;&#105;&#110;&#45;&#x74;&#x65;&#99;&#x68;&#x40;&#x6e;&#97;&#x6d;&#115;&#104;&#105;&#46;&#99;&#x6f;&#x6d;</a> to apply or simply
 get more informations about this job opening!</p></blockquote>
 
 <h2>About Namshi</h2>
@@ -344,7 +430,7 @@ benefits in working with us, but to recap the most important ones:</p>
 
 <blockquote><p>We are looking for a senior software engineer passionate about NodeJS and a frontend designer who is passionate and kick-ass in CSS and HTML and wants to expand his skillset with some JavaScript &mdash; we &lt;3 javascript :)</p>
 
-<p>We will detail in a separate post but, for the time being, feel free to reach out to submit your linkedin / github profile to <a href="&#109;&#97;&#105;&#x6c;&#x74;&#x6f;&#58;&#x77;&#x6f;&#x72;&#107;&#x2d;&#x69;&#x6e;&#45;&#x74;&#101;&#99;&#104;&#64;&#x6e;&#x61;&#x6d;&#115;&#x68;&#105;&#46;&#99;&#x6f;&#x6d;">&#x77;&#111;&#x72;&#107;&#x2d;&#105;&#x6e;&#x2d;&#116;&#101;&#99;&#104;&#x40;&#x6e;&#97;&#x6d;&#x73;&#104;&#x69;&#x2e;&#x63;&#111;&#109;</a></p></blockquote>
+<p>We will detail in a separate post but, for the time being, feel free to reach out to submit your linkedin / github profile to <a href="&#x6d;&#x61;&#105;&#108;&#116;&#x6f;&#58;&#119;&#x6f;&#x72;&#107;&#x2d;&#105;&#110;&#x2d;&#x74;&#101;&#99;&#x68;&#64;&#110;&#97;&#109;&#115;&#104;&#105;&#46;&#99;&#111;&#x6d;">&#119;&#111;&#114;&#x6b;&#45;&#x69;&#110;&#x2d;&#x74;&#101;&#99;&#x68;&#x40;&#110;&#97;&#109;&#115;&#104;&#105;&#x2e;&#99;&#x6f;&#x6d;</a></p></blockquote>
 
 <p>Here are your links for this week!</p>
 
@@ -1250,50 +1336,6 @@ Simply set <code>mockserver-variation</code> to <code>500</code> and the file fr
 benefits include parallel front-end and back-end development and the decoupling of the Front-end and back-end during the development phase.</p>
 
 <p>It would be great if you can take the time to try it out and let us know what you think!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Newsletter #42]]></title>
-    <link href="http://namshi.github.io/blog/2014/06/12/newsletter-number-42/"/>
-    <updated>2014-06-12T12:03:00+04:00</updated>
-    <id>http://namshi.github.io/blog/2014/06/12/newsletter-number-42</id>
-    <content type="html"><![CDATA[<p><strong>techThursday is here folks!</strong></p>
-
-<p>Wanna join us? We are still hiring!
-We have cookies, #Symfony2, #nodejs, #AngularJS, #redis, #rabbitmq and coding challenges for you: <a href="http://buff.ly/1oyuSUK">http://buff.ly/1oyuSUK</a></p>
-
-<ul>
-<li><p><a href="http://serverspec.org">Serverspec: write rspec for your servers</a></p></li>
-<li><p><a href="https://wiki.php.net/rfc/uniform_variable_syntax">PHP: rfc on uniform variable syntax</a></p></li>
-<li><p><a href="https://github.com/r7kamura/jsonism">Jsonism, generate http clients from a json schema</a></p></li>
-<li><p><a href="https://devopsu.com/blog/docker-misconceptions">Docker Misconceptions</a></p></li>
-<li><p><a href="http://addyosmani.com/blog/automating-web-performance-measurement-with-psi-for-node/">Automating Web Performance Measurement With PSI For Node</a></p></li>
-<li><p><a href="http://jsnice.org/">Jsnice statical renaming, type inference and deobfuscation</a></p></li>
-<li><p><a href="https://tessel.io/">Tessel: hardware development for software developers (javascript and node)</a></p></li>
-</ul>
-
-
-<!-- more -->
-
-
-<ul>
-<li><p><a href="http://www.smashingmagazine.com/2014/06/11/building-with-gulp/">Building with Gulp &ndash; Bonus Browser Sync</a></p></li>
-<li><p><a href="http://www.leaseweblabs.com/2013/04/symfony2-consistent-routing/">Symfony2 consistent routing</a></p></li>
-<li><p><a href="http://www.entrepreneur.com/article/234492">7 Reasons to Ditch the Corporate World for a Career at a Startup</a></p></li>
-<li><p><a href="http://www.phoronix.com/scan.php?page=news_item&amp;px=MTcxNjU">Civilization 5 is finally released for linux platform</a></p></li>
-<li><p><a href="http://www.allthingsdistributed.com/2008/12/eventually_consistent.html">Very good read on distributed systems/databases</a></p></li>
-<li><p><a href="https://github.com/krakjoe/jitfu">Create (and evaluate) native JIT code in PHP</a></p></li>
-<li><p><a href="http://jacquesmattheij.com/the-several-million-dollar-bug">The Several Million Dollar Bug</a></p></li>
-<li><p><a href="http://blog.newrelic.com/2014/06/03/10-secrets-learned-software-engineering-degree-probably-didnt/?utm_source=Leanstack+Weekly&amp;utm_campaign=7b735e78b9-Leanstack_Weekly_54&amp;utm_medium=email&amp;utm_term=0_2911f8fd09-7b735e78b9-341766961">10 Secrets You Should Have Learned With Your Software Engineering Degree &ndash; But Probably Didn’t</a></p></li>
-<li><p><a href="https://www.gitlab.com/">Open Source, Self Hosted, Git Management Software</a></p></li>
-<li><p><a href="http://www.landsnail.com/apple/local/steve-jobs-resume/Resume.html">Steve Jobs Resume</a></p></li>
-<li><p><a href="http://www.broken-links.com/2014/06/09/voyeurism-mutation-object-observers">Mutation and Object Observers for Watching DOM and JS Objects Changes</a></p></li>
-<li><p><a href="http://css-tricks.com/using-encapsulation-semantic-markup/">Using Encapsulation for Semantic Markup</a></p></li>
-<li><p><a href="http://dev.opera.com/articles/css-will-change-property/">Everything You Need to Know About the CSS will-change Property</a></p></li>
-<li><p><a href="http://intercoolerjs.org/">intercooler.js: add AJAX to your web application using simple, declarative HTML attributes</a></p></li>
-</ul>
-
 ]]></content>
   </entry>
   
