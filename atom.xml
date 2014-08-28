@@ -4,7 +4,7 @@
   <title><![CDATA[Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-08-27T15:03:00+04:00</updated>
+  <updated>2014-08-28T16:44:12+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -12,6 +12,73 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Newsletter #53]]></title>
+    <link href="http://namshi.github.io/blog/2014/08/28/newsletter-number-53/"/>
+    <updated>2014-08-28T16:11:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/08/28/newsletter-number-53</id>
+    <content type="html"><![CDATA[<blockquote><p><strong>BOOM!</strong> As anticipated in the last newsletter, we were working on four new opensouce libraries and two of them are already out !!!</p>
+
+<p><a href="https://github.com/namshi/shisha"><strong>shisha, smoke tests made easy!</strong></a>, a cool nodejs library by <a href="#Shidhin%20CR">http://tech.namshi.com/team#Shidhin</a> and <a href="http://tech.namshi.com/team/#Mohamad%20Hallal">Hallal</a> that let&rsquo;s you
+write <a href="http://en.wikipedia.org/wiki/Smoke_testing_(software">smoke tests</a>) in an easy way</p>
+
+<p><a href="https://github.com/namshi/node-dock"><strong>node-dock</strong>, a sweet remedy for all your docker problems!</a>, another node library by <a href="http://tech.namshi.com/team/#Hossam%20Faris">Hossam</a> and <a href="http://tech.namshi.com/team/##Luciano%20Colosio">Lucio</a> that
+has an handy command (dock) that plugs on top of your usual docker commands adding some sugar and some handy function on top of it.</p>
+
+<p>Even <a href="http://tech.namshi.com/team/#Alessandro%20Nadalin">Alex</a> released another tiny-cool node lib called <a href="http://tech.namshi.com/blog/2014/08/22/node-file-ensure-a-small-filesystem-utility-to-make-sure-a-file-is-there/"><strong>node-file-ensure</strong>, a small filesystem utility to make sure a file is there</a></p>
+
+<p>Lucio also wrote a post on his first months here at Namshi: <a href="http://tech.namshi.com/blog/2014/08/27/so-far-dot-dot-dot-so-fun/">check it out</a>!</p>
+
+<p>Last but not least <a href="http://tech.namshi.com/team/#Geshan%20Manandhar">Geshan</a> on his vacation back home has improvised this talk at PHP Developers Meetup Nepal on message queues (AMQP) with RabbitMQ and Symfony <a href="http://mq-talk.herokuapp.com/">http://mq-talk.herokuapp.com/</a></p></blockquote>
+
+<p>And here we are as usual with a list of interesting links to keep you busy during the upcoming weekend:</p>
+
+<ul>
+<li><p><a href="https://github.com/OptimalBits/redbird">A modern reverse proxy for node</a></p></li>
+<li><p><a href="http://buff.ly/1nEYH2M">Open Source ain’t Charity</a></p></li>
+<li><p><a href="https://speakerdeck.com/patrickhamann/ship-it-re-develop-conference-august-2014">Ship it! A story of continuous delivery at theguardian.com</a></p></li>
+<li><p><a href="https://www.gov.uk/service-manual/agile/running-retrospectives.html">Reviewing a team&rsquo;s work and the way it is done at Gov.uk Design Services</a></p></li>
+<li><p><a href="http://buff.ly/1wDTrGe">Plain Old #JavaScript Object Visualization</a></p></li>
+</ul>
+
+
+<!-- more -->
+
+
+<ul>
+<li><p><a href="http://t.co/eDh0CeQYpA">Stop whatever you are doing and look at p6 of this paper</a></p></li>
+<li><p><a href="http://buff.ly/1lrfCus">Rocket Internet co-founder sees venture take off in Middle East</a></p></li>
+<li><p><a href="http://buff.ly/1q9KvDq">V8&rsquo;s memory mysteries</a></p></li>
+<li><p><a href="http://buff.ly/1sh7Lhn">49ers’ stadium Wi-Fi served 25,000 concurrent users, 2.13TB in all</a></p></li>
+<li><p><a href="http://buff.ly/1mA3a6D">Software Developers and Asperger&rsquo;s Syndrome</a></p></li>
+<li><p><a href="http://buff.ly/1v8pUmg">Docker Service Discovery Using Etcd and Haproxy</a></p></li>
+<li><p><a href="http://buff.ly/1tqNB7a">Stellar: Fast database snapshot and restore tool for development</a></p></li>
+<li><p><a href="http://buff.ly/1seRoll">Javascript optimization killers</a></p></li>
+<li><p><a href="http://buff.ly/1mz2vlT">How I Hacked My Husband&rsquo;s Programming Addiction</a></p></li>
+<li><p><a href="http://mq-talk.herokuapp.com/#/14">programmming mantras to remember</a></p></li>
+<li><p><a href="http://buff.ly/1myYCxx">Facebook Unveils Its Load-Balancing System: Autoscale</a></p></li>
+<li><p><a href="http://buff.ly/1wiCeln">Docker 1.2.0, with restart policies</a></p></li>
+<li><p><a href="http://buff.ly/1lmw8vT">Semantic Versioning Is Not the Solution</a></p></li>
+<li><p><a href="http://buff.ly/1mtjtSS">The Plague of Methods and Frameworks</a></p></li>
+<li><p><a href="http://buff.ly/1s2pxot">Evolution of Docker and Its Impact on AWS &ndash; i build the cloud</a></p></li>
+<li><p><a href="http://buff.ly/1s2p4Cu">Uber opens up its API – and creates a new platform</a></p></li>
+<li><p><a href="https://www.glasswire.com">GlassWire Network Security Monitor &amp; Firewall Tool</a></p></li>
+<li><p><a href="https://netguru.co/blog/posts/procrastination-and-overcoming-programmers-block">Procrastination and Overcoming Programmer&rsquo;s Block</a></p></li>
+<li><p><a href="http://algorithm.dk/posts/rtfm-0day-in-ios-apps-g-gmail-fb-messenger-etc">RTFM 0day in iOS apps: G+, Gmail, FB Messenger</a></p></li>
+<li><p><a href="http://www.codefights.com">CodeFights &ndash; Become a Code Champion</a></p></li>
+<li><p><a href="http://hoa-project.net/En/">Hoa project, a cool set of PHP lib (they deserve more community involvement &ndash; i.e. tests are missing, own standards)</a></p></li>
+<li><p><a href="http://code.tutsplus.com/tutorials/bubblejs-a-16k-solution-to-a-common-problem--cms-21986">Bubble.js: A 1.6K Solution to a Common Problem</a></p></li>
+<li><p><a href="http://knplabs.com/blog/2011/05/17/agile-nodejs/">We love Symfony2… but we also love Agility and Node.js</a></p></li>
+<li><p><a href="http://www.codeproject.com/Articles/604417/Agile-software-development-methodologies-and-how-t">Agile software development methodologies and how to apply them</a></p></li>
+<li><p><a href="http://lafikl.github.io/perfBar/">website performance metrics</a></p></li>
+<li><p><a href="http://maurizzzio.github.io/PojoViz/public/vulcanize.html#readme">Plain Old JavaScript Object Visualization</a></p></li>
+<li><p><a href="https://github.com/OptimalBits/redbird">A modern reverse proxy for node</a></p></li>
+<li><p><a href="http://mobileangularui.com/">Mobile Angular UI</a></p></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[So far... so fun!]]></title>
@@ -47,9 +114,6 @@ Passport – colored copy including first page, renewal page (if any).</em><br>
 
 
 <p>I&rsquo;m right now in the middle of my probation period, a 3 months long roller coaster ride in what&rsquo;s probably my most challenging and fulfilling work adventure in my career so far and, bare with me, I&rsquo;d like to share the story if you&rsquo;re pleased.</p>
-
-<!-- more -->
-
 
 <br>
 
@@ -344,7 +408,7 @@ knowing how to build the presentation and logic behind a full
 frontend application (AngularJS, Node or something more spicy
 like <a href="http://www.polymer-project.org/">polymer</a>).</p>
 
-<blockquote><p>Drop us an email at <a href="&#109;&#x61;&#x69;&#x6c;&#x74;&#x6f;&#x3a;&#119;&#111;&#x72;&#107;&#x2d;&#105;&#x6e;&#x2d;&#x74;&#x65;&#x63;&#x68;&#64;&#110;&#x61;&#109;&#115;&#x68;&#105;&#x2e;&#99;&#x6f;&#109;">&#x77;&#x6f;&#x72;&#107;&#45;&#105;&#110;&#45;&#116;&#101;&#x63;&#104;&#x40;&#x6e;&#97;&#109;&#115;&#x68;&#105;&#x2e;&#x63;&#111;&#x6d;</a> to apply or simply
+<blockquote><p>Drop us an email at <a href="&#109;&#x61;&#x69;&#x6c;&#x74;&#111;&#x3a;&#x77;&#x6f;&#x72;&#107;&#x2d;&#x69;&#x6e;&#x2d;&#x74;&#x65;&#x63;&#104;&#64;&#110;&#x61;&#x6d;&#x73;&#x68;&#x69;&#46;&#99;&#111;&#109;">&#119;&#x6f;&#x72;&#107;&#45;&#105;&#110;&#x2d;&#x74;&#x65;&#x63;&#x68;&#x40;&#110;&#97;&#109;&#x73;&#104;&#x69;&#x2e;&#99;&#111;&#109;</a> to apply or simply
 get more informations about this job opening!</p></blockquote>
 
 <h2>Sitting on an empty (sysadmin) chair&hellip;</h2>
@@ -371,7 +435,7 @@ our configurations, and would like someone who can get his/her
 hands dirty with both programming and system administration
 to help the team.</p>
 
-<blockquote><p>Drop us an email at <a href="&#109;&#x61;&#105;&#108;&#116;&#x6f;&#x3a;&#119;&#111;&#x72;&#x6b;&#x2d;&#x69;&#x6e;&#x2d;&#x74;&#x65;&#x63;&#x68;&#x40;&#110;&#97;&#x6d;&#115;&#x68;&#105;&#46;&#99;&#111;&#x6d;">&#x77;&#111;&#114;&#107;&#45;&#105;&#x6e;&#45;&#116;&#x65;&#x63;&#x68;&#64;&#110;&#97;&#x6d;&#115;&#x68;&#105;&#x2e;&#99;&#111;&#x6d;</a> to apply or simply
+<blockquote><p>Drop us an email at <a href="&#109;&#x61;&#105;&#x6c;&#116;&#111;&#x3a;&#119;&#x6f;&#114;&#107;&#x2d;&#105;&#110;&#x2d;&#116;&#101;&#99;&#x68;&#x40;&#x6e;&#x61;&#109;&#x73;&#104;&#105;&#x2e;&#x63;&#111;&#x6d;">&#119;&#111;&#114;&#107;&#x2d;&#105;&#110;&#x2d;&#x74;&#x65;&#x63;&#x68;&#64;&#110;&#x61;&#x6d;&#115;&#x68;&#105;&#x2e;&#x63;&#x6f;&#109;</a> to apply or simply
 get more informations about this job opening!</p></blockquote>
 
 <h2>I don&rsquo;t know if he&rsquo;s crying because of loneliness or because of NodeJS&hellip;</h2>
@@ -399,7 +463,7 @@ if we get someone that has been in a few different battlefields :)</p>
 code (or, even better: first solves the problem, then writes the
 test, then the code :-D).</p>
 
-<blockquote><p>Drop us an email at <a href="&#109;&#x61;&#105;&#108;&#x74;&#x6f;&#58;&#119;&#111;&#114;&#107;&#45;&#x69;&#110;&#x2d;&#x74;&#101;&#x63;&#104;&#x40;&#x6e;&#97;&#x6d;&#x73;&#104;&#105;&#x2e;&#x63;&#x6f;&#109;">&#x77;&#x6f;&#x72;&#x6b;&#x2d;&#105;&#110;&#45;&#x74;&#x65;&#99;&#x68;&#x40;&#x6e;&#97;&#x6d;&#115;&#104;&#105;&#46;&#99;&#x6f;&#x6d;</a> to apply or simply
+<blockquote><p>Drop us an email at <a href="&#x6d;&#x61;&#105;&#x6c;&#116;&#x6f;&#x3a;&#x77;&#x6f;&#114;&#x6b;&#x2d;&#x69;&#110;&#45;&#116;&#x65;&#x63;&#104;&#64;&#110;&#97;&#x6d;&#x73;&#104;&#x69;&#x2e;&#x63;&#111;&#x6d;">&#x77;&#x6f;&#114;&#x6b;&#45;&#105;&#110;&#x2d;&#x74;&#101;&#x63;&#104;&#x40;&#x6e;&#97;&#x6d;&#x73;&#x68;&#x69;&#x2e;&#x63;&#x6f;&#x6d;</a> to apply or simply
 get more informations about this job opening!</p></blockquote>
 
 <h2>About Namshi</h2>
@@ -430,7 +494,7 @@ benefits in working with us, but to recap the most important ones:</p>
 
 <blockquote><p>We are looking for a senior software engineer passionate about NodeJS and a frontend designer who is passionate and kick-ass in CSS and HTML and wants to expand his skillset with some JavaScript &mdash; we &lt;3 javascript :)</p>
 
-<p>We will detail in a separate post but, for the time being, feel free to reach out to submit your linkedin / github profile to <a href="&#x6d;&#x61;&#105;&#108;&#116;&#x6f;&#58;&#119;&#x6f;&#x72;&#107;&#x2d;&#105;&#110;&#x2d;&#x74;&#101;&#99;&#x68;&#64;&#110;&#97;&#109;&#115;&#104;&#105;&#46;&#99;&#111;&#x6d;">&#119;&#111;&#114;&#x6b;&#45;&#x69;&#110;&#x2d;&#x74;&#101;&#99;&#x68;&#x40;&#110;&#97;&#109;&#115;&#104;&#105;&#x2e;&#99;&#x6f;&#x6d;</a></p></blockquote>
+<p>We will detail in a separate post but, for the time being, feel free to reach out to submit your linkedin / github profile to <a href="&#x6d;&#x61;&#105;&#x6c;&#116;&#x6f;&#58;&#x77;&#x6f;&#x72;&#107;&#45;&#x69;&#110;&#45;&#116;&#101;&#99;&#104;&#64;&#x6e;&#x61;&#x6d;&#x73;&#x68;&#105;&#46;&#99;&#111;&#109;">&#x77;&#111;&#x72;&#107;&#x2d;&#x69;&#x6e;&#45;&#116;&#101;&#x63;&#x68;&#x40;&#110;&#x61;&#x6d;&#115;&#x68;&#x69;&#x2e;&#x63;&#111;&#109;</a></p></blockquote>
 
 <p>Here are your links for this week!</p>
 
@@ -1226,116 +1290,6 @@ and it has been written in his beloved NodeJS.</p>
 <li><p><a href="https://github.com/mickey/checkzilla">Checkzilla, a simple tool for letting you know about out-of-date software versions</a></p></li>
 </ul>
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[MockServer, Effortless API Mocking Library in Node Js]]></title>
-    <link href="http://namshi.github.io/blog/2014/06/13/mockserver-effortless-api-mocking-library-in-node-js/"/>
-    <updated>2014-06-13T04:22:00+04:00</updated>
-    <id>http://namshi.github.io/blog/2014/06/13/mockserver-effortless-api-mocking-library-in-node-js</id>
-    <content type="html"><![CDATA[<p>Namshi Tech Team is happy to roll-out a new node-based library!</p>
-
-<p>We present you <a href="https://github.com/namshi/mockserver">MockServer</a>, a library that allows you to easily mock your APIs&#8217; plain HTTP responses.</p>
-
-<!-- more -->
-
-
-<p>The main benefit of this library is to allow developers to focus on what is important to them, and in this case,
-<code>mockserver</code> allows front-end developers to focus their efforts on creating awesome front-end clients without having to worry about the
-availability of a complete and running API.</p>
-
-<p>The use of this library can be appreciated by developers following a <a href="http://www.frontendfirst.com/">Front-End First</a>
-methodology where development efforts initially focus on front-end clients rather than the back-end structure and tools.
-Front-end first suggests that front-end developers have their mocked servers return expected or anticipated HTTP responses
-based on the available specification instead of making an actual call to the API.
-Another benefit is to allow development for both front-end and back-end in parallel.</p>
-
-<p>In short, this library basically removes the dependency that the front-end development requires from the backend.</p>
-
-<h2>Usage</h2>
-
-<p>Create an empty directory inside your project, <code>mkdir api</code></p>
-
-<p>To start mocking your HTTP responses, you will need to have a sub-directory were all your mocks shall reside. In order to do so,
-in your <code>api</code> folder run <code>mkdir mocks</code> and that&rsquo;s where all plain text HTTP responses will reside.</p>
-
-<p>Inside your <code>api</code> directory, run</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>npm install mockserver</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Create a new js file, say, <code>api.js</code> that has the following:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">http</span>       <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;http&#39;</span><span class="p">),</span>
-</span><span class='line'>    <span class="nx">mockserver</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;mockserver&#39;</span><span class="p">);</span>
-</span><span class='line'>
-</span><span class='line'><span class="nx">http</span><span class="p">.</span><span class="nx">createServer</span><span class="p">(</span><span class="nx">mockserver</span><span class="p">(</span><span class="s1">&#39;./mocks&#39;</span><span class="p">)).</span><span class="nx">listen</span><span class="p">(</span><span class="s1">&#39;9001&#39;</span><span class="p">);</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>That&rsquo;s it! Now navigate from your terminal to the <code>api</code> directory and run <code>node api.js</code>. This will create a node server that
-listens to port <code>9001</code>.</p>
-
-<p>Now, you should point your front-end client to <code>http://localhost:9001</code> instead of the actual api url.</p>
-
-<h2>Mocks</h2>
-
-<p>Now, your node server is running and your client can start making requests and getting back mocked HTTP responses.</p>
-
-<p>How do you create the mocks?</p>
-
-<p>Each request relative url path, HTTP method combination resides in a separate text file inside your mocks folder.
-The naming of those files goes as follows: <code>path_METHOD</code>, <code>path</code> is the relative url path without any slashes, i.e, <code>/test</code>
-should be <code>test</code> and <code>METHOD</code> is the upper-cased HTTP method (<code>GET</code>). The extension for the files should be <code>.mock</code>.
-The complete file name is: <code>test_GET.mock</code>.</p>
-
-<p>The contents of the mocked file should be a valid HTTP response text, as follows:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nx">HTTP</span><span class="o">/</span><span class="mf">1.1</span> <span class="mi">200</span> <span class="nx">OK</span>
-</span><span class='line'><span class="nx">Content</span><span class="o">-</span><span class="nx">Type</span><span class="o">:</span> <span class="nx">text</span><span class="o">/</span><span class="nx">html</span><span class="p">;</span> <span class="nx">charset</span><span class="o">=</span><span class="nx">utf</span><span class="o">-</span><span class="mi">8</span>
-</span><span class='line'>
-</span><span class='line'><span class="o">&lt;</span><span class="nx">html</span><span class="o">&gt;&lt;</span><span class="nx">body</span><span class="o">&gt;</span><span class="nx">Hello</span> <span class="nx">World</span><span class="o">&lt;</span><span class="err">/body&gt;&lt;/html&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Now, whenever your client requests <code>http://localhost:9001/test</code>, <code>mockserver</code> will return that plain HTTP response you defined
-in <code>test_GET.mock</code>.</p>
-
-<h2>Header Variation</h2>
-
-<p>Mockserver also supports different responses for the the same request path, method pair. You can make use of this feature by manually setting a
-<code>mockserver-variation</code> header in your requests. The value of this header shall be appended to the mocked file name as follows: <code>path_METHOD_variation</code>.</p>
-
-<p>Here is where you are able to handle various server HTTP responses for your request (200, 400, 500, 403, etc..).
-Simply set <code>mockserver-variation</code> to <code>500</code> and the file from our previous example should be named <code>test_GET_500.mock</code>.</p>
-
-<h2>Multi-level URLs</h2>
-
-<p>If you are wondering how to mock HTTP responses for a multi-level URL like <code>http://localhost:9001/test1/test2</code> here is how to do it:</p>
-
-<ul>
-<li>Inside your <code>mocks</code> directory, run <code>mkdir test1</code></li>
-<li><code>cd test1</code> and <code>touch test2.mock</code></li>
-<li>Insert your raw HTTP response text in <code>test2.mock</code></li>
-</ul>
-
-
-<h2>Conclusion</h2>
-
-<p>Although simple and straight forward, the idea behind <code>mockserver</code> is quite powerful. It is mostly suited for a Front-end First methodology, some of the
-benefits include parallel front-end and back-end development and the decoupling of the Front-end and back-end during the development phase.</p>
-
-<p>It would be great if you can take the time to try it out and let us know what you think!</p>
 ]]></content>
   </entry>
   
