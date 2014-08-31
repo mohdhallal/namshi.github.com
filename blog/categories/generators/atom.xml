@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: PHP, | Tech @ Namshi.com]]></title>
-  <link href="http://namshi.github.io/blog/categories/php/atom.xml" rel="self"/>
+  <title><![CDATA[Category: generators | Tech @ Namshi.com]]></title>
+  <link href="http://namshi.github.io/blog/categories/generators/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
   <updated>2014-08-31T13:20:53+04:00</updated>
   <id>http://namshi.github.io/</id>

@@ -238,11 +238,11 @@
     </url>
     <url>
         <loc>http://namshi.github.io/blog/2014/08/14/newsletter-number-51/</loc>
-        <lastmod>2014-08-23T11:54:14+04:00</lastmod>
+        <lastmod>2014-08-31T13:07:37+04:00</lastmod>
     </url>
     <url>
         <loc>http://namshi.github.io/blog/2014/08/21/newsletter-number-52/</loc>
-        <lastmod>2014-08-23T13:51:32+04:00</lastmod>
+        <lastmod>2014-08-31T13:07:37+04:00</lastmod>
     </url>
     <url>
         <loc>
@@ -256,7 +256,11 @@
     </url>
     <url>
         <loc>http://namshi.github.io/blog/2014/08/28/newsletter-number-53/</loc>
-        <lastmod>2014-08-28T17:15:27+04:00</lastmod>
+        <lastmod>2014-08-31T13:07:37+04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://namshi.github.io/blog/2014/08/31/php-generators-explained/</loc>
+        <lastmod>2014-08-31T13:19:26+04:00</lastmod>
     </url>
     <url>
         <loc>http://namshi.github.io/about/</loc>
@@ -264,11 +268,11 @@
     </url>
     <url>
         <loc>http://namshi.github.io/archives/</loc>
-        <lastmod>2014-08-28T17:15:27+04:00</lastmod>
+        <lastmod>2014-08-31T13:19:26+04:00</lastmod>
     </url>
     <url>
         <loc>http://namshi.github.io/blog/archives/</loc>
-        <lastmod>2014-08-28T17:15:27+04:00</lastmod>
+        <lastmod>2014-08-31T13:19:26+04:00</lastmod>
     </url>
     <url>
         <loc>http://namshi.github.io/blog/categories/</loc>
@@ -276,11 +280,11 @@
     </url>
     <url>
         <loc>http://namshi.github.io/blog/</loc>
-        <lastmod>2014-08-28T17:15:27+04:00</lastmod>
+        <lastmod>2014-08-31T13:19:26+04:00</lastmod>
     </url>
     <url>
         <loc>http://namshi.github.io/</loc>
-        <lastmod>2014-08-28T17:15:27+04:00</lastmod>
+        <lastmod>2014-08-31T13:19:26+04:00</lastmod>
     </url>
     <url>
         <loc>http://namshi.github.io/join-us/</loc>
@@ -292,6 +296,6 @@
     </url>
     <url>
         <loc>http://namshi.github.io/team/</loc>
-        <lastmod>2014-08-23T11:54:14+04:00</lastmod>
+        <lastmod>2014-08-31T13:20:10+04:00</lastmod>
     </url>
 </urlset>
