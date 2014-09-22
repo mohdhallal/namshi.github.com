@@ -4,7 +4,7 @@
   <title><![CDATA[Category: community | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/community/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-08-31T13:22:39+04:00</updated>
+  <updated>2014-09-22T09:31:14+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -12,6 +12,98 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Wanna hear about SOA and how we deal with APIs? Then vote for cirpo!]]></title>
+    <link href="http://namshi.github.io/blog/2014/09/16/wanna-hear-about-soa-and-how-we-deal-with-apis-then-vote-for-cirpo/"/>
+    <updated>2014-09-16T09:02:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/09/16/wanna-hear-about-soa-and-how-we-deal-with-apis-then-vote-for-cirpo</id>
+    <content type="html"><![CDATA[<p>Aaaaand following our first announcement
+regarding <a href="/blog/2014/09/10/what-is-frontend-first-lets-hear-it-at-the-next-edition-of-the-confoo/">&ldquo;conquering&rdquo; the ConFoo</a>,
+as promised, we go ahead with the second
+charge!</p>
+
+<!-- more -->
+
+
+<p><img class="team right" src="/images/cirpo.jpg"></p>
+
+<p><a href="/team">Cirpo</a> has decided to capitalize on
+the opportunity of being in the cold lands of
+Canada to offer <strong>a few</strong> learning opportunities
+for the attendees, as
+<a href="http://confoo.ca/en/call-for-papers/speaker/alessandro-cinelli">the list of his proposals</a>
+is quite long and impressive.</p>
+
+<p>If you are willing to hear how we do web services
+and how we integrated an <strong>API-first</strong> approach then
+don&rsquo;t miss the opportunity to rate his talks, as I&rsquo;m
+sure he&rsquo;d be happy to showcase our best practices and
+hear your feedbacks and suggestions, to make Namshi&rsquo;s
+SOA even sharper; along with these topics he&rsquo;ll be
+happy to talk about some of the other tools and systems
+we use like Redis and RabbitMQ.</p>
+
+<p>But even more important, <a href="http://confoo.ca/en/register">grab your ticket</a> for the
+event as I can ensure you it&rsquo;s one of a kind and you won&rsquo;t
+regret it!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[What is frontend-first? Lets hear it at the next edition of the Confoo]]></title>
+    <link href="http://namshi.github.io/blog/2014/09/10/what-is-frontend-first-lets-hear-it-at-the-next-edition-of-the-confoo/"/>
+    <updated>2014-09-10T00:22:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/09/10/what-is-frontend-first-lets-hear-it-at-the-next-edition-of-the-confoo</id>
+    <content type="html"><![CDATA[<p>Just a heads up that we will have quite a few attempt
+at &ldquo;conquering&rdquo; canada&rsquo;s hottest tech conference, and the
+first to try is our <a href="/team#Mohamad%20Hallal">Mohammed</a>.</p>
+
+<!-- more -->
+
+
+<p>He has submitted a talk about <a href="http://frontendfirst.com/">frontend-first</a>
+and, if you&rsquo;d like to hear him or want to support
+our lebanese &ldquo;rockstar&rdquo;, please <a href="http://confoo.ca/en/call-for-papers/speaker/mohamad-hallal">vote his talk</a>
+as ConFoo democratically selects them based on the attendees'
+&ndash; or supposed attendees &ndash; feedback.</p>
+
+<p>He will give an overview of what <em>frontend first</em> means and
+how you can focus on the surface of your apps with tools
+like <a href="https://github.com/namshi/mockserver">mockserver</a>.</p>
+
+<p>See you in Montreal? :)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A bit of Namshi at the Symfony Live this month!]]></title>
+    <link href="http://namshi.github.io/blog/2014/09/08/a-bit-of-namshi-at-the-symfony-live-this-month/"/>
+    <updated>2014-09-08T21:41:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/09/08/a-bit-of-namshi-at-the-symfony-live-this-month</id>
+    <content type="html"><![CDATA[<p>Pretty excited that we are going to be present
+at the <a href="http://london2014.live.symfony.com/">Symfony Live</a>
+which will happen at the end of this month, in London.</p>
+
+<!-- more -->
+
+
+<p><a href="/team#mohamad%20hallal">Mohamad</a>, who has been quite
+productive lately &ndash; both with <a href="http://mohdhallal.github.io/">blogging</a>
+and releasing some open source libraries (like
+<a href="https://github.com/namshi/mockserver">mockserver</a> and <a href="https://github.com/namshi/shisha">shisha</a>) &ndash;
+has decided to take advantage of one of the bonuses that
+we are offering &mdash; tickets for conferences!</p>
+
+<p>He will have the chance to get to meet the leaders in the
+PHP community in one of the most amazing conferences the
+PHP panorama can offer.</p>
+
+<p>We wish Hallal a safe trip to the United Kingdom
+and we hope he&rsquo;ll have a blast learning some new stuff
+and seeing a new place!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[jsDay and phpDay recap]]></title>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: welcome | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/welcome/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-08-31T13:22:39+04:00</updated>
+  <updated>2014-09-22T09:31:14+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -12,6 +12,50 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome Daniel!]]></title>
+    <link href="http://namshi.github.io/blog/2014/08/31/welcome-daniel/"/>
+    <updated>2014-08-31T21:37:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/08/31/welcome-daniel</id>
+    <content type="html"><![CDATA[<p><img class="team left" src="/images/daniel.png"></p>
+
+<p>We are very excited to welcome <a href="/team#Daniel%20Ribeiro">Daniel</a> in
+the crazy Namshi family!</p>
+
+<p>Daniel Ribeiro is a Technical Leader, Senior Software Engineer,
+PHP 5.3 Zend Certified Engineer (ZEND021458), Speaker and
+Evangelist from Brazil. He’s also a member of the local
+PHP community (PHPSC), and has been working with software
+engineering since 2006. His focus is on software engineering
+best practices, both concerning the code and the process of
+software development. He has a quite solid experience with agile
+practices and leading development teams to enterprise application
+standards and practices. Technically, he works with a lot of
+best practices, such as Behavior-Driven Development (BDD). He
+also has a background on architecture patterns, such as Domain
+Driven Design (DDD) and Service Oriented Architecture (SOA). He
+loves to work with high quality code, especially concerning
+advanced software engineering concepts, such as the SOLID
+principles and the GoF design patterns.</p>
+
+<!-- more -->
+
+
+<p>I am personally very excited as Daniel and me have been
+talking about working together for a while, and we finally
+managed to get a chance of getting hands down to the code
+together!</p>
+
+<p>He will bring good seniority to our team as well as good
+knowledge of best practices and enterprise <em>modus operandi</em>;
+last but not least, Daniel has been eager to accept the challenge
+of taking a closer look at NodeJS as it&rsquo;s getting bigger and
+bigger in our stack.</p>
+
+<p>Looking forward to get the brazilian vibes at our desks!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Welcome Nikita!]]></title>
