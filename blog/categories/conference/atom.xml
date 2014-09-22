@@ -4,7 +4,7 @@
   <title><![CDATA[Category: conference | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-09-22T09:31:14+04:00</updated>
+  <updated>2014-09-22T09:40:03+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -29,10 +29,10 @@ That&rsquo;s how we started using nodejs, Angular, Docker, SPDY and much more&he
 
 <p><img class="left team" src="/images/alex.jpg">
 <a href="http://tech.namshi.com/team#Alessandro%20Nadalin">Alex</a> submitted a bunch of talks to the 2015 edition of the Confoo conference, so just
-<a href="http://confoo.ca/en/call-for-papers/speaker/alessandro-nadalin">vote for his talks</a>.</p>
+<a href="http://confoo.ca/en/call-for-papers/speaker/alessandro-nadalin">vote for his talks</a>.<br>
+His talks cover a wide variety of topics from Symfony, Angular, HTTP to Dockerinzing your application.</p>
 
-<p>His talks cover a wide variety of topics from Symfony, Angular, HTTP to Dockerinzing your application.
-How cool is that?
+<p>How cool is that?<br>
 If you&rsquo;re looking for sharp, engaging sessions, for sure these talks will be something <strong>that moves you off your chair</strong>.</p>
 
 <br>
