@@ -4,7 +4,7 @@
   <title><![CDATA[Category: javaScript | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/javascript/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-09-22T11:16:44+04:00</updated>
+  <updated>2014-10-16T14:27:07+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -12,6 +12,70 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Newsletter #57]]></title>
+    <link href="http://namshi.github.io/blog/2014/09/25/newsletter-number-57/"/>
+    <updated>2014-09-25T11:41:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/09/25/newsletter-number-57</id>
+    <content type="html"><![CDATA[<p>Hello, It&rsquo;s <a href="/blog/categories/techthursday/">#TechThursday</a> at <a href="http://namshi.com">#namshi</a> again!</p>
+
+<blockquote><p>News from the IT Team:</p>
+
+<p>Hallal has already landed in London for <a href="http://london2014.live.symfony.com">Symfony Live</a> conference and he is having a blast.
+<img class="thumb left" src="/images/mohomad-sf-live.jpg"></p>
+
+<p>And we are back with some more proposals to the <a href="http://confoo.ca/en">Confoo</a> conference in Canada:
+check, and support them by voting <a href="http://tech.namshi.com/blog/2014/09/22/coding-on-the-edge-at-confoo/">for Alex</a>,
+<a href="http://tech.namshi.com/blog/2014/09/20/interested-in-the-history-of-nodejs-then-lets-hear-it-from-lucio-at-the-confoo/">for Lucio</a> and <a href="http://tech.namshi.com/blog/2014/09/20/stop-using-crons-start-listening-to-geshan/">for Geshan</a>, go team Namshi!</p></blockquote>
+
+<p>But what has the team been looking at over the past week? Below
+you&rsquo;ll find the usual list of interesting articles we discovered
+in the past 7 days.</p>
+
+<ul>
+<li><p><a href="http://mnapoli.fr/decoupling-packages/">Decoupling packages</a></p></li>
+<li><p><a href="https://github.com/igorw/retry">A tiny library for retrying failing operations</a></p></li>
+<li><p><a href="https://github.com/recoilphp/recoil">Cooperative multitasking for PHP via co-routines</a></p></li>
+<li><p><a href="http://bit.ly/1peew15">The Right Way (In computer science, everything is a trade-off)</a></p></li>
+</ul>
+
+
+<!-- more -->
+
+
+<ul>
+<li><p><a href="http://bit.ly/1rnFojIr">Docker Introduction &ndash; Slides from a Red Hat Software Engineer</a></p></li>
+<li><p><a href="http://bit.ly/1ClG2ly">Doctrine filters and annotations to improve security and ease development in a Symfony app</a></p></li>
+<li><p><a href="http://bit.ly/1ssxTdJ">Do Programmers Need to Be &lsquo;Masters of Their Domain&rsquo;?</a></p></li>
+<li><p><a href="http://blog.npmjs.org/post/98131109725/npm-2-0-0">npm 2.0 released</a></p></li>
+<li><p><a href="https://github.com/kissyteam/xtemplate">yet another javascript template language: eXtensible</a></p></li>
+<li><p><a href="http://buff.ly/Y8wHhI">New in Symfony 2.6: LockHandler</a></p></li>
+<li><p><a href="http://buff.ly/1umFydE">Prevent errors from breaking gulp watch</a></p></li>
+<li><p><a href="http://buff.ly/1x8bO5r">CloudScale – Automatic Cloud Infrastructure Scaling</a></p></li>
+<li><p><a href="http://buff.ly/1v5l3zZ">CTOs are the new PANDAs</a></p></li>
+<li><p><a href="http://buff.ly/1rlSMoL">PHP: why GOTO instead of recursion?</a></p></li>
+<li><p><a href="http://buff.ly/1vcJ6w5">New in Symfony 2.6: Smarter assets:install command</a></p></li>
+<li><p><a href="http://buff.ly/XZAWfx">Symfony 2.6 fast approaching its stabilization phase</a></p></li>
+<li><p><a href="http://buff.ly/1mz0prV">An Early Investor Offers Some Lessons From Alibaba’s Evolution</a></p></li>
+<li><p><a href="http://buff.ly/1tNRLGV">One Thing Well – blog about simple, useful software</a></p></li>
+<li><p><a href="http://buff.ly/1rb7vCE">Amazon SNS &ndash; Now With Enhanced Support for iOS 8</a></p></li>
+<li><p><a href="http://buff.ly/1mrlPap">JavaScript Memory Management Masterclass</a></p></li>
+<li><p><a href="http://buff.ly/Z2xrpM">Apple announces API that allows using JavaScript for Automation</a></p></li>
+<li><p><a href="http://buff.ly/1rb0NfY">Resource management in Docker</a></p></li>
+<li><p><a href="http://buff.ly/1tGyWoT">Node OS</a></p></li>
+<li><p><a href="http://buff.ly/Z2v5Hq">Why I changed my mind about Node.js</a></p></li>
+<li><p><a href="http://blog.enfocussolutions.com/">The Business Analyst as Explorer: An Inquiry, Not an Inquisition</a></p></li>
+<li><p><a href="http://www.technologyreview.com/news/529011/can-technology-fix-medicine/">Can Technology Fix Medicine? Medical data is a hot spot for venture investing and product innovation.</a></p></li>
+<li><p><a href="https://news.layervault.com/stories/33347-pdf-mobile--multidevice--design-lessons--learned-building-polar-by-luke-wroblewski">Mobile &amp; multi-device lessons learned, a free e-book by Luke Wroblewski</a></p></li>
+<li><p><a href="http://erenyagdiran.github.io/I-was-just-asked-to-crack-a-program-Part-1/">&ldquo;I was just asked to crack a program in a job interview !&rdquo;</a></p></li>
+<li><p><a href="http://www.youtube.com/watch?v=XCVOxht34Hs">Be a happier developer with Docker</a></p></li>
+<li><p><a href="http://www.thinkful.com/learn/angularjs-tutorial-build-a-gmail-clone/Directives-Overview">Learn AngularJS by Creating a Gmail Clone</a></p></li>
+<li><p><a href="http://www.html5rocks.com/en/tutorials/shapes/getting-started/">Getting Started with CSS Shapes</a></p></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Newsletter #56]]></title>
