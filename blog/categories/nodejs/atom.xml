@@ -4,7 +4,7 @@
   <title><![CDATA[Category: NodeJS | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-10-16T14:33:56+04:00</updated>
+  <updated>2014-10-21T13:23:40+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -26,7 +26,7 @@ could expand in that direction.</p>
 <!-- more -->
 
 
-<p><img class="left team" src="/images/lucio.jpg" title="Luciano Colosio" ></p>
+<p>{% img left team /images/lucio.jpg Luciano Colosio %}</p>
 
 <p>And you know what? Lucio loves Node so much that he&rsquo;d like
 to talk about it at a big stage, like the one the
@@ -79,14 +79,14 @@ domain:   'namshi.com'
 
 <p>whereas the base one has many more values:</p>
 
-<p>
+<p>{% raw %}
 <code>yaml
 apis:
   version:   'v1'
   domain:    'api.{{ domain }}'
   baseUrl:   'https://{{ apis.domain }}'
 </code>
-</p>
+{% endraw %}</p>
 
 <p>There&rsquo;s a problem with this approach: if one of the developers
 wants to change a value in his <code>dev.js</code> git will tell him that

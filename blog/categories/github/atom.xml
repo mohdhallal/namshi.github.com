@@ -4,7 +4,7 @@
   <title><![CDATA[Category: github | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-10-16T14:33:56+04:00</updated>
+  <updated>2014-10-21T13:23:40+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -56,7 +56,6 @@ the <a href="http://europe.dockercon.com/">Docker Europe conference in December<
 <li><p><a href="http://buff.ly/1nj1bcv">Loading webfonts with high performance on responsive websites</a></p></li>
 <li><p><a href="http://buff.ly/1xGLtJe">Symfony3 upgrade guide</a></p></li>
 <li><p><a href="http://buff.ly/1nhqhbV">Meteor.js: not new but better recheck :)</a></p></li>
-<li><p><a href="http://buff.ly/1nhq1JY">What’s wrong with Angular.js</a></p></li>
 <li><p><a href="http://buff.ly/1qG1b1s">Sharing micro-service authentication using Nginx, Passport and Redis Glozic</a></p></li>
 <li><p><a href="http://buff.ly/1vZdoon">5 Programming Languages Marked for Death</a></p></li>
 <li><p><a href="http://buff.ly/1sy17Xj">Amazon finally launched SSD storages for RDS</a></p></li>
@@ -152,7 +151,7 @@ has an handy command (dock) that plugs on top of your usual docker commands addi
 That&rsquo;s why on Tuesday evening we did an internal hackathon, we bootstrapped four open source projects that we are going to release soon, <br /> stay tuned!<br />
 <a href="http://tech.namshi.com/team/#Luciano%20Colosio">Lucio</a>, our Nodejs maniac, introduced the team to node&rsquo;s history:</p></blockquote>
 
-<p><img class="center" src="/images/posts/lucio-node-presentation.png" width="800" title="result" ></p>
+<p>{% img center /images/posts/lucio-node-presentation.png 800 result %}</p>
 
 <p>Below the usual list of interesting links we found this week:</p>
 

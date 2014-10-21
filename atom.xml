@@ -4,7 +4,7 @@
   <title><![CDATA[Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-10-16T14:33:56+04:00</updated>
+  <updated>2014-10-21T13:23:05+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -12,6 +12,600 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Welcome ES6 ! JavaScript is not fancy anymore]]></title>
+    <link href="http://namshi.github.io/blog/2014/10/19/welcome-es6-javascript-is-not-fancy-anymore/"/>
+    <updated>2014-10-19T12:04:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/10/19/welcome-es6-javascript-is-not-fancy-anymore</id>
+    <content type="html"><![CDATA[<blockquote><p><strong>21/10/2014 UPDATE:</strong> This post was updated ( see the new examples for arrow functions and template strings ).</p>
+
+<p>Thanks for the <a href="http://localhost:4000/blog/2014/10/19/welcome-es6-javascript-is-not-fancy-anymore/#disqus_thread">comments</a>
+and the <a href="http://www.reddit.com/r/javascript/comments/2jr72y/welcome_es6_javascript_is_not_fancy_anymore/">Reddit discussion</a>.</p></blockquote>
+
+<h2></h2>
+
+<p>For years, JavaScript was considered as a toy language. It was used for creating interactive web pages and could run only in the browser. But, things changed; JavaScript is used in both, the server and the browser these days. The simplicity of the language made it so popular that developers started using it for large and complex projects.</p>
+
+<p>However, new developers felt JavaScript was fancy at times. This was because of some of the known drawbacks in the language itself &mdash; and the workarounds put in place for fixing them. For example, a developer from a &ldquo;C&rdquo; language background is more familiar to block level scoping, but will have difficulties understanding function scoping in JavaScript. Along with lexical scoping, variable hoisting and closures might seem fancy or difficult to understand as well.</p>
+
+<!--more-->
+
+
+<p>ES6, the future version, is going to give a vast makeover to JavaScript. The <strong>TC39</strong> committee (responsible for ES6 standardization) have taken care of most of the concerns about JavaScript, and now ES6 is getting a lot of new features added, and existing bad parts fixed. If you want to know about the JavaScript good vs bad parts, check out Douglas Crockford’s book <a href="http://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742">JavaScript, the Good Parts</a>.</p>
+
+<p>This post is <strong>not</strong> about the complete ES6 feature-set. Here, we will see some of the areas of JavaScript that look fancy, and how they are getting improved in ES6.</p>
+
+<h2>ES6, all good parts?</h2>
+
+<p>Again, I am not saying ES6 has only good parts. To be honest, I don&rsquo;t know. ES6 is not completely ready for live applications. Design patterns will automatically evolve once the language is used extensively. Design patterns can distinguish between the good and bad parts.</p>
+
+<p>As of now, most ES6 features are not supported by browsers (as they’re in draft). We use transpiler tools to compile ES6 code to ES5. While there are many tools available, Google’s <a href="https://github.com/google/traceur-compiler">traceur</a> seems to be the most popular among them.</p>
+
+<h2>8 fancy things fixed in ES6</h2>
+
+<p>Here are some interesting improvements done in ES6:</p>
+
+<h3>Object.is for better comparison</h3>
+
+<p>New developers who learn JavaScript often stumble on the usage of <code>==</code> and <code>===</code>.  The <code>===</code> is a strict comparison operator where it checks the type of the operands also. For example, in this code:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="err">“</span><span class="mi">0</span><span class="err">”</span> <span class="o">==</span> <span class="mi">0</span>  <span class="c1">// true</span>
+</span><span class='line'>
+</span><span class='line'><span class="nx">but</span>
+</span><span class='line'>
+</span><span class='line'><span class="err">“</span><span class="mi">0</span><span class="err">”</span> <span class="o">===</span> <span class="mi">0</span> <span class="c1">// false</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>It is always recommended to use the <code>===</code> operator. However, there is an excepton to this; we cannot compare <code>NaN</code> using any of these operators. We need to use the global function <code>isNaN</code> to check if any variable has a <code>NaN</code> value or not.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kc">NaN</span> <span class="o">==</span> <span class="kc">NaN</span>  <span class="c1">// false</span>
+</span><span class='line'><span class="kc">NaN</span> <span class="o">===</span> <span class="kc">NaN</span>  <span class="c1">// false</span>
+</span><span class='line'>
+</span><span class='line'><span class="kd">var</span> <span class="nx">result</span> <span class="o">=</span> <span class="nx">isNan</span><span class="p">(</span><span class="kc">NaN</span><span class="p">)</span> <span class="c1">// true</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><code>Object.is</code> is an attempt to have a better comparison method. It is the same as the <code>===</code> operator, except it can compare <code>NaN</code> also.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="nb">Object</span><span class="p">.</span><span class="nx">is</span><span class="p">(</span><span class="mi">0</span> <span class="p">,</span><span class="err">”</span><span class="mi">0</span><span class="err">”</span><span class="p">)</span> <span class="c1">// false</span>
+</span><span class='line'><span class="nb">Object</span><span class="p">.</span><span class="nx">is</span><span class="p">(</span><span class="mi">0</span> <span class="p">,</span><span class="mi">0</span><span class="p">)</span> <span class="c1">// true</span>
+</span><span class='line'><span class="nb">Object</span><span class="p">.</span><span class="nx">is</span><span class="p">(</span><span class="kc">NaN</span><span class="p">,</span> <span class="kc">NaN</span><span class="p">)</span> <span class="c1">// true</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Let for block scoping.</h3>
+
+<p>As opposed to languages like &ldquo;C&rdquo;, JavaScript doesn&rsquo;t have block scoping. All variables inside a block are hoisted to its containing function (if any) or will be part of the global scope.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="k">if</span><span class="p">(</span><span class="kc">true</span><span class="p">){</span>
+</span><span class='line'>  <span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+</span><span class='line'>  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">a</span><span class="p">);</span> <span class="c1">// 10</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="c1">// outside the if block</span>
+</span><span class='line'><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">a</span><span class="p">);</span> <span class="c1">// a is accessible here also and prints 10</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Following is a popular example of this:</p>
+
+<p>Assume that we have 10 anchor tags in an html page. We need to alert the index of each anchor tag whenever it’s clicked. Now, look at the code below:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">anchors</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="err">“</span><span class="nx">a</span><span class="err">”</span><span class="p">);</span>
+</span><span class='line'><span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">i</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="nx">len</span><span class="o">=</span><span class="nx">anchors</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">&lt;</span><span class="nx">len</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">){</span>
+</span><span class='line'>    <span class="nx">anchors</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">onclick</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>        <span class="nx">alert</span><span class="p">(</span><span class="nx">i</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">};</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>If we think the above code works, we are wrong. It is the last value of <code>i</code> that is alerted. Here we will see <strong>10</strong> getting alerted.</p>
+
+<p>We use a <strong>closure</strong> to fix this problem. Using closure, we can bind the right value of <code>i</code> to the onClick handler. See the code below:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">anchors</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="err">“</span><span class="nx">a</span><span class="err">”</span><span class="p">);</span>
+</span><span class='line'><span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">i</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="nx">len</span><span class="o">=</span><span class="nx">anchors</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">&lt;</span><span class="nx">len</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">){</span>
+</span><span class='line'>    <span class="nx">anchors</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">onclick</span> <span class="o">=</span> <span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>        <span class="k">return</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>            <span class="nx">alert</span><span class="p">(</span><span class="nx">i</span><span class="p">);</span>
+</span><span class='line'>        <span class="p">};</span>
+</span><span class='line'>    <span class="p">})(</span><span class="nx">i</span><span class="p">);</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Having a closure in the above code makes it unreadable and totally fancy to a new developer. Now we know why the word <strong>&ldquo;fancy&rdquo;</strong> is here.</p>
+
+<p>ES6 introduces block scoping in JavaScript using the keyword <code>let</code>. If we write our first example, using <code>let</code>:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="k">if</span><span class="p">(</span><span class="kc">true</span><span class="p">){</span>
+</span><span class='line'>  <span class="kd">let</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">10</span><span class="p">;</span>
+</span><span class='line'>  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">a</span><span class="p">);</span> <span class="c1">// 10</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'><span class="c1">// outside the if block</span>
+</span><span class='line'><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">a</span><span class="p">)</span> <span class="c1">// Reference error: a is not defined</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><code>let</code> also binds the scope of the variable to the current block. In our second example, we can use <code>let</code> to solve the scoping problem:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">anchors</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="err">“</span><span class="nx">a</span><span class="err">”</span><span class="p">);</span>
+</span><span class='line'><span class="k">for</span><span class="p">(</span><span class="kd">let</span> <span class="nx">i</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="nx">len</span><span class="o">=</span><span class="nx">anchors</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">&lt;</span><span class="nx">len</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">){</span>
+</span><span class='line'>    <span class="nx">anchors</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">onclick</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>        <span class="nx">alert</span><span class="p">(</span><span class="nx">i</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'><span class="p">}</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Now the above code should work as expected.</p>
+
+<h3>Multi-line strings and string interpolations</h3>
+
+<p>Writing multiline strings is not so straightforward. The <code>\n</code> ( for newline ) has to be added where ever a line break is needed.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">myString</span> <span class="o">=</span> <span class="s1">&#39;Lorem ipsum \ndolor sit amet,\n\n\n consectetur adipisicing\n elit.&#39;</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>ES6 introduces <strong>template strings</strong> for creating multiline strings. In ES6, we can write the above example like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">myString</span> <span class="o">=</span> <span class="err">`</span><span class="nx">Lorem</span> <span class="nx">ipsum</span>
+</span><span class='line'>                <span class="nx">dolor</span> <span class="nx">sit</span> <span class="nx">amet</span><span class="p">,</span>
+</span><span class='line'>
+</span><span class='line'>                <span class="nx">consectetur</span> <span class="nx">adipisicing</span>
+</span><span class='line'>                <span class="nx">elit</span><span class="p">.</span><span class="err">`</span><span class="p">;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>So, here, we can use &ldquo;`&rdquo; (backtick) to create the strings.</p>
+
+<p>Another interesting usecase of the template strings is variable interpolation. There is no native variable interpolation in ES5, but can be achieved by regular expressions or by manually appending the variable to the string. For example:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="c1">// Using + operator </span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">name</span> <span class="o">=</span> <span class="s1">&#39;Tony&#39;</span><span class="p">;</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">age</span> <span class="o">=</span> <span class="mi">20</span><span class="p">;</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">greeting</span> <span class="o">=</span> <span class="s1">&#39;Hi, I am &#39;</span><span class="o">+</span><span class="nx">name</span><span class="o">+</span><span class="s1">&#39; and my age is &#39;</span><span class="o">+</span><span class="nx">age</span><span class="p">;</span>
+</span><span class='line'><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">greeting</span><span class="p">);</span> <span class="c1">// This prints &#39;Hi I am Tony and my age is 20&#39;</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">// Using regular expressions</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">greeting</span> <span class="o">=</span> <span class="s1">&#39;Hi, I am %name% and my age is %age%&#39;</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/%name%/g</span><span class="p">,</span><span class="nx">name</span><span class="p">).</span><span class="nx">replace</span><span class="p">(</span><span class="sr">/%age%/g</span><span class="p">,</span><span class="nx">age</span><span class="p">);</span>
+</span><span class='line'><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">greeting</span><span class="p">);</span> <span class="c1">// This prints &#39;Hi I am Tony and my age is 20&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>In ES6, the above code is really simplified, and can be written like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">name</span> <span class="o">=</span> <span class="s1">&#39;Tony&#39;</span><span class="p">;</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">age</span> <span class="o">=</span> <span class="mi">20</span><span class="p">;</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">greeting</span> <span class="o">=</span> <span class="err">`</span><span class="nx">Hi</span><span class="p">,</span> <span class="nx">I</span> <span class="nx">am</span> <span class="nx">$</span><span class="p">{</span><span class="nx">name</span><span class="p">}</span> <span class="nx">and</span> <span class="nx">my</span> <span class="nx">age</span> <span class="nx">is</span> <span class="nx">$</span><span class="p">{</span><span class="nx">age</span><span class="p">}</span><span class="err">`</span><span class="p">;</span>
+</span><span class='line'><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">greeting</span><span class="p">);</span> <span class="c1">// This prints &#39;Hi I am Tony and my age is 20&#39;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Fat Arrow functions for binding scope</h3>
+
+<p>Most new developers struggle to understand the <code>this</code> keyword in JavaScript. <code>this</code> is nothing but the execution context for a function, and for methods, <code>this</code> points to the object holding it. If the function is executed not as a method of an object, <code>this</code> will point to the global object (usually the window object).</p>
+
+<p><code>this</code> can be confusing many times. Look at the below example:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">name</span> <span class="o">=</span> <span class="s1">&#39;Tom&#39;</span><span class="p">;</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;Jerry&#39;</span><span class="p">,</span>
+</span><span class='line'>    <span class="nx">sayName</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">},</span>
+</span><span class='line'>    <span class="nx">greet</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>       <span class="nx">setTimeout</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>           <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Hi,&#39;</span> <span class="o">+</span> <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="p">);</span>
+</span><span class='line'>       <span class="p">},</span><span class="mi">100</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'><span class="p">};</span>
+</span><span class='line'><span class="nx">obj</span><span class="p">.</span><span class="nx">sayName</span><span class="p">();</span> <span class="c1">// logs Jerry</span>
+</span><span class='line'><span class="nx">obj</span><span class="p">.</span><span class="nx">greet</span><span class="p">();</span> <span class="c1">// logs Hi, Tom</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>When the <code>sayName</code> is executed as an object method, <code>this</code> was pointing to object itself, so <code>this.name</code> will output &ldquo;Jerry&rdquo;. Inside the <code>greet</code> function, a <code>setTimeout</code> is used for delaying the function execution. <code>setTimeout</code> will invoke the function in global context, hence <code>this</code> will point to the global object.</p>
+
+<p>We usually use <code>Function.bind</code> or <code>Function.call</code> or <code>Function.apply</code> to fix these kinds of problems.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">name</span> <span class="o">=</span> <span class="s1">&#39;Tom&#39;</span><span class="p">;</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;Jerry&#39;</span><span class="p">,</span>
+</span><span class='line'>    <span class="nx">sayName</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">},</span>
+</span><span class='line'>    <span class="nx">greet</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>       <span class="nx">setTimeout</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>           <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Hi,&#39;</span> <span class="o">+</span> <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="p">);</span>
+</span><span class='line'>       <span class="p">}.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">),</span><span class="mi">100</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'><span class="p">};</span>
+</span><span class='line'><span class="nx">obj</span><span class="p">.</span><span class="nx">sayName</span><span class="p">();</span> <span class="c1">// logs Jerry</span>
+</span><span class='line'><span class="nx">obj</span><span class="p">.</span><span class="nx">greet</span><span class="p">();</span> <span class="c1">// logs Hi, Jerry</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>ES6 added arrow functions to get rid of scoping issues. An arrow function will always lexically bind the <code>this</code> value to its surrounding environment. So the above code can be written in ES6 like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">name</span> <span class="o">=</span> <span class="s1">&#39;Tom&#39;</span><span class="p">;</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">obj</span> <span class="o">=</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">name</span><span class="o">:</span> <span class="s1">&#39;Jerry&#39;</span><span class="p">,</span>
+</span><span class='line'>    <span class="nx">sayName</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">},</span>
+</span><span class='line'>    <span class="nx">greet</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>       <span class="nx">setTimeout</span><span class="p">(</span> <span class="p">()</span><span class="o">=&gt;</span> <span class="p">{</span>
+</span><span class='line'>           <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Hi,&#39;</span> <span class="o">+</span> <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="p">);</span>
+</span><span class='line'>       <span class="p">},</span><span class="mi">100</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'><span class="p">};</span>
+</span><span class='line'><span class="nx">obj</span><span class="p">.</span><span class="nx">sayName</span><span class="p">();</span> <span class="c1">// logs Jerry</span>
+</span><span class='line'><span class="nx">obj</span><span class="p">.</span><span class="nx">greet</span><span class="p">();</span> <span class="c1">// logs Hi, Jerry</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Here, inside the arrow function, <code>this</code> always points to the parent scope <code>this</code> value.</p>
+
+<p><strong>Note:</strong> <em>Since the arrow function is already bound to its execution context, we cannot apply .bind(), .call() or .apply() methods on it again.</em></p>
+
+<h3>Destructuring</h3>
+
+<p>Destructuring is the process of assigning the property values of an object to a local variable. For example, in JavaScript, we can do this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">myGlobalConfig</span> <span class="o">=</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">apiUrl</span><span class="o">:</span> <span class="s1">&#39;www.google.com/api&#39;</span><span class="p">,</span>
+</span><span class='line'>    <span class="nx">data1</span><span class="o">:</span> <span class="s1">&#39;some value&#39;</span><span class="p">,</span>
+</span><span class='line'>    <span class="nx">data2</span><span class="o">:</span> <span class="s1">&#39;another value&#39;</span><span class="p">,</span>
+</span><span class='line'>    <span class="nx">methodType</span><span class="o">:</span> <span class="s1">&#39;POST&#39;</span>
+</span><span class='line'>    <span class="c1">// ... etc</span>
+</span><span class='line'><span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">// and in one of our functions</span>
+</span><span class='line'>
+</span><span class='line'><span class="kd">function</span> <span class="nx">makeAjaxRequest</span><span class="p">(</span><span class="nx">config</span><span class="p">){</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">url</span> <span class="o">=</span> <span class="nx">config</span><span class="p">.</span><span class="nx">url</span><span class="p">;</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">method</span> <span class="o">=</span> <span class="nx">config</span><span class="p">.</span><span class="nx">methodType</span><span class="p">;</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">data</span> <span class="o">=</span> <span class="nx">config</span><span class="p">.</span><span class="nx">data2</span><span class="p">;</span>
+</span><span class='line'>    <span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">(</span><span class="nx">url</span><span class="p">,</span> <span class="nx">method</span><span class="p">,</span> <span class="nx">data</span> <span class="p">);</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">// call makeAjaxRequest</span>
+</span><span class='line'><span class="nx">makeAjaxRequest</span><span class="p">(</span> <span class="nx">myGlobalConfig</span> <span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>In the above code, whenever a function requires arguments as multiple parameters, we need to extract values from our config object and pass them as parameters. This is a problem when we have a large number of values that need to be extracted.</p>
+
+<p>ES6 allows direct destructing assignments. So we can write the above example in a simple way, like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">myGlobalConfig</span> <span class="o">=</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">apiUrl</span><span class="o">:</span> <span class="s1">&#39;www.google.com/api&#39;</span><span class="p">,</span>
+</span><span class='line'>    <span class="nx">data1</span><span class="o">:</span> <span class="s1">&#39;some value&#39;</span><span class="p">,</span>
+</span><span class='line'>    <span class="nx">data2</span><span class="o">:</span> <span class="s1">&#39;another value&#39;</span><span class="p">,</span>
+</span><span class='line'>    <span class="nx">methodType</span><span class="o">:</span> <span class="s1">&#39;POST&#39;</span>
+</span><span class='line'>    <span class="c1">// ... etc</span>
+</span><span class='line'><span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">// and in one of our function</span>
+</span><span class='line'>
+</span><span class='line'><span class="kd">function</span> <span class="nx">makeAjaxRequest</span><span class="p">(</span><span class="nx">config</span><span class="p">){</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="p">{</span> <span class="nx">url</span><span class="p">,</span> <span class="nx">methodType</span><span class="p">,</span> <span class="nx">data2</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">config</span><span class="p">;</span>
+</span><span class='line'>    <span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">(</span><span class="nx">url</span><span class="p">,</span> <span class="nx">methodType</span><span class="p">,</span> <span class="nx">data2</span> <span class="p">);</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="c1">// call makeAjaxRequest</span>
+</span><span class='line'><span class="nx">makeAjaxRequest</span><span class="p">(</span> <span class="nx">myGlobalConfig</span> <span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Default Argument Values for Functions</h3>
+
+<p>One of the best features in ES6 is default arguments. As of now, we use the <code>||</code> to have default values for the function parameters. See the below code:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">myFunction</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">,</span> <span class="nx">c</span><span class="p">){</span>
+</span><span class='line'>    <span class="nx">a</span> <span class="o">=</span> <span class="nx">a</span> <span class="o">||</span> <span class="mi">10</span><span class="p">;</span>
+</span><span class='line'>    <span class="nx">b</span> <span class="o">=</span> <span class="nx">b</span> <span class="o">||</span> <span class="mi">5</span><span class="p">;</span>
+</span><span class='line'>    <span class="nx">c</span> <span class="o">=</span> <span class="nx">c</span> <span class="o">||</span> <span class="mi">8</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">return</span> <span class="nx">a</span><span class="o">*</span><span class="nx">b</span><span class="o">*</span><span class="nx">c</span><span class="p">;</span>
+</span><span class='line'><span class="p">};</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Here is the same code written in ES6:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">myFunction</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(</span><span class="nx">a</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="nx">b</span><span class="o">=</span><span class="mi">5</span><span class="p">,</span> <span class="nx">c</span><span class="o">=</span><span class="mi">8</span><span class="p">){</span>
+</span><span class='line'>    <span class="k">return</span> <span class="nx">a</span><span class="o">*</span><span class="nx">b</span><span class="o">*</span><span class="nx">c</span><span class="p">;</span>
+</span><span class='line'><span class="p">};</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>Object method shorthands</h3>
+
+<p>Look at the below object creation pattern. In this, all the public method/property of an object will have their own private counterparts. For example:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">myObject</span> <span class="o">=</span> <span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">sayName</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;this is sayname function&#39;</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">};</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">greet</span> <span class="o">=</span> <span class="s1">&#39;This is a greeting&#39;</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">return</span> <span class="p">{</span>
+</span><span class='line'>        <span class="nx">greet</span><span class="o">:</span> <span class="nx">greet</span><span class="p">,</span>
+</span><span class='line'>        <span class="nx">sayName</span><span class="o">:</span> <span class="nx">sayName</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'><span class="p">})();</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The above pattern is called <strong>Revealing module pattern</strong>. In ES6, it is much simplified by eliminating the column part. Thus, we can write the above code like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">myObject</span> <span class="o">=</span> <span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">sayName</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;this is sayname function&#39;</span><span class="p">);</span>
+</span><span class='line'>    <span class="p">};</span>
+</span><span class='line'>    <span class="kd">var</span> <span class="nx">greet</span> <span class="o">=</span> <span class="s1">&#39;This is a greeting&#39;</span><span class="p">;</span>
+</span><span class='line'>    <span class="k">return</span> <span class="p">{</span>
+</span><span class='line'>        <span class="nx">greet</span><span class="p">,</span>
+</span><span class='line'>        <span class="nx">sayName</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'><span class="p">})();</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<h3>The super keyword for invoking super class methods</h3>
+
+<p>JavaScript supports object oriented programming. But, implementing inheritance is tricky in JavaScript, as it is not supported natively. JavaScript even has the <code>super</code> keyword, however, it is not functional.</p>
+
+<p>Most of the JavaScript frameworks those implement inheritance have a pattern like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">myBaseObj</span> <span class="o">=</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">sayName</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>        <span class="c1">// .. do something</span>
+</span><span class='line'>    <span class="p">};</span>
+</span><span class='line'><span class="p">};</span>
+</span><span class='line'>
+</span><span class='line'><span class="kd">var</span> <span class="nx">mySubObj</span> <span class="o">=</span> <span class="nx">Framework</span><span class="p">.</span><span class="nx">extend</span><span class="p">(</span><span class="nx">myBaseObj</span><span class="p">,</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">sayName</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>        <span class="k">this</span><span class="p">.</span><span class="nx">_super</span><span class="p">.</span><span class="nx">apply</span><span class="p">(</span><span class="k">this</span><span class="p">,</span><span class="nx">arguments</span><span class="p">);</span>
+</span><span class='line'>        <span class="c1">// .. do something else</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'><span class="p">})</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>These frameworks use <code>_super</code> (or sometimes <code>uber</code>) to invoke the parent method. This is because, <code>super</code> was a reserved keyword (for the future) in JavaScript, and is not allowed for use as an identifier or method.</p>
+
+<p>Now, the &ldquo;future&rdquo; has come. JavaScript&rsquo;s <code>super</code> keyword has been implemented in ES6. Now let&rsquo;s see how inheritance can be done:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">myBaseObj</span> <span class="o">=</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">sayName</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>        <span class="c1">// .. do something</span>
+</span><span class='line'>    <span class="p">};</span>
+</span><span class='line'><span class="p">};</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">mySubObj</span> <span class="o">=</span> <span class="p">{</span>
+</span><span class='line'>    <span class="nx">__proto__</span><span class="o">:</span> <span class="nx">myBaseObj</span><span class="p">,</span>
+</span><span class='line'>    <span class="nx">sayName</span><span class="o">:</span> <span class="kd">function</span><span class="p">(){</span>
+</span><span class='line'>        <span class="kr">super</span><span class="p">.</span><span class="nx">sayName</span><span class="p">();</span>
+</span><span class='line'>        <span class="c1">// .. do something else</span>
+</span><span class='line'>    <span class="p">}</span>
+</span><span class='line'><span class="p">})</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Again, all these are just a small part of the ES6 feature-set. There are so many interesting features like Promises, Classes, Generator, Iterators, etc.</p>
+
+<h2>Summary</h2>
+
+<p>ES6 is the most promising version of JavaScript. It has so many features; features we were waiting for for years. ES6 will definitely help writing more modular and less quirky code in JavaScript.</p>
+
+<p>Here in this article, we have seen the problems with the current version of JavaScript, and how ES6 fixes the problems and the workarounds. Now, the entire ES6 feature-set is beyond the scope of this post, for that you can check out these awesome resources.</p>
+
+<ul>
+<li><a href="https://github.com/lukehoban/es6features">https://github.com/lukehoban/es6features</a></li>
+<li><a href="https://github.com/ericdouglas/ES6-Learning">https://github.com/ericdouglas/ES6-Learning</a></li>
+<li><a href="http://espadrine.github.io/New-In-A-Spec/es6/">http://espadrine.github.io/New-In-A-Spec/es6/</a></li>
+<li><a href="http://tc39wiki.calculist.org/es6/">http://tc39wiki.calculist.org/es6/</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Newsletter #60]]></title>
@@ -56,7 +650,6 @@ the <a href="http://europe.dockercon.com/">Docker Europe conference in December<
 <li><p><a href="http://buff.ly/1nj1bcv">Loading webfonts with high performance on responsive websites</a></p></li>
 <li><p><a href="http://buff.ly/1xGLtJe">Symfony3 upgrade guide</a></p></li>
 <li><p><a href="http://buff.ly/1nhqhbV">Meteor.js: not new but better recheck :)</a></p></li>
-<li><p><a href="http://buff.ly/1nhq1JY">What’s wrong with Angular.js</a></p></li>
 <li><p><a href="http://buff.ly/1qG1b1s">Sharing micro-service authentication using Nginx, Passport and Redis Glozic</a></p></li>
 <li><p><a href="http://buff.ly/1vZdoon">5 Programming Languages Marked for Death</a></p></li>
 <li><p><a href="http://buff.ly/1sy17Xj">Amazon finally launched SSD storages for RDS</a></p></li>
@@ -1608,71 +2201,6 @@ bigger in our stack.</p>
 <p>Finally you need to consider some stuff before start using <code>Generator</code>, beware that once it get consumed you cannot reset it, you will need to recall it again.</p>
 
 <p>Also keep resources like db connection and file stream busy on the <code>Generator</code> function could be a problem if you are heavily use this resources and you need to release it as soon as possible.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Newsletter #53]]></title>
-    <link href="http://namshi.github.io/blog/2014/08/28/newsletter-number-53/"/>
-    <updated>2014-08-28T16:11:00+04:00</updated>
-    <id>http://namshi.github.io/blog/2014/08/28/newsletter-number-53</id>
-    <content type="html"><![CDATA[<blockquote><p><strong>BOOM!</strong> As mentioned in the last newsletter, we were working on four new open souce libraries and two of them are already out !!!</p>
-
-<ul>
-<li><p><a href="https://github.com/namshi/shisha"><strong>shisha, smoke tests made easy!</strong></a> A cool nodejs library by <a href="http://tech.namshi.com/team/#Shidhin%20CR">Shidhin</a> and <a href="http://tech.namshi.com/team/#Mohamad%20Hallal">Hallal</a> that let&rsquo;s you
-write smoke tests in an easy way.</p></li>
-<li><p><a href="https://github.com/namshi/node-dock"><strong>node-dock, a sweet remedy for all your docker problems!</strong></a> Another node library by <a href="http://tech.namshi.com/team/#Hossam%20Faris">Hossam</a> and <a href="http://tech.namshi.com/team/##Luciano%20Colosio">Lucio</a> that
-has an handy command (dock) that plugs on top of your usual docker commands adding some sugar and some handy functionality on top of it.</p></li>
-<li><p>Even <a href="http://tech.namshi.com/team/#Alessandro%20Nadalin">Alex</a> released another tiny and cool node lib called <a href="http://tech.namshi.com/blog/2014/08/22/node-file-ensure-a-small-filesystem-utility-to-make-sure-a-file-is-there/"><strong>node-file-ensure</strong>, a small filesystem utility to make sure a file is there</a></p></li>
-<li><p>Lucio also wrote a post detailing his first months here at Namshi: <a href="http://tech.namshi.com/blog/2014/08/27/so-far-dot-dot-dot-so-fun/">check it out</a>!</p></li>
-<li><p>Last but not least, <a href="http://tech.namshi.com/team/#Geshan%20Manandhar">Geshan</a> on his vacation back home, has improvised this talk at PHP Developers Meetup Nepal on message queues (AMQP) with RabbitMQ and Symfony <a href="http://mq-talk.herokuapp.com/">http://mq-talk.herokuapp.com/</a></p></li>
-</ul>
-</blockquote>
-
-<p>And here we are as usual with a list of interesting links to keep you busy during the upcoming weekend:</p>
-
-<ul>
-<li><p><a href="https://github.com/OptimalBits/redbird">A modern reverse proxy for node</a></p></li>
-<li><p><a href="http://buff.ly/1nEYH2M">Open Source ain’t Charity</a></p></li>
-<li><p><a href="https://speakerdeck.com/patrickhamann/ship-it-re-develop-conference-august-2014">Ship it! A story of continuous delivery at theguardian.com</a></p></li>
-<li><p><a href="https://www.gov.uk/service-manual/agile/running-retrospectives.html">Reviewing a team&rsquo;s work and the way it is done at Gov.uk Design Services</a></p></li>
-<li><p><a href="http://buff.ly/1wDTrGe">Plain Old #JavaScript Object Visualization</a></p></li>
-</ul>
-
-
-<!-- more -->
-
-
-<ul>
-<li><p><a href="http://t.co/eDh0CeQYpA">Stop whatever you are doing and look at p6 of this paper</a></p></li>
-<li><p><a href="http://buff.ly/1lrfCus">Rocket Internet co-founder sees venture take off in Middle East</a></p></li>
-<li><p><a href="http://buff.ly/1q9KvDq">V8&rsquo;s memory mysteries</a></p></li>
-<li><p><a href="http://buff.ly/1sh7Lhn">49ers’ stadium Wi-Fi served 25,000 concurrent users, 2.13TB in all</a></p></li>
-<li><p><a href="http://buff.ly/1mA3a6D">Software Developers and Asperger&rsquo;s Syndrome</a></p></li>
-<li><p><a href="http://buff.ly/1v8pUmg">Docker Service Discovery Using Etcd and Haproxy</a></p></li>
-<li><p><a href="http://buff.ly/1tqNB7a">Stellar: Fast database snapshot and restore tool for development</a></p></li>
-<li><p><a href="http://buff.ly/1seRoll">Javascript optimization killers</a></p></li>
-<li><p><a href="http://buff.ly/1mz2vlT">How I Hacked My Husband&rsquo;s Programming Addiction</a></p></li>
-<li><p><a href="http://mq-talk.herokuapp.com/#/14">programmming mantras to remember</a></p></li>
-<li><p><a href="http://buff.ly/1myYCxx">Facebook Unveils Its Load-Balancing System: Autoscale</a></p></li>
-<li><p><a href="http://buff.ly/1wiCeln">Docker 1.2.0, with restart policies</a></p></li>
-<li><p><a href="http://buff.ly/1lmw8vT">Semantic Versioning Is Not the Solution</a></p></li>
-<li><p><a href="http://buff.ly/1mtjtSS">The Plague of Methods and Frameworks</a></p></li>
-<li><p><a href="http://buff.ly/1s2pxot">Evolution of Docker and Its Impact on AWS &ndash; i build the cloud</a></p></li>
-<li><p><a href="http://buff.ly/1s2p4Cu">Uber opens up its API – and creates a new platform</a></p></li>
-<li><p><a href="https://www.glasswire.com">GlassWire Network Security Monitor &amp; Firewall Tool</a></p></li>
-<li><p><a href="https://netguru.co/blog/posts/procrastination-and-overcoming-programmers-block">Procrastination and Overcoming Programmer&rsquo;s Block</a></p></li>
-<li><p><a href="http://algorithm.dk/posts/rtfm-0day-in-ios-apps-g-gmail-fb-messenger-etc">RTFM 0day in iOS apps: G+, Gmail, FB Messenger</a></p></li>
-<li><p><a href="http://www.codefights.com">CodeFights &ndash; Become a Code Champion</a></p></li>
-<li><p><a href="http://hoa-project.net/En/">Hoa project, a cool set of PHP lib (they deserve more community involvement &ndash; i.e. tests are missing, own standards)</a></p></li>
-<li><p><a href="http://code.tutsplus.com/tutorials/bubblejs-a-16k-solution-to-a-common-problem--cms-21986">Bubble.js: A 1.6K Solution to a Common Problem</a></p></li>
-<li><p><a href="http://knplabs.com/blog/2011/05/17/agile-nodejs/">We love Symfony2… but we also love Agility and Node.js</a></p></li>
-<li><p><a href="http://www.codeproject.com/Articles/604417/Agile-software-development-methodologies-and-how-t">Agile software development methodologies and how to apply them</a></p></li>
-<li><p><a href="http://lafikl.github.io/perfBar/">website performance metrics</a></p></li>
-<li><p><a href="https://github.com/OptimalBits/redbird">A modern reverse proxy for node</a></p></li>
-<li><p><a href="http://mobileangularui.com/">Mobile Angular UI</a></p></li>
-</ul>
-
 ]]></content>
   </entry>
   
