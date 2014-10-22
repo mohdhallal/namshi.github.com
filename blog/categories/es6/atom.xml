@@ -4,7 +4,7 @@
   <title><![CDATA[Category: ES6 | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/es6/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-10-21T13:23:40+04:00</updated>
+  <updated>2014-10-22T18:32:13+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -110,7 +110,7 @@ If we think the above code works, we are wrong. It is the last value of</code>i`
 var anchors = document.getElementsByTagName(“a”);
 for(var i=0,len=anchors.length; i&lt;len; i++){</p>
 
-<pre><code>anchors[i].onclick = (function(){
+<pre><code>anchors[i].onclick = (function(i){
     return function(){
         alert(i);
     };
