@@ -4,7 +4,7 @@
   <title><![CDATA[Category: conference | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-10-22T18:32:13+04:00</updated>
+  <updated>2014-10-27T10:09:09+01:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[What went down at SymfonyLive London?]]></title>
     <link href="http://namshi.github.io/blog/2014/10/02/what-went-down-at-symfonylive-london/"/>
-    <updated>2014-10-02T12:26:00+04:00</updated>
+    <updated>2014-10-02T12:26:00+02:00</updated>
     <id>http://namshi.github.io/blog/2014/10/02/what-went-down-at-symfonylive-london</id>
     <content type="html"><![CDATA[<p><img class="center" src="/images/symfonylive.png" width="640" height="640" title="&lsquo;SymfonyLive&rsquo; &lsquo;SymfonyLive&rsquo;" >
 SymfonyLive London 2014 concluded with top-notch presentations from Symfony and industry gurus. It was an exceptional
@@ -131,7 +131,7 @@ a PaaS, and how it contributes to this fact by providing out of the box system s
   <entry>
     <title type="html"><![CDATA[Design, Architecture and Code on the edge @Confoo]]></title>
     <link href="http://namshi.github.io/blog/2014/09/22/coding-on-the-edge-at-confoo/"/>
-    <updated>2014-09-22T09:01:00+04:00</updated>
+    <updated>2014-09-22T09:01:00+02:00</updated>
     <id>http://namshi.github.io/blog/2014/09/22/coding-on-the-edge-at-confoo</id>
     <content type="html"><![CDATA[<p>At Namshi we run a product that needs to evolve quickly and be ready to change: new features and
 technologies are integrated every week to be able to keep up to date with the market and the technology around us.
@@ -166,7 +166,7 @@ If you are looking for sharp and engaging sessions, <strong>these are definitely
   <entry>
     <title type="html"><![CDATA[Interested in the history of NodeJS? Then let's hear it from Lucio at the ConFoo]]></title>
     <link href="http://namshi.github.io/blog/2014/09/20/interested-in-the-history-of-nodejs-then-lets-hear-it-from-lucio-at-the-confoo/"/>
-    <updated>2014-09-20T22:37:00+04:00</updated>
+    <updated>2014-09-20T22:37:00+02:00</updated>
     <id>http://namshi.github.io/blog/2014/09/20/interested-in-the-history-of-nodejs-then-lets-hear-it-from-lucio-at-the-confoo</id>
     <content type="html"><![CDATA[<p>Not really hard to believe, NodeJS is a beloved one among
 the plethora of technologies that we use at <a href="https://namshi.com">Namshi</a>;
@@ -201,7 +201,7 @@ that you treat the Event Loop responsibly :)</p>
   <entry>
     <title type="html"><![CDATA[Stop using crons, start listening to Geshan]]></title>
     <link href="http://namshi.github.io/blog/2014/09/20/stop-using-crons-start-listening-to-geshan/"/>
-    <updated>2014-09-20T12:15:00+04:00</updated>
+    <updated>2014-09-20T12:15:00+02:00</updated>
     <id>http://namshi.github.io/blog/2014/09/20/stop-using-crons-start-listening-to-geshan</id>
     <content type="html"><![CDATA[<p><a href="/team#Geshan%20Manandhar">Geshan</a> has decided
 he can&rsquo;t stand seeing people struggling with
@@ -233,7 +233,7 @@ gazilions of messages in Canada!</p>
   <entry>
     <title type="html"><![CDATA[Wanna hear about SOA and how we deal with APIs? Then vote for cirpo!]]></title>
     <link href="http://namshi.github.io/blog/2014/09/16/wanna-hear-about-soa-and-how-we-deal-with-apis-then-vote-for-cirpo/"/>
-    <updated>2014-09-16T09:02:00+04:00</updated>
+    <updated>2014-09-16T09:02:00+02:00</updated>
     <id>http://namshi.github.io/blog/2014/09/16/wanna-hear-about-soa-and-how-we-deal-with-apis-then-vote-for-cirpo</id>
     <content type="html"><![CDATA[<p>Aaaaand following our first announcement
 regarding <a href="/blog/2014/09/10/what-is-frontend-first-lets-hear-it-at-the-next-edition-of-the-confoo/">&ldquo;conquering&rdquo; the ConFoo</a>,

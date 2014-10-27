@@ -4,7 +4,7 @@
   <title><![CDATA[Category: oss | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/oss/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-10-22T18:32:13+04:00</updated>
+  <updated>2014-10-27T10:09:09+01:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Newsletter #60]]></title>
     <link href="http://namshi.github.io/blog/2014/10/16/newsletter-number-60/"/>
-    <updated>2014-10-16T12:52:00+04:00</updated>
+    <updated>2014-10-16T12:52:00+02:00</updated>
     <id>http://namshi.github.io/blog/2014/10/16/newsletter-number-60</id>
     <content type="html"><![CDATA[<p>Hello, It&rsquo;s <a href="/blog/categories/techthursday/">#TechThursday</a> at <a href="http://twitter.com/techNamshi">#namshi</a>!</p>
 
@@ -80,7 +80,7 @@ the <a href="http://europe.dockercon.com/">Docker Europe conference in December<
   <entry>
     <title type="html"><![CDATA[Newsletter #53]]></title>
     <link href="http://namshi.github.io/blog/2014/08/28/newsletter-number-53/"/>
-    <updated>2014-08-28T16:11:00+04:00</updated>
+    <updated>2014-08-28T16:11:00+02:00</updated>
     <id>http://namshi.github.io/blog/2014/08/28/newsletter-number-53</id>
     <content type="html"><![CDATA[<blockquote><p><strong>BOOM!</strong> As mentioned in the last newsletter, we were working on four new open souce libraries and two of them are already out !!!</p>
 
@@ -145,7 +145,7 @@ has an handy command (dock) that plugs on top of your usual docker commands addi
   <entry>
     <title type="html"><![CDATA[Newsletter #52]]></title>
     <link href="http://namshi.github.io/blog/2014/08/21/newsletter-number-52/"/>
-    <updated>2014-08-21T12:37:00+04:00</updated>
+    <updated>2014-08-21T12:37:00+02:00</updated>
     <id>http://namshi.github.io/blog/2014/08/21/newsletter-number-52</id>
     <content type="html"><![CDATA[<blockquote><p>As you know the IT team loves opensource and the idea <a href="http://github.com/namshi">to give back to the &ldquo;community&rdquo;</a>! <br />
 That&rsquo;s why on Tuesday evening we did an internal hackathon, we bootstrapped four open source projects that we are going to release soon, <br /> stay tuned!<br />

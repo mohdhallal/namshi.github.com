@@ -4,7 +4,7 @@
   <title><![CDATA[Category: npm, | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/npm/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-10-22T18:32:13+04:00</updated>
+  <updated>2014-10-27T10:09:09+01:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Shisha, smoke test those URLs!]]></title>
     <link href="http://namshi.github.io/blog/2014/09/17/shisha-smoke-test-those-urls/"/>
-    <updated>2014-09-17T10:00:00+04:00</updated>
+    <updated>2014-09-17T10:00:00+02:00</updated>
     <id>http://namshi.github.io/blog/2014/09/17/shisha-smoke-test-those-urls</id>
     <content type="html"><![CDATA[<p>Here comes Shisha! Yet another NodeJs based application from Namshi! Shisha is a smoke testing module,
 what is smoke testing? Read about it <a href="http://en.wikipedia.org/wiki/Smoke_testing_(software)">here</a>.

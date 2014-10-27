@@ -4,7 +4,7 @@
   <title><![CDATA[Category: generators | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/generators/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-10-22T18:32:13+04:00</updated>
+  <updated>2014-10-27T10:09:09+01:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[PHP Generators explained]]></title>
     <link href="http://namshi.github.io/blog/2014/08/31/php-generators-explained/"/>
-    <updated>2014-08-31T13:05:00+04:00</updated>
+    <updated>2014-08-31T13:05:00+02:00</updated>
     <id>http://namshi.github.io/blog/2014/08/31/php-generators-explained</id>
     <content type="html"><![CDATA[<p><code>Generators</code> are one of the new cool stuff on <code>PHP 5.5</code>, but it&rsquo;s not a new feature in software programming languages, for example it&rsquo;s on <code>Python</code> since version 2.2 on 2001 and now in the draft <code>ECMAScript</code> 6  (Javascript) specification.</p>
 

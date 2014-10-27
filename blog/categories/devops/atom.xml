@@ -4,7 +4,7 @@
   <title><![CDATA[Category: DevOps | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/devops/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-10-22T18:32:13+04:00</updated>
+  <updated>2014-10-27T10:09:09+01:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[5 DevOps practices you should consider starting today]]></title>
     <link href="http://namshi.github.io/blog/2014/09/01/5-devops-practices-you-should-consider-starting-today/"/>
-    <updated>2014-09-01T09:33:00+04:00</updated>
+    <updated>2014-09-01T09:33:00+02:00</updated>
     <id>http://namshi.github.io/blog/2014/09/01/5-devops-practices-you-should-consider-starting-today</id>
     <content type="html"><![CDATA[<p>DevOps simply stresses on communication, collaboration and integration between software developers and information technology (IT) operations professionals a.k.a sys admins. it&rsquo;s goal is to support automation and maximize predictability, efficiency, security and maintainability of operational processes, meaning you can deploy 5 times on production on the same day with confidence that all systems will be fully operational. This post is moreover a software enginner&rsquo;s point of view on the DevOps side.</p>
 

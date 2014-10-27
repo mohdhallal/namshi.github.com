@@ -4,7 +4,7 @@
   <title><![CDATA[Category: community | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/community/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-10-22T18:32:13+04:00</updated>
+  <updated>2014-10-27T10:09:09+01:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Wanna hear about SOA and how we deal with APIs? Then vote for cirpo!]]></title>
     <link href="http://namshi.github.io/blog/2014/09/16/wanna-hear-about-soa-and-how-we-deal-with-apis-then-vote-for-cirpo/"/>
-    <updated>2014-09-16T09:02:00+04:00</updated>
+    <updated>2014-09-16T09:02:00+02:00</updated>
     <id>http://namshi.github.io/blog/2014/09/16/wanna-hear-about-soa-and-how-we-deal-with-apis-then-vote-for-cirpo</id>
     <content type="html"><![CDATA[<p>Aaaaand following our first announcement
 regarding <a href="/blog/2014/09/10/what-is-frontend-first-lets-hear-it-at-the-next-edition-of-the-confoo/">&ldquo;conquering&rdquo; the ConFoo</a>,
@@ -53,7 +53,7 @@ regret it!</p>
   <entry>
     <title type="html"><![CDATA[What is frontend-first? Lets hear it at the next edition of the Confoo]]></title>
     <link href="http://namshi.github.io/blog/2014/09/10/what-is-frontend-first-lets-hear-it-at-the-next-edition-of-the-confoo/"/>
-    <updated>2014-09-10T00:22:00+04:00</updated>
+    <updated>2014-09-10T00:22:00+02:00</updated>
     <id>http://namshi.github.io/blog/2014/09/10/what-is-frontend-first-lets-hear-it-at-the-next-edition-of-the-confoo</id>
     <content type="html"><![CDATA[<p>Just a heads up that we will have quite a few attempt
 at &ldquo;conquering&rdquo; canada&rsquo;s hottest tech conference, and the
@@ -79,7 +79,7 @@ like <a href="https://github.com/namshi/mockserver">mockserver</a>.</p>
   <entry>
     <title type="html"><![CDATA[A bit of Namshi at the Symfony Live this month!]]></title>
     <link href="http://namshi.github.io/blog/2014/09/08/a-bit-of-namshi-at-the-symfony-live-this-month/"/>
-    <updated>2014-09-08T21:41:00+04:00</updated>
+    <updated>2014-09-08T21:41:00+02:00</updated>
     <id>http://namshi.github.io/blog/2014/09/08/a-bit-of-namshi-at-the-symfony-live-this-month</id>
     <content type="html"><![CDATA[<p>Pretty excited that we are going to be present
 at the <a href="http://london2014.live.symfony.com/">Symfony Live</a>
@@ -108,7 +108,7 @@ and seeing a new place!</p>
   <entry>
     <title type="html"><![CDATA[jsDay and phpDay recap]]></title>
     <link href="http://namshi.github.io/blog/2014/05/25/jsday-phpday-recap/"/>
-    <updated>2014-05-25T19:33:00+04:00</updated>
+    <updated>2014-05-25T19:33:00+02:00</updated>
     <id>http://namshi.github.io/blog/2014/05/25/jsday-phpday-recap</id>
     <content type="html"><![CDATA[<p><img class="center" src="/images/posts/rasmus-namshi-scaled.png" width="800" title="&lsquo;Rasmus Lerdorf &ndash; Namshi team&rsquo; &lsquo;Rasmus Lerdorf with the Namshi team&rsquo;" ></p>
 

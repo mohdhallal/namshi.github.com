@@ -4,7 +4,7 @@
   <title><![CDATA[Category: NodeJS | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-10-22T18:32:13+04:00</updated>
+  <updated>2014-10-27T10:09:09+01:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Interested in the history of NodeJS? Then let's hear it from Lucio at the ConFoo]]></title>
     <link href="http://namshi.github.io/blog/2014/09/20/interested-in-the-history-of-nodejs-then-lets-hear-it-from-lucio-at-the-confoo/"/>
-    <updated>2014-09-20T22:37:00+04:00</updated>
+    <updated>2014-09-20T22:37:00+02:00</updated>
     <id>http://namshi.github.io/blog/2014/09/20/interested-in-the-history-of-nodejs-then-lets-hear-it-from-lucio-at-the-confoo</id>
     <content type="html"><![CDATA[<p>Not really hard to believe, NodeJS is a beloved one among
 the plethora of technologies that we use at <a href="https://namshi.com">Namshi</a>;
@@ -51,7 +51,7 @@ that you treat the Event Loop responsibly :)</p>
   <entry>
     <title type="html"><![CDATA[node-file-ensure, a small filesystem utility to make sure a file is there]]></title>
     <link href="http://namshi.github.io/blog/2014/08/22/node-file-ensure-a-small-filesystem-utility-to-make-sure-a-file-is-there/"/>
-    <updated>2014-08-22T19:42:00+04:00</updated>
+    <updated>2014-08-22T19:42:00+02:00</updated>
     <id>http://namshi.github.io/blog/2014/08/22/node-file-ensure-a-small-filesystem-utility-to-make-sure-a-file-is-there</id>
     <content type="html"><![CDATA[<p>This weekend we&rsquo;ve come up with a small utility
 that will make our life easier, and hopefully <strong>yours</strong>
@@ -154,7 +154,7 @@ an <a href="https://github.com/namshi/node-file-ensure/issues">issue on GitHub</
   <entry>
     <title type="html"><![CDATA[Newsletter #46]]></title>
     <link href="http://namshi.github.io/blog/2014/07/10/newsletter-number-46/"/>
-    <updated>2014-07-10T10:07:00+04:00</updated>
+    <updated>2014-07-10T10:07:00+02:00</updated>
     <id>http://namshi.github.io/blog/2014/07/10/newsletter-number-46</id>
     <content type="html"><![CDATA[<p>As usual, it&rsquo;s #TechThursday!</p>
 
@@ -220,7 +220,7 @@ resources over the past weeK:</p>
   <entry>
     <title type="html"><![CDATA[ClusterJS, clusterify your NodeJS applications and achieve zero-downtime deployments]]></title>
     <link href="http://namshi.github.io/blog/2014/06/27/clusterjs-clusterify-your-nodejs-applications-and-achieve-zero-downtime-deployments/"/>
-    <updated>2014-06-27T00:45:00+04:00</updated>
+    <updated>2014-06-27T00:45:00+02:00</updated>
     <id>http://namshi.github.io/blog/2014/06/27/clusterjs-clusterify-your-nodejs-applications-and-achieve-zero-downtime-deployments</id>
     <content type="html"><![CDATA[<p>NodeJS has a very nice built-in support for clusters
 through its native <a href="http://nodejs.org/api/cluster.html">cluster module</a>:
