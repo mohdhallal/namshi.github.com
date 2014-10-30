@@ -4,7 +4,7 @@
   <title><![CDATA[Category: conference | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/conference/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-10-27T10:09:09+01:00</updated>
+  <updated>2014-10-30T09:06:09+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -14,9 +14,50 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Namshi went to Germany!<br>WebTechCon and International PHPConference 2014]]></title>
+    <link href="http://namshi.github.io/blog/2014/10/30/ipc14-wtc14-munich/"/>
+    <updated>2014-10-30T06:51:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/10/30/ipc14-wtc14-munich</id>
+    <content type="html"><![CDATA[<p><img class="left" src="/images/posts/webtech14-ipc14.png" width="320" height="320" title="&lsquo;WebTechCon&rsquo; &lsquo;WebTechCon&rsquo;" ></p>
+
+<p>I had the opportunity to attend as speaker the <a href="http://webtechcon.de/2014/">WebTechCon</a> and the <a href="https://phpconference.com/2014">International PHPConference 2014</a> in Munich, Germany.
+The location was very nice and, beeing a foodie, the food was great :).</p>
+
+<p>The only complain I have is that in 2014 Tech conference should be in English: I missed a lot of potentially great talks because they were in German.</p>
+
+<p>The International PHP Conference is the world&rsquo;s first PHP conference and stands since more than a decade while the WebTechCon is taking place
+since the last 5 years.
+The fact that you have these two events combined confirms the trend of horizontal events rather than focusing on just
+one technology or product.
+Lots of different topics were covered: PHP, Javascript, HTML5, AngularJs, databases, devops, systems, automation, archtecture etc.</p>
+
+<p>The concept of an heterogeneous technologies integration was addressed during the opening keynote and was a topic covered in many talk, mine were no exception.</p>
+
+<p>I presented two talks: <a href="http://www.slideshare.net/cirpo/don-t-screw-it-up-how-to-build-durable-api">&ldquo;Don&rsquo;t screw it up! How to build durable API&rdquo;</a> and <a href="http://www.slideshare.net/cirpo/php-is-the-king-nodejs-is-the-prince-and-lua-is-the-fool">&ldquo;PHP is the king, nodejs the prince and Lua the fool&rdquo;</a>.</p>
+
+<p>Both talks are based on the experience  at Namshi building our current service oriented architecture and API and how our stack is evolving.</p>
+
+<iframe src="http://namshi.github.io//www.slideshare.net/slideshow/embed_code/40808376" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> </div></p>
+
+<iframe src="http://namshi.github.io//www.slideshare.net/slideshow/embed_code/40818800" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px">  </div></p>
+
+<p>At Namshi we believe that attending conferences and meetups is a very important occasion that helps the team and the individual developer to grow.
+It&rsquo;s a great opportunity to understand what&rsquo;s going on in our field and meet other great developers.</p>
+
+<p>What&rsquo;s next? If you&rsquo;re attending <a href="http://madrid2014.symfony.com/">SymfonyCon Madrid</a>, don&rsquo;t miss <a href="http://madrid2014.symfony.com/speakers">&ldquo;Hey, I just met AngularJS, and this is crazy, so here’s my JavaScript, let’s use it maybe&rdquo;</a> by <a href="http://tech.namshi.com/team/#Alessandro%20Nadalin">Alex</a>!</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[What went down at SymfonyLive London?]]></title>
     <link href="http://namshi.github.io/blog/2014/10/02/what-went-down-at-symfonylive-london/"/>
-    <updated>2014-10-02T12:26:00+02:00</updated>
+    <updated>2014-10-02T12:26:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/10/02/what-went-down-at-symfonylive-london</id>
     <content type="html"><![CDATA[<p><img class="center" src="/images/symfonylive.png" width="640" height="640" title="&lsquo;SymfonyLive&rsquo; &lsquo;SymfonyLive&rsquo;" >
 SymfonyLive London 2014 concluded with top-notch presentations from Symfony and industry gurus. It was an exceptional
@@ -131,7 +172,7 @@ a PaaS, and how it contributes to this fact by providing out of the box system s
   <entry>
     <title type="html"><![CDATA[Design, Architecture and Code on the edge @Confoo]]></title>
     <link href="http://namshi.github.io/blog/2014/09/22/coding-on-the-edge-at-confoo/"/>
-    <updated>2014-09-22T09:01:00+02:00</updated>
+    <updated>2014-09-22T09:01:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/09/22/coding-on-the-edge-at-confoo</id>
     <content type="html"><![CDATA[<p>At Namshi we run a product that needs to evolve quickly and be ready to change: new features and
 technologies are integrated every week to be able to keep up to date with the market and the technology around us.
@@ -166,7 +207,7 @@ If you are looking for sharp and engaging sessions, <strong>these are definitely
   <entry>
     <title type="html"><![CDATA[Interested in the history of NodeJS? Then let's hear it from Lucio at the ConFoo]]></title>
     <link href="http://namshi.github.io/blog/2014/09/20/interested-in-the-history-of-nodejs-then-lets-hear-it-from-lucio-at-the-confoo/"/>
-    <updated>2014-09-20T22:37:00+02:00</updated>
+    <updated>2014-09-20T22:37:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/09/20/interested-in-the-history-of-nodejs-then-lets-hear-it-from-lucio-at-the-confoo</id>
     <content type="html"><![CDATA[<p>Not really hard to believe, NodeJS is a beloved one among
 the plethora of technologies that we use at <a href="https://namshi.com">Namshi</a>;
@@ -201,7 +242,7 @@ that you treat the Event Loop responsibly :)</p>
   <entry>
     <title type="html"><![CDATA[Stop using crons, start listening to Geshan]]></title>
     <link href="http://namshi.github.io/blog/2014/09/20/stop-using-crons-start-listening-to-geshan/"/>
-    <updated>2014-09-20T12:15:00+02:00</updated>
+    <updated>2014-09-20T12:15:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/09/20/stop-using-crons-start-listening-to-geshan</id>
     <content type="html"><![CDATA[<p><a href="/team#Geshan%20Manandhar">Geshan</a> has decided
 he can&rsquo;t stand seeing people struggling with
@@ -227,43 +268,6 @@ and form his own opinion.</p>
 
 <p>Well done Geshan, we hope to hear how Namshi handles
 gazilions of messages in Canada!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Wanna hear about SOA and how we deal with APIs? Then vote for cirpo!]]></title>
-    <link href="http://namshi.github.io/blog/2014/09/16/wanna-hear-about-soa-and-how-we-deal-with-apis-then-vote-for-cirpo/"/>
-    <updated>2014-09-16T09:02:00+02:00</updated>
-    <id>http://namshi.github.io/blog/2014/09/16/wanna-hear-about-soa-and-how-we-deal-with-apis-then-vote-for-cirpo</id>
-    <content type="html"><![CDATA[<p>Aaaaand following our first announcement
-regarding <a href="/blog/2014/09/10/what-is-frontend-first-lets-hear-it-at-the-next-edition-of-the-confoo/">&ldquo;conquering&rdquo; the ConFoo</a>,
-as promised, we go ahead with the second
-charge!</p>
-
-<!-- more -->
-
-
-<p><img class="team right" src="/images/cirpo.jpg"></p>
-
-<p><a href="/team">Cirpo</a> has decided to capitalize on
-the opportunity of being in the cold lands of
-Canada to offer <strong>a few</strong> learning opportunities
-for the attendees, as
-<a href="http://confoo.ca/en/call-for-papers/speaker/alessandro-cinelli">the list of his proposals</a>
-is quite long and impressive.</p>
-
-<p>If you are willing to hear how we do web services
-and how we integrated an <strong>API-first</strong> approach then
-don&rsquo;t miss the opportunity to rate his talks, as I&rsquo;m
-sure he&rsquo;d be happy to showcase our best practices and
-hear your feedbacks and suggestions, to make Namshi&rsquo;s
-SOA even sharper; along with these topics he&rsquo;ll be
-happy to talk about some of the other tools and systems
-we use like Redis and RabbitMQ.</p>
-
-<p>But even more important, <a href="http://confoo.ca/en/register">grab your ticket</a> for the
-event as I can ensure you it&rsquo;s one of a kind and you won&rsquo;t
-regret it!</p>
 ]]></content>
   </entry>
   

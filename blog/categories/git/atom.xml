@@ -4,7 +4,7 @@
   <title><![CDATA[Category: git | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-10-27T10:09:09+01:00</updated>
+  <updated>2014-10-30T09:06:09+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Newsletter #56]]></title>
     <link href="http://namshi.github.io/blog/2014/09/18/newsletter-number-56/"/>
-    <updated>2014-09-18T00:00:00+02:00</updated>
+    <updated>2014-09-18T00:00:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/09/18/newsletter-number-56</id>
     <content type="html"><![CDATA[<p>Hello, It&rsquo;s <a href="/blog/categories/techthursday/">#TechThursday</a> at <a href="http://namshi.com">#namshi</a> again!</p>
 
@@ -82,7 +82,7 @@ in the past 7 days.</p>
   <entry>
     <title type="html"><![CDATA[Newsletter #55]]></title>
     <link href="http://namshi.github.io/blog/2014/09/11/newsletter-number-55/"/>
-    <updated>2014-09-11T00:00:00+02:00</updated>
+    <updated>2014-09-11T00:00:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/09/11/newsletter-number-55</id>
     <content type="html"><![CDATA[<p>It&rsquo;s TechThursday again!</p>
 
@@ -139,7 +139,7 @@ in the past 7 days.</p>
   <entry>
     <title type="html"><![CDATA[Newsletter #49]]></title>
     <link href="http://namshi.github.io/blog/2014/07/31/newsletter-number-49/"/>
-    <updated>2014-07-31T11:50:00+02:00</updated>
+    <updated>2014-07-31T11:50:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/07/31/newsletter-number-49</id>
     <content type="html"><![CDATA[<p>TechThursday is here!</p>
 
@@ -189,7 +189,7 @@ in the past 7 days.</p>
   <entry>
     <title type="html"><![CDATA[Newsletter #40]]></title>
     <link href="http://namshi.github.io/blog/2014/05/29/newsletter-number-40/"/>
-    <updated>2014-05-29T12:45:00+02:00</updated>
+    <updated>2014-05-29T12:45:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/05/29/newsletter-number-40</id>
     <content type="html"><![CDATA[<p><strong>TA-DA! TechThursday</strong> newsletter is here!</p>
 
@@ -235,7 +235,7 @@ in the past 7 days.</p>
   <entry>
     <title type="html"><![CDATA[Git and Github at Namshi: our flow and tips&tricks]]></title>
     <link href="http://namshi.github.io/blog/2014/05/04/git-tips-and-tricks/"/>
-    <updated>2014-05-04T20:38:00+02:00</updated>
+    <updated>2014-05-04T20:38:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/05/04/git-tips-and-tricks</id>
     <content type="html"><![CDATA[<p>At <a href="https://www.namshi.com">Namshi</a> for versioning and managing our large and assorted codebase we use <a href="http://git-scm.com/">GIT</a> and of course <a href="http://github.com/namshi">Github</a> (I like to call it &ldquo;Facebook for nerds&rdquo;).</p>
 

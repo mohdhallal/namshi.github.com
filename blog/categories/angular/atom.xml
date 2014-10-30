@@ -4,7 +4,7 @@
   <title><![CDATA[Category: angular | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/angular/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-10-27T10:09:09+01:00</updated>
+  <updated>2014-10-30T09:06:09+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Newsletter #60]]></title>
     <link href="http://namshi.github.io/blog/2014/10/16/newsletter-number-60/"/>
-    <updated>2014-10-16T12:52:00+02:00</updated>
+    <updated>2014-10-16T12:52:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/10/16/newsletter-number-60</id>
     <content type="html"><![CDATA[<p>Hello, It&rsquo;s <a href="/blog/categories/techthursday/">#TechThursday</a> at <a href="http://twitter.com/techNamshi">#namshi</a>!</p>
 
@@ -80,7 +80,7 @@ the <a href="http://europe.dockercon.com/">Docker Europe conference in December<
   <entry>
     <title type="html"><![CDATA[Newsletter #53]]></title>
     <link href="http://namshi.github.io/blog/2014/08/28/newsletter-number-53/"/>
-    <updated>2014-08-28T16:11:00+02:00</updated>
+    <updated>2014-08-28T16:11:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/08/28/newsletter-number-53</id>
     <content type="html"><![CDATA[<blockquote><p><strong>BOOM!</strong> As mentioned in the last newsletter, we were working on four new open souce libraries and two of them are already out !!!</p>
 

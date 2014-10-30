@@ -4,7 +4,7 @@
   <title><![CDATA[Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-10-27T10:09:09+01:00</updated>
+  <updated>2014-10-30T09:06:09+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -14,9 +14,105 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Namshi went to Germany!<br>WebTechCon and International PHPConference 2014]]></title>
+    <link href="http://namshi.github.io/blog/2014/10/30/ipc14-wtc14-munich/"/>
+    <updated>2014-10-30T06:51:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/10/30/ipc14-wtc14-munich</id>
+    <content type="html"><![CDATA[<p><img class="left" src="http://namshi.github.io/images/posts/webtech14-ipc14.png" width="320" height="320" title="WebTechCon" alt="WebTechCon"></p>
+
+<p>I had the opportunity to attend as speaker the <a href="http://webtechcon.de/2014/">WebTechCon</a> and the <a href="https://phpconference.com/2014">International PHPConference 2014</a> in Munich, Germany.
+The location was very nice and, beeing a foodie, the food was great :).</p>
+
+<p>The only complain I have is that in 2014 Tech conference should be in English: I missed a lot of potentially great talks because they were in German.</p>
+
+<p>The International PHP Conference is the world&rsquo;s first PHP conference and stands since more than a decade while the WebTechCon is taking place
+since the last 5 years.
+The fact that you have these two events combined confirms the trend of horizontal events rather than focusing on just
+one technology or product.
+Lots of different topics were covered: PHP, Javascript, HTML5, AngularJs, databases, devops, systems, automation, archtecture etc.</p>
+
+<p>The concept of an heterogeneous technologies integration was addressed during the opening keynote and was a topic covered in many talk, mine were no exception.</p>
+
+<p>I presented two talks: <a href="http://www.slideshare.net/cirpo/don-t-screw-it-up-how-to-build-durable-api">&ldquo;Don&rsquo;t screw it up! How to build durable API&rdquo;</a> and <a href="http://www.slideshare.net/cirpo/php-is-the-king-nodejs-is-the-prince-and-lua-is-the-fool">&ldquo;PHP is the king, nodejs the prince and Lua the fool&rdquo;</a>.</p>
+
+<p>Both talks are based on the experience  at Namshi building our current service oriented architecture and API and how our stack is evolving.</p>
+
+<iframe src="http://namshi.github.io//www.slideshare.net/slideshow/embed_code/40808376" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px"> </div></p>
+
+<iframe src="http://namshi.github.io//www.slideshare.net/slideshow/embed_code/40818800" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
+
+<p> <div style="margin-bottom:5px">  </div></p>
+
+<p>At Namshi we believe that attending conferences and meetups is a very important occasion that helps the team and the individual developer to grow.
+It&rsquo;s a great opportunity to understand what&rsquo;s going on in our field and meet other great developers.</p>
+
+<p>What&rsquo;s next? If you&rsquo;re attending <a href="http://madrid2014.symfony.com/">SymfonyCon Madrid</a>, don&rsquo;t miss <a href="http://madrid2014.symfony.com/speakers">&ldquo;Hey, I just met AngularJS, and this is crazy, so here’s my JavaScript, let’s use it maybe&rdquo;</a> by <a href="http://tech.namshi.com/team/#Alessandro%20Nadalin">Alex</a>!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[winston-graylog2: a new life under Namshi]]></title>
+    <link href="http://namshi.github.io/blog/2014/10/27/winston-graylog2-a-new-life-under-namshi/"/>
+    <updated>2014-10-27T10:32:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/10/27/winston-graylog2-a-new-life-under-namshi</id>
+    <content type="html"><![CDATA[<p>As our herd of node.js apps grows, we soon needed a way to keep an eye on them.
+Having already in out tool belt a <a href="http://www.graylog2.org/">graylog2</a> facility in place, looking for a way to leverage it was the most natural thing to do.</p>
+
+<p>Because of its nice modular <code>transports feature</code> our node-logging weapon of choice is <a href="https://github.com/flatiron/winston">winston</a>, the <code>graylog2</code> transport library looked a bit alone though and in need of a maintainer.
+I our usual <strong>give back</strong> spirit we choose to adopt the lib instead of publishing a new one, and today we merged our 1st PR! :)</p>
+
+<p>As for now our intervention was isolated to move away from the custom GELF protocol implementation, relying instead on the <a href="https://github.com/Wizcorp/node-graylog2">node-graylog2</a> library:
+they&rsquo;ll most likely do a better job than us on the protocol side, and we&rsquo;ll be able to focus more on the winston integration.
+We also started introducing some basic tests: definitely some better work can be done on this side ;)</p>
+
+<p>So here it is: <a href="https://github.com/namshi/winston-graylog2">winston-graylog2</a>
+and here&rsquo;s briefly how you use it:</p>
+
+<p>the usual</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'>npm install winston-graylog2
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>and then</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'>  <span class="kd">var</span> <span class="nx">winston</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;winston&#39;</span><span class="p">);</span>
+</span><span class='line'>  <span class="nx">winston</span><span class="p">.</span><span class="nx">add</span><span class="p">(</span><span class="nx">require</span><span class="p">(</span><span class="s1">&#39;winston-graylog2&#39;</span><span class="p">),</span> <span class="nx">options</span><span class="p">);</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>or</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">var</span> <span class="nx">WinstonGraylog2</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;winston-graylog2&#39;</span><span class="p">);</span>
+</span><span class='line'><span class="kd">var</span> <span class="nx">logger</span> <span class="o">=</span> <span class="k">new</span><span class="p">(</span><span class="nx">winston</span><span class="p">.</span><span class="nx">Logger</span><span class="p">)({</span>
+</span><span class='line'>        <span class="nx">exitOnError</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+</span><span class='line'>        <span class="nx">transports</span><span class="o">:</span> <span class="p">[</span><span class="k">new</span><span class="p">(</span><span class="nx">WinstonGraylog2</span><span class="p">)(</span><span class="nx">options</span><span class="p">)]</span>
+</span><span class='line'>      <span class="p">});</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Enjoy! :)</p>
+
+<p>Publishing something new is always a great feeling, and it&rsquo;s even more fulfilling when it involves not letting a project die :)<br> So let us know if you like it and share the love with some RP!!!! ;)</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Welcome ES6 ! JavaScript is not fancy anymore]]></title>
     <link href="http://namshi.github.io/blog/2014/10/19/welcome-es6-javascript-is-not-fancy-anymore/"/>
-    <updated>2014-10-19T12:04:00+02:00</updated>
+    <updated>2014-10-19T12:04:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/10/19/welcome-es6-javascript-is-not-fancy-anymore</id>
     <content type="html"><![CDATA[<blockquote><p><strong>21/10/2014 UPDATE:</strong> This post was updated ( see the new examples for arrow functions and template strings ).</p>
 
@@ -610,7 +706,7 @@ and the <a href="http://www.reddit.com/r/javascript/comments/2jr72y/welcome_es6_
   <entry>
     <title type="html"><![CDATA[Newsletter #60]]></title>
     <link href="http://namshi.github.io/blog/2014/10/16/newsletter-number-60/"/>
-    <updated>2014-10-16T12:52:00+02:00</updated>
+    <updated>2014-10-16T12:52:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/10/16/newsletter-number-60</id>
     <content type="html"><![CDATA[<p>Hello, It&rsquo;s <a href="http://namshi.github.io/blog/categories/techthursday/">#TechThursday</a> at <a href="http://twitter.com/techNamshi">#namshi</a>!</p>
 
@@ -674,7 +770,7 @@ the <a href="http://europe.dockercon.com/">Docker Europe conference in December<
   <entry>
     <title type="html"><![CDATA[Newsletter #59]]></title>
     <link href="http://namshi.github.io/blog/2014/10/09/newsletter-number-59/"/>
-    <updated>2014-10-09T11:44:00+02:00</updated>
+    <updated>2014-10-09T11:44:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/10/09/newsletter-number-59</id>
     <content type="html"><![CDATA[<p>Hello, It&rsquo;s <a href="http://namshi.github.io/blog/categories/techthursday/">#TechThursday</a> at <a href="http://namshi.com">#namshi</a> again!</p>
 
@@ -740,7 +836,7 @@ in the past 7 days.</p>
   <entry>
     <title type="html"><![CDATA[Newsletter #58]]></title>
     <link href="http://namshi.github.io/blog/2014/10/02/newsletter-number-58/"/>
-    <updated>2014-10-02T13:27:00+02:00</updated>
+    <updated>2014-10-02T13:27:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/10/02/newsletter-number-58</id>
     <content type="html"><![CDATA[<p>Hello, It&rsquo;s <a href="http://namshi.github.io/blog/categories/techthursday/">#TechThursday</a> at <a href="http://namshi.com">#namshi</a> again!</p>
 
@@ -811,7 +907,7 @@ in the past 7 days.</p>
   <entry>
     <title type="html"><![CDATA[What went down at SymfonyLive London?]]></title>
     <link href="http://namshi.github.io/blog/2014/10/02/what-went-down-at-symfonylive-london/"/>
-    <updated>2014-10-02T12:26:00+02:00</updated>
+    <updated>2014-10-02T12:26:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/10/02/what-went-down-at-symfonylive-london</id>
     <content type="html"><![CDATA[<p><img class="center" src="http://namshi.github.io/images/symfonylive.png" width="640" height="640" title="SymfonyLive" alt="SymfonyLive">
 SymfonyLive London 2014 concluded with top-notch presentations from Symfony and industry gurus. It was an exceptional
@@ -926,7 +1022,7 @@ a PaaS, and how it contributes to this fact by providing out of the box system s
   <entry>
     <title type="html"><![CDATA[Newsletter #57]]></title>
     <link href="http://namshi.github.io/blog/2014/09/25/newsletter-number-57/"/>
-    <updated>2014-09-25T11:41:00+02:00</updated>
+    <updated>2014-09-25T11:41:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/09/25/newsletter-number-57</id>
     <content type="html"><![CDATA[<p>Hello, It&rsquo;s <a href="http://namshi.github.io/blog/categories/techthursday/">#TechThursday</a> at <a href="http://namshi.com">#namshi</a> again!</p>
 
@@ -990,7 +1086,7 @@ in the past 7 days.</p>
   <entry>
     <title type="html"><![CDATA[Design, Architecture and Code on the edge @Confoo]]></title>
     <link href="http://namshi.github.io/blog/2014/09/22/coding-on-the-edge-at-confoo/"/>
-    <updated>2014-09-22T09:01:00+02:00</updated>
+    <updated>2014-09-22T09:01:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/09/22/coding-on-the-edge-at-confoo</id>
     <content type="html"><![CDATA[<p>At Namshi we run a product that needs to evolve quickly and be ready to change: new features and
 technologies are integrated every week to be able to keep up to date with the market and the technology around us.
@@ -1025,7 +1121,7 @@ If you are looking for sharp and engaging sessions, <strong>these are definitely
   <entry>
     <title type="html"><![CDATA[Interested in the history of NodeJS? Then let's hear it from Lucio at the ConFoo]]></title>
     <link href="http://namshi.github.io/blog/2014/09/20/interested-in-the-history-of-nodejs-then-lets-hear-it-from-lucio-at-the-confoo/"/>
-    <updated>2014-09-20T22:37:00+02:00</updated>
+    <updated>2014-09-20T22:37:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/09/20/interested-in-the-history-of-nodejs-then-lets-hear-it-from-lucio-at-the-confoo</id>
     <content type="html"><![CDATA[<p>Not really hard to believe, NodeJS is a beloved one among
 the plethora of technologies that we use at <a href="https://namshi.com">Namshi</a>;
@@ -1060,7 +1156,7 @@ that you treat the Event Loop responsibly :)</p>
   <entry>
     <title type="html"><![CDATA[Stop using crons, start listening to Geshan]]></title>
     <link href="http://namshi.github.io/blog/2014/09/20/stop-using-crons-start-listening-to-geshan/"/>
-    <updated>2014-09-20T12:15:00+02:00</updated>
+    <updated>2014-09-20T12:15:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/09/20/stop-using-crons-start-listening-to-geshan</id>
     <content type="html"><![CDATA[<p><a href="http://namshi.github.io/team#Geshan%20Manandhar">Geshan</a> has decided
 he can&rsquo;t stand seeing people struggling with
@@ -1092,7 +1188,7 @@ gazilions of messages in Canada!</p>
   <entry>
     <title type="html"><![CDATA[Newsletter #56]]></title>
     <link href="http://namshi.github.io/blog/2014/09/18/newsletter-number-56/"/>
-    <updated>2014-09-18T00:00:00+02:00</updated>
+    <updated>2014-09-18T00:00:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/09/18/newsletter-number-56</id>
     <content type="html"><![CDATA[<p>Hello, It&rsquo;s <a href="http://namshi.github.io/blog/categories/techthursday/">#TechThursday</a> at <a href="http://namshi.com">#namshi</a> again!</p>
 
@@ -1158,7 +1254,7 @@ in the past 7 days.</p>
   <entry>
     <title type="html"><![CDATA[Shisha, smoke test those URLs!]]></title>
     <link href="http://namshi.github.io/blog/2014/09/17/shisha-smoke-test-those-urls/"/>
-    <updated>2014-09-17T10:00:00+02:00</updated>
+    <updated>2014-09-17T10:00:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/09/17/shisha-smoke-test-those-urls</id>
     <content type="html"><![CDATA[<p>Here comes Shisha! Yet another NodeJs based application from Namshi! Shisha is a smoke testing module,
 what is smoke testing? Read about it <a href="http://en.wikipedia.org/wiki/Smoke_testing_(software)">here</a>.
@@ -1323,7 +1419,7 @@ it is fast and simple!</p>
   <entry>
     <title type="html"><![CDATA[Wanna hear about SOA and how we deal with APIs? Then vote for cirpo!]]></title>
     <link href="http://namshi.github.io/blog/2014/09/16/wanna-hear-about-soa-and-how-we-deal-with-apis-then-vote-for-cirpo/"/>
-    <updated>2014-09-16T09:02:00+02:00</updated>
+    <updated>2014-09-16T09:02:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/09/16/wanna-hear-about-soa-and-how-we-deal-with-apis-then-vote-for-cirpo</id>
     <content type="html"><![CDATA[<p>Aaaaand following our first announcement
 regarding <a href="http://namshi.github.io/blog/2014/09/10/what-is-frontend-first-lets-hear-it-at-the-next-edition-of-the-confoo/">&ldquo;conquering&rdquo; the ConFoo</a>,
@@ -1360,7 +1456,7 @@ regret it!</p>
   <entry>
     <title type="html"><![CDATA[Newsletter #55]]></title>
     <link href="http://namshi.github.io/blog/2014/09/11/newsletter-number-55/"/>
-    <updated>2014-09-11T00:00:00+02:00</updated>
+    <updated>2014-09-11T00:00:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/09/11/newsletter-number-55</id>
     <content type="html"><![CDATA[<p>It&rsquo;s TechThursday again!</p>
 
@@ -1417,7 +1513,7 @@ in the past 7 days.</p>
   <entry>
     <title type="html"><![CDATA[What is frontend-first? Lets hear it at the next edition of the Confoo]]></title>
     <link href="http://namshi.github.io/blog/2014/09/10/what-is-frontend-first-lets-hear-it-at-the-next-edition-of-the-confoo/"/>
-    <updated>2014-09-10T00:22:00+02:00</updated>
+    <updated>2014-09-10T00:22:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/09/10/what-is-frontend-first-lets-hear-it-at-the-next-edition-of-the-confoo</id>
     <content type="html"><![CDATA[<p>Just a heads up that we will have quite a few attempt
 at &ldquo;conquering&rdquo; canada&rsquo;s hottest tech conference, and the
@@ -1443,7 +1539,7 @@ like <a href="https://github.com/namshi/mockserver">mockserver</a>.</p>
   <entry>
     <title type="html"><![CDATA[A bit of Namshi at the Symfony Live this month!]]></title>
     <link href="http://namshi.github.io/blog/2014/09/08/a-bit-of-namshi-at-the-symfony-live-this-month/"/>
-    <updated>2014-09-08T21:41:00+02:00</updated>
+    <updated>2014-09-08T21:41:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/09/08/a-bit-of-namshi-at-the-symfony-live-this-month</id>
     <content type="html"><![CDATA[<p>Pretty excited that we are going to be present
 at the <a href="http://london2014.live.symfony.com/">Symfony Live</a>
@@ -1472,7 +1568,7 @@ and seeing a new place!</p>
   <entry>
     <title type="html"><![CDATA[Newsletter #54]]></title>
     <link href="http://namshi.github.io/blog/2014/09/04/newsletter-number-54/"/>
-    <updated>2014-09-04T11:17:00+02:00</updated>
+    <updated>2014-09-04T11:17:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/09/04/newsletter-number-54</id>
     <content type="html"><![CDATA[<p>It&rsquo;s <a href="http://namshi.github.io/blog/categories/techthursday/">TechThursday</a> again!</p>
 
@@ -1540,7 +1636,7 @@ in the past 7 days.</p>
   <entry>
     <title type="html"><![CDATA[Innovate Payment Gateway Library]]></title>
     <link href="http://namshi.github.io/blog/2014/09/02/innovate-payment-gate-way-library/"/>
-    <updated>2014-09-02T19:23:00+02:00</updated>
+    <updated>2014-09-02T19:23:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/09/02/innovate-payment-gate-way-library</id>
     <content type="html"><![CDATA[<p>In the tech <a href="https://namshi.com">Namshi</a> team, as you probably know, we fully support the open source movement,
 that&rsquo;s why we try to release open source software as soon as we can, in the full &ldquo;give back to the community&rdquo; mindset.
@@ -1895,7 +1991,7 @@ it&rsquo;s working fine with no issues on our side. As always, any feedback and 
   <entry>
     <title type="html"><![CDATA[5 DevOps practices you should consider starting today]]></title>
     <link href="http://namshi.github.io/blog/2014/09/01/5-devops-practices-you-should-consider-starting-today/"/>
-    <updated>2014-09-01T09:33:00+02:00</updated>
+    <updated>2014-09-01T09:33:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/09/01/5-devops-practices-you-should-consider-starting-today</id>
     <content type="html"><![CDATA[<p>DevOps simply stresses on communication, collaboration and integration between software developers and information technology (IT) operations professionals a.k.a sys admins. it&rsquo;s goal is to support automation and maximize predictability, efficiency, security and maintainability of operational processes, meaning you can deploy 5 times on production on the same day with confidence that all systems will be fully operational. This post is moreover a software enginner&rsquo;s point of view on the DevOps side.</p>
 
@@ -1954,253 +2050,6 @@ it&rsquo;s working fine with no issues on our side. As always, any feedback and 
 <p>Zero Downtime Deployment in case of working system that needs feature upgrade is a shared responsibility between the development team and the sys admins team. In case it&rsquo;s related only to systems like upgrading MYSQL from 5.5 to 5.6, there will be nothing the software engineer can do while the upgrade happens, but before the upgrade the impact analysis should be done where both teams will need to collaborate. There should also be a contingency plan for rollback for each upgrade or new system deployment. Even when working for tickets that need big changes, we as software engineers implementing it should always think about backwards compatibility which can make sure least possible downtime.</p>
 
 <p>If DevOps is about more collaboration and communication between the development team and the sys admins team to achieve higher predictability, maintainability, security and efficiency we are definitely striding to the right direction. We are looking for a <a href="http://tech.namshi.com/join-us/">devOps engineer</a>, if you think we are applying best practices in devOps and you want to join a vibrant team at Namshi get in touch.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Welcome Daniel!]]></title>
-    <link href="http://namshi.github.io/blog/2014/08/31/welcome-daniel/"/>
-    <updated>2014-08-31T21:37:00+02:00</updated>
-    <id>http://namshi.github.io/blog/2014/08/31/welcome-daniel</id>
-    <content type="html"><![CDATA[<p><img class="team left" src="http://namshi.github.io/images/daniel.png"></p>
-
-<p>We are very excited to welcome <a href="http://namshi.github.io/team#Daniel%20Ribeiro">Daniel</a> in
-the crazy Namshi family!</p>
-
-<p>Daniel Ribeiro is a Technical Leader, Senior Software Engineer,
-PHP 5.3 Zend Certified Engineer (ZEND021458), Speaker and
-Evangelist from Brazil. He’s also a member of the local
-PHP community (PHPSC), and has been working with software
-engineering since 2006. His focus is on software engineering
-best practices, both concerning the code and the process of
-software development. He has a quite solid experience with agile
-practices and leading development teams to enterprise application
-standards and practices. Technically, he works with a lot of
-best practices, such as Behavior-Driven Development (BDD). He
-also has a background on architecture patterns, such as Domain
-Driven Design (DDD) and Service Oriented Architecture (SOA). He
-loves to work with high quality code, especially concerning
-advanced software engineering concepts, such as the SOLID
-principles and the GoF design patterns.</p>
-
-<!-- more -->
-
-
-<p>I am personally very excited as Daniel and me have been
-talking about working together for a while, and we finally
-managed to get a chance of getting hands down to the code
-together!</p>
-
-<p>He will bring good seniority to our team as well as good
-knowledge of best practices and enterprise <em>modus operandi</em>;
-last but not least, Daniel has been eager to accept the challenge
-of taking a closer look at NodeJS as it&rsquo;s getting bigger and
-bigger in our stack.</p>
-
-<p>Looking forward to get the brazilian vibes at our desks!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[PHP Generators explained]]></title>
-    <link href="http://namshi.github.io/blog/2014/08/31/php-generators-explained/"/>
-    <updated>2014-08-31T13:05:00+02:00</updated>
-    <id>http://namshi.github.io/blog/2014/08/31/php-generators-explained</id>
-    <content type="html"><![CDATA[<p><code>Generators</code> are one of the new cool stuff on <code>PHP 5.5</code>, but it&rsquo;s not a new feature in software programming languages, for example it&rsquo;s on <code>Python</code> since version 2.2 on 2001 and now in the draft <code>ECMAScript</code> 6  (Javascript) specification.</p>
-
-<p>They are a simple and powerful tool for creating <code>iterators</code>. They are like regular functions but using the <code>yield</code> statement whenever they want to return data. A <code>generator</code> looks like a function but behaves like an iterator, it&rsquo;s useful for <code>lazy evaluation</code> &ldquo;which delays the evaluation of an expression until its value is needed&rdquo;.</p>
-
-<!-- more -->
-
-
-<p>Here are some examples in different languages:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-</pre></td><td class='code'><pre><code class='js'><span class='line'><span class="c1">// infinite id generator in JavaScript</span>
-</span><span class='line'>
-</span><span class='line'><span class="kd">function</span><span class="o">*</span> <span class="nx">generateId</span><span class="p">(){</span>
-</span><span class='line'>    <span class="kd">var</span> <span class="nx">index</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-</span><span class='line'>
-</span><span class='line'>    <span class="k">while</span><span class="p">(</span><span class="kc">true</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>        <span class="nx">yield</span> <span class="nx">index</span><span class="o">++</span><span class="p">;</span>
-</span><span class='line'>    <span class="p">}</span>
-</span><span class='line'><span class="p">}</span>
-</span><span class='line'>
-</span><span class='line'><span class="kd">var</span> <span class="nx">gen</span> <span class="o">=</span> <span class="nx">idMaker</span><span class="p">();</span>
-</span><span class='line'><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">gen</span><span class="p">.</span><span class="nx">next</span><span class="p">().</span><span class="nx">value</span><span class="p">);</span> <span class="c1">// 0</span>
-</span><span class='line'><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">gen</span><span class="p">.</span><span class="nx">next</span><span class="p">().</span><span class="nx">value</span><span class="p">);</span> <span class="c1">// 1</span>
-</span><span class='line'><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">gen</span><span class="p">.</span><span class="nx">next</span><span class="p">().</span><span class="nx">value</span><span class="p">);</span> <span class="c1">// 2</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="o">//</span><span class="n">Python</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">def</span> <span class="nf">generateId</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-</span><span class='line'>    <span class="n">num</span> <span class="o">=</span> <span class="mi">0</span>
-</span><span class='line'>    <span class="k">while</span> <span class="n">num</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">:</span>
-</span><span class='line'>        <span class="k">yield</span> <span class="n">num</span> <span class="o">++</span>
-</span><span class='line'>
-</span><span class='line'><span class="n">count_gen_ids</span> <span class="o">=</span> <span class="n">count</span><span class="p">(</span><span class="n">generateId</span><span class="p">(</span><span class="mi">1000</span><span class="p">))</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="x">//PHP</span>
-</span><span class='line'><span class="cp">&lt;?php</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">function</span> <span class="nf">generateId</span><span class="p">()</span> <span class="p">{</span>
-</span><span class='line'>    <span class="nv">$currentId</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
-</span><span class='line'>
-</span><span class='line'>    <span class="k">while</span><span class="p">(</span><span class="k">true</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>        <span class="nx">yield</span> <span class="o">++</span> <span class="nv">$currentId</span><span class="p">;</span>
-</span><span class='line'>    <span class="p">}</span>
-</span><span class='line'><span class="p">}</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">for</span><span class="p">(</span><span class="nv">$index</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nv">$index</span> <span class="o">&lt;</span> <span class="mi">1000</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>    <span class="k">echo</span> <span class="nv">$index</span><span class="p">;</span>
-</span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>In this examples you would notice that we are using the keyword <code>yield</code> instead of <code>return</code>. <code>return</code> will pass value to the function caller then the function will finish the execution, <code>yield</code> will pass a value then pause the execution of the function &ldquo;which now became a generator&rdquo; till the function caller ask for the next value. Then <code>yield</code> again and again will return values to the function caller.</p>
-
-<p>Using generators is useful in cases where you want iterations on demand, and you will end up with less resources consumption and also still the chance to send some data back to the generator function on any given iteration.</p>
-
-<p>When you have situations that you are fetching large sets of data, you can use generators to <code>lazy load</code> (&ldquo;lazy load is to post pone fetching data till the point that you actually need it) your data sets or doing a lot of computation with big amounts of data.</p>
-
-<p>Imagine that you have the code to execute a query on the database, instead of fetching and returning the whole data at the same time, you can simply return a generator function containing the query cursor that yields one data row at a time.</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-<span class='line-number'>22</span>
-<span class='line-number'>23</span>
-</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="cp">&lt;?php</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">function</span> <span class="nf">getUsers</span><span class="p">()</span>
-</span><span class='line'><span class="p">{</span>
-</span><span class='line'>    <span class="nv">$dbh</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">PDO</span><span class="p">(</span><span class="s1">&#39;mysql:host=xyz;port=xyz;dbname=xyz&#39;</span><span class="p">,</span> <span class="s1">&#39;[...]&#39;</span><span class="p">);</span>
-</span><span class='line'>    <span class="nv">$stmt</span> <span class="o">=</span> <span class="nv">$dbh</span><span class="o">-&gt;</span><span class="na">prepare</span><span class="p">(</span><span class="s2">&quot;SELECT * FROM users&quot;</span><span class="p">);</span>
-</span><span class='line'>    <span class="nv">$stmt</span><span class="o">-&gt;</span><span class="na">execute</span><span class="p">();</span>
-</span><span class='line'>
-</span><span class='line'>    <span class="k">try</span> <span class="p">{</span>
-</span><span class='line'>        <span class="k">while</span> <span class="p">(</span><span class="nv">$rs</span> <span class="o">=</span> <span class="nv">$stmt</span><span class="o">-&gt;</span><span class="na">fetch</span><span class="p">(</span><span class="nx">PDO</span><span class="o">::</span><span class="na">FETCH_OBJ</span><span class="p">))</span> <span class="p">{</span>
-</span><span class='line'>           <span class="nx">yield</span> <span class="nv">$rs</span><span class="p">;</span>
-</span><span class='line'>        <span class="p">}</span>
-</span><span class='line'>    <span class="p">}</span> <span class="nx">finally</span> <span class="p">{</span>
-</span><span class='line'>        <span class="nv">$stmt</span><span class="o">-&gt;</span><span class="na">closeCursor</span><span class="p">();</span>
-</span><span class='line'>    <span class="p">}</span>
-</span><span class='line'> <span class="p">}</span>
-</span><span class='line'>
-</span><span class='line'>
-</span><span class='line'><span class="nv">$users</span> <span class="o">=</span> <span class="nx">getUsers</span><span class="p">();</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">foreach</span> <span class="p">(</span><span class="nv">$users</span> <span class="k">as</span> <span class="nv">$user</span><span class="p">){</span>
-</span><span class='line'>    <span class="nb">print_r</span><span class="p">(</span><span class="nv">$user</span><span class="p">);</span>
-</span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Speaking of Javascript, one great usage example for generators is the <a href="http://taskjs.org/">task</a> library, a combination of <a href="http://domenic.me/2012/10/14/youre-missing-the-point-of-promises/"><code>promises</code></a>, and <code>generators</code> to write asynchronous callbacks as beautiful as synchronous code.</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-</pre></td><td class='code'><pre><code class='js'><span class='line'><span class="kd">function</span> <span class="nx">go</span><span class="p">()</span> <span class="p">{</span>
-</span><span class='line'>    <span class="kd">var</span> <span class="p">{</span> <span class="nx">spawn</span><span class="p">,</span> <span class="nx">join</span> <span class="p">}</span> <span class="o">=</span> <span class="nx">task</span><span class="p">;</span>
-</span><span class='line'>
-</span><span class='line'>    <span class="kd">var</span> <span class="nx">out</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s2">&quot;out&quot;</span><span class="p">);</span>
-</span><span class='line'>
-</span><span class='line'>    <span class="nx">spawn</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-</span><span class='line'>        <span class="nx">out</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="s2">&quot;reading...\n&quot;</span><span class="p">;</span>
-</span><span class='line'>        <span class="k">try</span> <span class="p">{</span>
-</span><span class='line'>            <span class="kd">var</span> <span class="p">[</span> <span class="nx">f1</span><span class="p">,</span> <span class="nx">f2</span> <span class="p">]</span> <span class="o">=</span> <span class="nx">yield</span> <span class="nx">join</span><span class="p">(</span><span class="nx">read</span><span class="p">(</span><span class="s2">&quot;sleep.html&quot;</span><span class="p">),</span> <span class="nx">read</span><span class="p">(</span><span class="s2">&quot;read.html&quot;</span><span class="p">));</span>
-</span><span class='line'>            <span class="nx">out</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">+=</span> <span class="s2">&quot;sleep.html: &quot;</span> <span class="o">+</span> <span class="p">(</span><span class="nx">f1</span><span class="p">.</span><span class="nx">responseText</span><span class="p">.</span><span class="nx">length</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;\n&quot;</span><span class="p">;</span>
-</span><span class='line'>            <span class="nx">out</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">+=</span> <span class="s2">&quot;read.html: &quot;</span> <span class="o">+</span> <span class="p">(</span><span class="nx">f2</span><span class="p">.</span><span class="nx">responseText</span><span class="p">.</span><span class="nx">length</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;\n&quot;</span><span class="p">;</span>
-</span><span class='line'>        <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>            <span class="nx">e</span><span class="p">.</span><span class="nx">stack</span><span class="p">.</span><span class="nx">split</span><span class="p">(</span><span class="sr">/\n/</span><span class="p">).</span><span class="nx">forEach</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">line</span><span class="p">)</span> <span class="p">{</span> <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">line</span><span class="p">)</span> <span class="p">});</span>
-</span><span class='line'>            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&quot;&quot;</span><span class="p">);</span>
-</span><span class='line'>            <span class="nx">out</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="s2">&quot;error: &quot;</span> <span class="o">+</span> <span class="nx">e</span><span class="p">;</span>
-</span><span class='line'>        <span class="p">}</span>
-</span><span class='line'>    <span class="p">});</span>
-</span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Finally you need to consider some stuff before start using <code>Generator</code>, beware that once it get consumed you cannot reset it, you will need to recall it again.</p>
-
-<p>Also keep resources like db connection and file stream busy on the <code>Generator</code> function could be a problem if you are heavily use this resources and you need to release it as soon as possible.</p>
 ]]></content>
   </entry>
   

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: node | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/node/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-10-27T10:09:09+01:00</updated>
+  <updated>2014-10-30T09:06:09+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Newsletter #53]]></title>
     <link href="http://namshi.github.io/blog/2014/08/28/newsletter-number-53/"/>
-    <updated>2014-08-28T16:11:00+02:00</updated>
+    <updated>2014-08-28T16:11:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/08/28/newsletter-number-53</id>
     <content type="html"><![CDATA[<blockquote><p><strong>BOOM!</strong> As mentioned in the last newsletter, we were working on four new open souce libraries and two of them are already out !!!</p>
 
@@ -81,7 +81,7 @@ has an handy command (dock) that plugs on top of your usual docker commands addi
   <entry>
     <title type="html"><![CDATA[MockServer, Effortless API Mocking Library in Node Js]]></title>
     <link href="http://namshi.github.io/blog/2014/06/13/mockserver-effortless-api-mocking-library-in-node-js/"/>
-    <updated>2014-06-13T04:22:00+02:00</updated>
+    <updated>2014-06-13T04:22:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/06/13/mockserver-effortless-api-mocking-library-in-node-js</id>
     <content type="html"><![CDATA[<p>Namshi Tech Team is happy to roll-out a new node-based library!</p>
 
