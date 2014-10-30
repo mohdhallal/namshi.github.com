@@ -4,7 +4,7 @@
   <title><![CDATA[Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-10-30T09:19:00+04:00</updated>
+  <updated>2014-10-30T10:13:30+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -23,7 +23,7 @@
 <p>I had the opportunity to attend the <a href="http://webtechcon.de/2014/">WebTechCon</a> and the <a href="https://phpconference.com/2014">International PHPConference 2014</a> as speaker in Munich, Germany.
 The location was very nice, and beeing a foodie, the food was great :).</p>
 
-<p>The only complain I have is that in 2014 Tech conference should be in English: I missed a lot of potentially great talks because they were in German.</p>
+<p>The only small complaint I have is that in 2014, Tech conference should be in English: I missed a lot of potentially great talks because they were in German.</p>
 
 <p>The International PHP Conference is the world&rsquo;s first PHP conference and stands since more than a decade while the WebTechCon is taking place
 since the last 5 years.
@@ -47,8 +47,8 @@ Lots of different topics were covered: PHP, Javascript, HTML5, AngularJs, databa
 
 <p> <div style="margin-bottom:5px">  </div></p>
 
-<p>At Namshi we believe that attending conferences and meetups is a very important occasion that helps the team and the individual developer to grow.
-It&rsquo;s a great opportunity to understand what&rsquo;s going on in our field and meet other great developers.</p>
+<p>At Namshi we believe that attending conferences and meetups is a very important as that helps the team and the individual developers grow.
+It&rsquo;s a great opportunity to understand what&rsquo;s going on in our field and to meet other great developers.</p>
 
 <p>What&rsquo;s next? If you&rsquo;re attending <a href="http://madrid2014.symfony.com/">SymfonyCon Madrid</a>, don&rsquo;t miss <a href="http://madrid2014.symfony.com/speakers">&ldquo;Hey, I just met AngularJS, and this is crazy, so here’s my JavaScript, let’s use it maybe&rdquo;</a> by <a href="http://tech.namshi.com/team/#Alessandro%20Nadalin">Alex</a>!</p>
 ]]></content>
@@ -106,6 +106,64 @@ and here&rsquo;s briefly how you use it:</p>
 <p>Enjoy! :)</p>
 
 <p>Publishing something new is always a great feeling, and it&rsquo;s even more fulfilling when it involves not letting a project die :)<br> So let us know if you like it and share the love with some RP!!!! ;)</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Newsletter #61]]></title>
+    <link href="http://namshi.github.io/blog/2014/10/23/newsletter-number-61/"/>
+    <updated>2014-10-23T12:17:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/10/23/newsletter-number-61</id>
+    <content type="html"><![CDATA[<p>Hey folks!</p>
+
+<p>It&rsquo;s <a href="http://namshi.github.io/blog/categories/techthursday/">#TechThursday</a> at <a href="http://twitter.com/techNamshi">#namshi</a>!</p>
+
+<blockquote><p>Thanks to <a href="https://github.com/shidhincr">Shidhin</a>, we have a shiny new blog theme! Also, he wrote an incredible
+<a href="http://tech.namshi.com/blog/2014/10/19/welcome-es6-javascript-is-not-fancy-anymore/">blog post</a> about Javascript ES6,
+you should check it out!</p></blockquote>
+
+<p><strong>Here is the list with awesome links to keep you busy during the weekend:</strong></p>
+
+<ul>
+<li><p><a href="http://www.smashingmagazine.com/2014/10/21/providing-a-native-experience-with-web-technologies/">Hybrid Mobile Apps: Providing A Native Experience With Web Technologies</a></p></li>
+<li><p><a href="http://strongloop.com/strongblog/modular-node-js-express/">Writing Modular Node.js Projects for Express and Beyond</a></p></li>
+<li><p><a href="https://github.com/mosaicxm/vagrant-hostmaster">Vagrant plugin to manage /etc/hosts entries on both the host OS and guest VMs</a></p></li>
+<li><p><a href="https://github.com/sameersbn/docker-extras">Helper scripts for everyday docker use</a></p></li>
+<li><p><a href="http://reqr.es/">Reqres &ndash; A hosted REST-API ready to respond to your AJAX requests</a></p></li>
+</ul>
+
+
+<!-- more -->
+
+
+<ul>
+<li><p><a href="http://www.dzone.com/links/r/4_programming_languages_with_the_potential_to_rev.html">4 Programming Languages with the Potential to Revolutionize the World of Programming</a></p></li>
+<li><p><a href="http://arstechnica.com/information-technology/2014/10/ten-years-of-ubuntu-how-linuxs-beloved-newcomer-became-its-criticized-king/">Ten years of Ubuntu: How Linux&rsquo;s beloved newcomer became its criticized king</a></p></li>
+<li><p><a href="http://www.yegor256.com/2014/09/09/restful-web-sites.html">RESTful API and a Web Site in the same URL</a></p></li>
+<li><p><a href="http://blog.npmjs.org/post/100099402720/registry-roadmap">Fixing Npm: Registry roadmap</a></p></li>
+<li><p><a href="http://www.sitepoint.com/preparing-ecmascript-6-new-number-methods/">ES6 new Numbers</a></p></li>
+<li><p><a href="https://github.com/danielstjules/jsinspect">Jsinspect: detect your duplicate code before is too late</a></p></li>
+<li><p><a href="http://scotch.io/bar-talk/the-future-of-expressjs-and-alternatives">The Future of ExpressJS and Alternatives</a></p></li>
+<li><p><a href="http://dorey.github.io/JavaScript-Equality-Table/">JavaScript Equality Table</a></p></li>
+<li><p><a href="http://www.smashingmagazine.com/2012/10/09/designing-javascript-apis-usability/">Useful Principles for Creating Simple and Flexible JavaScript APIs</a></p></li>
+<li><p><a href="http://jsdatav.is/intro.html">Data Visualization with JavaScript</a></p></li>
+<li><p><a href="http://jhusain.github.io/learnrx/">Functional Programming in JavaScript: A Collection of Hands-on Exercises</a></p></li>
+<li><p><a href="http://www.benhowell.net/guide/2014/06/20/multithreaded-javascript-using-nashorn/">Multithreaded Javascript using Nashorn</a></p></li>
+<li><p><a href="http://paasifier.herokuapp.com/">Find the best PaaS for your applications</a></p></li>
+<li><p><a href="http://symfony.com/blog/the-symfony-project-turns-9">Symfony project turns 9!</a></p></li>
+<li><p><a href="http://notebook.ideapublic.org/2014/one-less-password">One Less Password</a></p></li>
+<li><p><a href="http://swarmjs.github.io/articles/todomvc">Swarm.js+React — real-time, offline-ready Holy Grail web apps</a></p></li>
+<li><p><a href="http://mozilla.github.io/nunjucks">A rich and powerful templating language for JavaScript.</a></p></li>
+<li><p><a href="http://arqex.com/939/learning-much-javascript-one-line-cod">Learning much javascript from one line of code</a></p></li>
+<li><p><a href="http://www.theepochtimes.com/n3/1031947-5-deadly-linux-commands-you-should-never-run/">5 Deadly Linux Commands You Should Never Run</a></p></li>
+<li><p><a href="http://blog.codeship.io/2014/10/21/proper-server-naming-scheme.html">A Proper Server Naming Scheme</a></p></li>
+<li><p><a href="http://blog.iron.io/2014/10/docker-in-production-what-weve-learned.html">Docker in Production — What We’ve Learned Launching Over 300 Million Containers</a></p></li>
+<li><p><a href="https://hashicorp.com/blog/introducing-consul-template.html">Introducing Consul Template</a></p></li>
+<li><p><a href="https://github.com/romansanchez/Calaca">Search UI for Elasticsearch</a></p></li>
+<li><p><a href="http://utcc.utoronto.ca/~cks/space/blog/web/VegetaLoadTesting">Vegeta, a tool for web server stress testing</a></p></li>
+<li><p><a href="https://sslmate.com/">Buy SSL certs from the command line</a></p></li>
+</ul>
+
 ]]></content>
   </entry>
   
@@ -1985,71 +2043,6 @@ called .innovate.config in the project directory with four parameters:</p></li>
 
 <p>We hope that you enjoy using Namshi&rsquo;s open source library. We&rsquo;ve been using this library for almost a year and
 it&rsquo;s working fine with no issues on our side. As always, any feedback and pull requests are welcome :)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[5 DevOps practices you should consider starting today]]></title>
-    <link href="http://namshi.github.io/blog/2014/09/01/5-devops-practices-you-should-consider-starting-today/"/>
-    <updated>2014-09-01T09:33:00+04:00</updated>
-    <id>http://namshi.github.io/blog/2014/09/01/5-devops-practices-you-should-consider-starting-today</id>
-    <content type="html"><![CDATA[<p>DevOps simply stresses on communication, collaboration and integration between software developers and information technology (IT) operations professionals a.k.a sys admins. it&rsquo;s goal is to support automation and maximize predictability, efficiency, security and maintainability of operational processes, meaning you can deploy 5 times on production on the same day with confidence that all systems will be fully operational. This post is moreover a software enginner&rsquo;s point of view on the DevOps side.</p>
-
-<!-- more -->
-
-
-<p>It goes without mentioning, to build a robust architecture you will need to follow the industry standards for example, use a distributed version control system &ndash; <a href="http://git-scm.com/">git</a> is a great one, use automated deployment tools &ndash; you should check <a href="http://capistranorb.com/">Capistrano</a>, write automated tests using framework like <a href="http://phpunit.de/">PHPUnit</a>, have some form of continuous integration &ndash; you can run automated tests with <a href="https://travis-ci.com/">Travis CI</a> on different versions of a language and have some internal documentation in place which includes basic to advanced things about the codebase and the systems used. Following similar rules, at <a href="http://www.namshi.com">Namshi</a> we use some <a href="http://en.wikipedia.org/wiki/DevOps">DevOps</a> practices which are very helpful to us, here are some main ones:</p>
-
-<h2>Virtual Development Environment -Vagrant</h2>
-
-<p><a href="http://www.vagrantup.com/">Vagrant</a> is a virtual development environment that works as controller to a virtual machine on your main machine. The virtual machine has all needed software stack installed, each software is installed as a config. It creates a reproducible and portable development machine which is shared among all the developers, that in turn eliminates &ldquo;Works on my machine&rdquo; syndrome and also help to get started with working on the codebase in a matter of hours compared to a day.</p>
-
-<p>With use of vagrant, it is very easy to install new software and update them. You just add some scripts to how the vagrant box is configured and push the changes. All the software engineers will pull it, reload the vagrant machine and done. All of them have the new software and the correct version of it. As the configs, services and even file paths are shared everyone is on the same page when discussing about the system. If you are already interested in vagrant don&rsquo;t hesitate to start reading it&rsquo;s <a href="http://docs.vagrantup.com/v2/getting-started/index.html">docs</a>.</p>
-
-<h2>Atomic Deployments</h2>
-
-<p>Some months back we used to follow a revised version of <a href="http://nvie.com/posts/a-successful-git-branching-model/">gitflow</a> and grouped multiple tickets in same deployment, basically some completed tickets (generally 4-8) where merged to the <code>develop</code> branch and then merged to the  <code>release</code> branch. A tag was created from the <code>release</code> branch say <code>1.2.3</code> and it was deployed to <code>staging</code> then <code>production</code> after tests were ok. If all goes well the tag is merged to <code>master</code>. Issues with this was, if we had a problem after the deployment pinpointing which ticket introduced this issue was difficult.</p>
-
-<p>Lets fast forward to now, currently we do <strong>atomic deployments</strong>, it means only one ticket is deployed at a time. Each ticket has it&rsquo;s sole deployment. First the ticket is deployed to <code>staging</code> tested and if everything is fine then it&rsquo;s deployed to production.</p>
-
-<p>So, you completed your ticket all the automated tests have passed and your code has been reviewed, then</p>
-
-<ol>
-<li>You deploy it on <code>staging</code> environment after making sure that your branch is rebased with latest <code>master</code>.</li>
-<li>If all tests are fine a tag is created from your ticket&rsquo;s branch say <code>1.2.3</code>.</li>
-<li>The tag <code>1.2.3</code> is deployed to production.</li>
-<li>If all goes well on production, then the tag <code>1.2.3</code> is merged to master.</li>
-</ol>
-
-
-<p>The above steps are carried out for each completed ticket. In case of <strong>atomic deployment</strong> if anything goes wrong, we know what is the cause of it as a ticket is generally a small unit of work. In both cases atomic or grouped deployment, <code>master</code> is always the stable branch deployable to production anytime.</p>
-
-<h2>Multiple staging environments</h2>
-
-<p>As we adopted <strong>atomic deployments</strong>, we needed to wait for the staging environment to be free to test our completed ticket(s). Sometimes the wait was more that a day if we had multiple tickets that had higher priority. There by, we devised a new way to make multiple staging deployments possible, how? The basic idea is:</p>
-
-<ol>
-<li>Deploy with a <code>standalone</code> deployment flag for the ticket branch let&rsquo;s say <code>cancel-email</code>. (Standalone deployment will mean it will be deployed to a folder on the <code>staging</code> server same as the branch name which is <code>cancel-email</code> in this case.)</li>
-<li>To access codebase for this deployed branch (<code>cancel-email</code>), the software engineer who deployed will create a cookie lets say <code>staging-route</code> on the browser with value of the branch name <code>cancel-email</code> and send request from the browser which has this <strong>magic</strong> cookie.</li>
-<li>Nginx will read the <code>staging-route</code> cookie if it&rsquo;s not set, it will route the request to the main staging. If the <code>staging-route</code> cookie is set Nginx will route the request to the branch name folder which will be something like <code>/path/to/codebase/cancel-email</code> and not <code>/path/to/codebase/main</code>.</li>
-</ol>
-
-
-<p>Simple yet effective solution to having a single staging problem. We are still improving it to be used in all our use cases, but the basic idea makes it possible to test multiple tickets independently and without waiting for the <strong>main</strong> <code>staging</code> environment to be free. We used <code>cookie</code> to achieve this instead of URL parameters or subdomains because we can do cookie forwarding that works for all our apps which use Nginx or NodeJs.</p>
-
-<h2>Active logging and monitoring</h2>
-
-<p>We are very keen on logging the events that take place in our system for example, if an email is sent notifying a customer about order being shipped, it is logged. As the number of logs is huge, to help ourselves from drowning in the text logs we use some log management and monitoring tools that help both the development team and the sys admins team. We currently use <a href="http://newrelic.com/">NewRelic</a>, <a href="http://graylog2.org/">Graylog2</a> and <a href="https://www.pagerduty.com/">PagerDuty</a> with a mix of some internal notification systems. These useful tools give us a real time view of what is happening on the systems as well as the health report of the systems.</p>
-
-<p>For software engineers, it is always good to know that the code you wrote is behaving properly as you expected, this is where the Reports from NewRelic and the deliberate logs in Graylog come in very handy to know how the code is working.</p>
-
-<h2>Zero Downtime Deployment</h2>
-
-<p>I remember the days around two years back, whenever we deployed to production it would have ~1 minute of downtime (maintenance page) for the files to be pulled and the database migrations to run and other tasks. Now, we see almost no downtime during deployments. It has been possible because of <a href="http://capistranorb.com/">Capistrano</a>. When deploying it performs all the tasks and if all tasks are fine then just switches the symlink to point to the new code resulting in almost zero downtime deployment. For NodeJs we use <a href="http://tech.namshi.com/blog/2014/06/27/clusterjs-clusterify-your-nodejs-applications-and-achieve-zero-downtime-deployments/">clusterjs</a>, which reloads a cluster in place of restarting it and eliminating any downtime without dropping any connection, thus we don&rsquo;t need the maintenance page any more.</p>
-
-<p>Zero Downtime Deployment in case of working system that needs feature upgrade is a shared responsibility between the development team and the sys admins team. In case it&rsquo;s related only to systems like upgrading MYSQL from 5.5 to 5.6, there will be nothing the software engineer can do while the upgrade happens, but before the upgrade the impact analysis should be done where both teams will need to collaborate. There should also be a contingency plan for rollback for each upgrade or new system deployment. Even when working for tickets that need big changes, we as software engineers implementing it should always think about backwards compatibility which can make sure least possible downtime.</p>
-
-<p>If DevOps is about more collaboration and communication between the development team and the sys admins team to achieve higher predictability, maintainability, security and efficiency we are definitely striding to the right direction. We are looking for a <a href="http://tech.namshi.com/join-us/">devOps engineer</a>, if you think we are applying best practices in devOps and you want to join a vibrant team at Namshi get in touch.</p>
 ]]></content>
   </entry>
   
