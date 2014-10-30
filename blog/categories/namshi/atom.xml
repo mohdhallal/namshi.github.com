@@ -4,7 +4,7 @@
   <title><![CDATA[Category: namshi | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/namshi/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-10-30T10:13:30+04:00</updated>
+  <updated>2014-10-30T15:42:07+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -12,6 +12,51 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[A Year and a Half journey with Namshi Tech]]></title>
+    <link href="http://namshi.github.io/blog/2014/10/30/a-year-and-a-half-journey-with-namshi-tech/"/>
+    <updated>2014-10-30T09:48:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/10/30/a-year-and-a-half-journey-with-namshi-tech</id>
+    <content type="html"><![CDATA[<p>Today, I bed farewell to the team and the culture that introduced me to software development. A year and six months have passed since I
+landed my first job straight out of college as a Junior Software Engineer at Namshi where I had the great, the average and the bad
+days. I must admit, time has passed super fast.</p>
+
+<!--more-->
+
+
+<p>It was a very exciting journey, from completing my first assignment, changing <code>robots.txt</code> :&ndash;), to the latest extra large,
+super complicated tasks, it was a journey involving lots and lots of learning and late working hours.</p>
+
+<p>I was lucky to join Namshi Tech at a time where migration to a more sustainable, robust and scalable architecture was
+taking place. After a little bit of struggling with completing assignments on legacy software, Symfony2 kicked in and
+paved the way of my learning path and ended up to be my most valuable experience. Javascript for me was that nice
+language I used to manipulate DOM elements, I could not be more wrong! After finally understanding what a directive is supposed to be,
+I started working with AngularJs and I couldn&rsquo;t help but be amazed on what it can achieve. Fighting and watching my
+teammates fight through the craziness of Javascript, NodeJs came into the picture and my first impression was exactly
+as you might think, this javascript craziness on the server?! But the simplicity and the ultimate performance of this
+platform proved me wrong again.</p>
+
+<p>The newly employed technologies brought with them a set of valuable practices like code review, code testing and
+automated testing tools, pair programming and many more which are very important skills for a software developer to pick up.</p>
+
+<p>Attending SymfonyLive London 2014 was a great chance to meet people from the Symfony and PHP community, getting to know
+the latest trends surrounding this framework and most importantly, realizing that there are people across continents
+facing the same issues and struggling through the same parts you had hard time working on. The level of passion towards
+software is just fascinating!</p>
+
+<p>One of the most valuable lessons I learned was that paying back to the open source community is an important part of
+our job as software developers. During this period at Namshi, I had the chance to participate in <a href="https://www.npmjs.org/package/mockserver">Mockserver</a>
+and <a href="https://www.npmjs.org/package/shisha">shisha</a>.</p>
+
+<p>Finally, words of gratitude go to <a href="http://tech.namshi.com/team/#Alessandro%20Nadalin">Alessandro Nadalin</a> for taking a
+leap of faith in hiring a fresh graduate and going through the painful process of developing him from scratch.
+I just hope I set a right example. Of course, lots of thanks to the team and to <a href="http://tech.namshi.com/team/#Alessandro%20Cinelli%20(cirpo">Alessandro Cinelli</a>)
+for sharing their knowledge and their guidance along the way.</p>
+
+<p>{% img center /images/wall.jpg &lsquo;On the Namshi Wall&rsquo; &lsquo;On the Namshi Wall&rsquo; %}</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[We're hiring...actually, we're hiring MOAR!]]></title>
@@ -36,7 +81,7 @@ directives or a bunch of frontend-ish NodeJS apps,
 is devastated as they feel they are missing a third
 element who can help them achieve greatness.</p>
 
-<p><img class="center" src="/images/frontend-sad.png"></p>
+<p>{% img center /images/frontend-sad.png %}</p>
 
 <p>To make Lucio and Shidhin happy, we want to add a new
 member in our team, a <strong>Frontend Developer</strong>, someone who
@@ -59,7 +104,7 @@ knowing how to build the presentation and logic behind a full
 frontend application (AngularJS, Node or something more spicy
 like <a href="http://www.polymer-project.org/">polymer</a>).</p>
 
-<blockquote><p>Drop us an email at <a href="&#x6d;&#x61;&#105;&#108;&#116;&#111;&#x3a;&#x77;&#111;&#114;&#107;&#45;&#105;&#110;&#x2d;&#116;&#x65;&#x63;&#104;&#x40;&#110;&#97;&#x6d;&#115;&#x68;&#105;&#x2e;&#99;&#111;&#109;">&#119;&#x6f;&#114;&#107;&#x2d;&#105;&#110;&#45;&#116;&#101;&#99;&#104;&#64;&#x6e;&#x61;&#x6d;&#x73;&#104;&#105;&#x2e;&#x63;&#111;&#x6d;</a> to apply or simply
+<blockquote><p>Drop us an email at <a href="&#109;&#x61;&#x69;&#108;&#116;&#111;&#x3a;&#x77;&#x6f;&#x72;&#107;&#45;&#x69;&#x6e;&#x2d;&#116;&#x65;&#99;&#104;&#x40;&#110;&#x61;&#109;&#115;&#104;&#105;&#x2e;&#x63;&#111;&#x6d;">&#119;&#111;&#x72;&#x6b;&#45;&#x69;&#x6e;&#x2d;&#116;&#101;&#99;&#x68;&#64;&#110;&#97;&#109;&#115;&#x68;&#105;&#46;&#99;&#111;&#x6d;</a> to apply or simply
 get more informations about this job opening!</p></blockquote>
 
 <h2>Sitting on an empty (sysadmin) chair&hellip;</h2>
@@ -67,7 +112,7 @@ get more informations about this job opening!</p></blockquote>
 <p>Look at the systeam, so sad: they really
 need some new buddy for their games.</p>
 
-<p><img class="center" src="/images/sys-sad.png"></p>
+<p>{% img center /images/sys-sad.png %}</p>
 
 <p>The chair is empty, and that makes me so sad! If only
 we could find someone who would like to come and join
@@ -86,7 +131,7 @@ our configurations, and would like someone who can get his/her
 hands dirty with both programming and system administration
 to help the team.</p>
 
-<blockquote><p>Drop us an email at <a href="&#109;&#x61;&#105;&#x6c;&#116;&#111;&#x3a;&#x77;&#111;&#114;&#x6b;&#45;&#105;&#x6e;&#45;&#116;&#x65;&#x63;&#x68;&#64;&#x6e;&#97;&#x6d;&#x73;&#x68;&#x69;&#x2e;&#x63;&#x6f;&#109;">&#119;&#x6f;&#x72;&#x6b;&#45;&#x69;&#x6e;&#x2d;&#116;&#101;&#99;&#x68;&#64;&#110;&#x61;&#x6d;&#115;&#104;&#105;&#x2e;&#99;&#x6f;&#x6d;</a> to apply or simply
+<blockquote><p>Drop us an email at <a href="&#109;&#x61;&#105;&#x6c;&#116;&#x6f;&#x3a;&#x77;&#x6f;&#x72;&#107;&#x2d;&#x69;&#x6e;&#45;&#116;&#101;&#x63;&#104;&#x40;&#x6e;&#97;&#x6d;&#x73;&#104;&#x69;&#46;&#x63;&#x6f;&#109;">&#119;&#111;&#x72;&#107;&#x2d;&#x69;&#x6e;&#45;&#x74;&#x65;&#x63;&#x68;&#64;&#110;&#x61;&#109;&#115;&#x68;&#x69;&#46;&#99;&#x6f;&#x6d;</a> to apply or simply
 get more informations about this job opening!</p></blockquote>
 
 <h2>I don&rsquo;t know if he&rsquo;s crying because of loneliness or because of NodeJS&hellip;</h2>
@@ -94,7 +139,7 @@ get more informations about this job opening!</p></blockquote>
 <p>Look at how sad Cirpo, our lead API engineer, was
 today:</p>
 
-<p><img class="center" src="/images/cirpo-sad.png"></p>
+<p>{% img center /images/cirpo-sad.png %}</p>
 
 <p>It&rsquo;s true that he might be sad because we decided
 to use a lot of NodeJS instead of PHP, but I
@@ -114,7 +159,7 @@ if we get someone that has been in a few different battlefields :)</p>
 code (or, even better: first solves the problem, then writes the
 test, then the code :-D).</p>
 
-<blockquote><p>Drop us an email at <a href="&#x6d;&#97;&#x69;&#x6c;&#116;&#111;&#58;&#119;&#111;&#x72;&#x6b;&#x2d;&#105;&#110;&#x2d;&#x74;&#x65;&#x63;&#x68;&#64;&#x6e;&#x61;&#x6d;&#115;&#104;&#105;&#46;&#x63;&#111;&#109;">&#x77;&#111;&#114;&#107;&#x2d;&#105;&#110;&#x2d;&#116;&#101;&#99;&#x68;&#64;&#110;&#97;&#x6d;&#115;&#x68;&#105;&#x2e;&#x63;&#x6f;&#x6d;</a> to apply or simply
+<blockquote><p>Drop us an email at <a href="&#x6d;&#97;&#x69;&#108;&#116;&#111;&#58;&#x77;&#x6f;&#114;&#107;&#x2d;&#x69;&#110;&#x2d;&#x74;&#x65;&#99;&#104;&#64;&#110;&#97;&#x6d;&#115;&#104;&#105;&#46;&#99;&#111;&#x6d;">&#x77;&#111;&#x72;&#x6b;&#45;&#105;&#x6e;&#45;&#x74;&#101;&#99;&#x68;&#64;&#x6e;&#x61;&#x6d;&#115;&#104;&#x69;&#46;&#x63;&#x6f;&#109;</a> to apply or simply
 get more informations about this job opening!</p></blockquote>
 
 <h2>About Namshi</h2>
@@ -540,103 +585,6 @@ alias gdiff='git diff --word-diff'
 <p> Here you can find a complete list of <a href="https://gist.github.com/cirpo/86d43ef8ef87b4cfd031">aliases</a>, and <a href="https://gist.github.com/cirpo/343376f1ac7fb00204a0">here</a> the global .gitconfig we are using</p>
 
 <p> Do you have any other tips or tricks to share? Write them down in the comments :)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Looking for some fun with APIs or JavaScript? We have what you need!]]></title>
-    <link href="http://namshi.github.io/blog/2014/03/24/looking-for-some-fun-with-apis-or-javascript-we-have-what-you-need/"/>
-    <updated>2014-03-24T14:37:00+04:00</updated>
-    <id>http://namshi.github.io/blog/2014/03/24/looking-for-some-fun-with-apis-or-javascript-we-have-what-you-need</id>
-    <content type="html"><![CDATA[<p>To the army of developers out there: if you are looking to
-boost your nerditude and have some fun, we might have what
-you are looking for.</p>
-
-<p><em>(no, it&rsquo;s not a cookie)</em></p>
-
-<!-- more -->
-
-
-<p>Here at <a href="https://en-ae.namshi.com">Namshi</a>, in the cold (yes, it&rsquo;s an euphemism) lands of Dubai, things have gone quite well
-so far, and we&rsquo;re extremely excited everytime there&rsquo;s room for
-someone else in our little room (actually, our office it&rsquo;s kind of an open-space).</p>
-
-<p>I am very happy to announce that we are now actively looking for 2
-new members of our <a href="/team">team</a> in order to expand our team, vision,
-objectives and count of the <a href="https://www.google.com/search?q=shisha&amp;espv=2&amp;es_sm=125&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ei=zA8wU46_CoezhAePwgE&amp;ved=0CAkQ_AUoAQ&amp;biw=1687&amp;bih=871">shishas</a> we order when we&rsquo;re out together.</p>
-
-<h2>API monkey</h2>
-
-<p>If you know what the <code>PSR-4</code> is&hellip;</p>
-
-<p>If you are willing to switch to HHVM, in production, in the next six months&hellip;</p>
-
-<p>If you have ever heard of Event Sourcing&hellip;</p>
-
-<p>If you get excited everytime someone names Redis (even if it&rsquo;s for no apparent reason at all, the important is to get excited regardless)&hellip;</p>
-
-<p>If you know the 5 tenets of the REST architectural style&hellip;</p>
-
-<p>if you want to give back to the <a href="https://github.com/namshi">opensource community</a></p>
-
-<p>If you like <a href="http://en.wikipedia.org/wiki/Shawarma">shawarma</a>&hellip;</p>
-
-<p>&hellip;if all of this and that, then think of coming over to Dubai to join
-a startup that has been disruptive in his market and has been writing
-a Service-Oriented Architecture (with <a href="http://www.styleisnecessity.com/2012/12/15/namshi-2/">style</a>! :&ndash;))
-based on Symfony2, HTTP APIs and Redis.</p>
-
-<p>We are looking for a <em>Senior API engineer</em>, and will offer a competitive
-retribution plus some other benefits (<a href="/images/cirpo.jpg">working with cirpo</a>, among others).</p>
-
-<h2>Frontend ducktyper</h2>
-
-<p>As a <em>Senior Frontend Engineer</em>, you will need to get bored with old school
-technologies like <strong>NodeJS, AngularJS, Gulp</strong>, on which our frontends are
-currently running (to be honest, if we had to rewrite today, we would go
-for PERL, #FORSURE).</p>
-
-<p>Unfortunately, your duties will also include having to deal with the DevTools
-in order to speed up performances and eliminate any waste and overengineering
-we might have on our frontends.</p>
-
-<p>Last but not least &ndash; I know, I&rsquo;m sorry :( &ndash; you will be disgusted to be consuming our backend APIs,
-trying to get your head around HTTP headers, caching and everything bad about webservices.</p>
-
-<p>Ah, I almost forgot to mention that we might have to add SPDY and WebP. Yesterday.</p>
-
-<h2>About Namshi</h2>
-
-<p>We honestly want to keep it cool and fun, that&rsquo;s why I wante to give this
-post this kind of tone.</p>
-
-<p>One thing I am really proud of, at Namshi, is that <a href="http://www.slideshare.net/odino/soa-with-symfony2-confoo-2014-in-montreal-ca/159">we don&rsquo;t stick to one
-technology</a> just because we think that we can do everything with it, we use the
-correct technology for each and every context. <strong>We use what makes sense</strong>, which
-means that even PERL could do something, one day, in our architecture.</p>
-
-<p>We&rsquo;d like to hire someone who relies on the community around him, who likes
-to write open source code (and use it as well!), someone who likes enterprise
-design patterns and is afraid every time a feature not covered by a test goes to production.</p>
-
-<p>The team has been steadily growing since I joined the company in 2012,
-both from an headcount perspective and the level of skills.</p>
-
-<p>Our guys and girls tend to have fun on a daily basis, commit to the company
-values (and to github as well!) and (I hope :-P) are having a great run
-with technologies that is not always possible to use in other scenarios.</p>
-
-<p>But we are also aware that without other points of view, without growth,
-without some fresh energy, our journey to perfection would be even harder
-(and I personally make it even harder, I know!).</p>
-
-<p>Even though we are happy with our stack and what we achieved so far, we&rsquo;re aware that
-we are far from being perfect: that&rsquo;s why we need <strong>you</strong> :)</p>
-
-<p>Drop us an email (<code>alessandro.nadalin@namshi.com</code>) and let&rsquo;s have fun together!</p>
-
-<p><a href="https://github.com/namshi">github</a>
-<a href="https://twitter.com/technamshi">twitter</a></p>
 ]]></content>
   </entry>
   

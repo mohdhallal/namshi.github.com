@@ -4,7 +4,7 @@
   <title><![CDATA[Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-10-30T10:13:30+04:00</updated>
+  <updated>2014-10-30T15:41:38+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -12,6 +12,123 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Newsletter #62]]></title>
+    <link href="http://namshi.github.io/blog/2014/10/30/newsletter-number-62/"/>
+    <updated>2014-10-30T11:09:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/10/30/newsletter-number-62</id>
+    <content type="html"><![CDATA[<p>Hey folks!</p>
+
+<p>It&rsquo;s <a href="http://namshi.github.io/blog/categories/techthursday/">#TechThursday</a> at <a href="http://twitter.com/techNamshi">#namshi</a>!</p>
+
+<blockquote><p>News from the IT Team:</p>
+
+<p>Namshi is now maintaining <a href="https://github.com/namshi/winston-graylog2">winston-graylog2</a>! <a href="">Lucio</a> just merged the first PR!</p>
+
+<p><a href="http://tech.namshi.com/team/#Alessandro%20Cinelli%20(cirpo)">Cirpo</a> just came back from Munich after giving two interesting talks, read all about it <a href="http://tech.namshi.com/blog/2014/10/30/ipc14-wtc14-munich/">here</a>!</p>
+
+<p><a href="http://tech.namshi.com/team/#Alessandro%20Nadalin">Alex</a> will be hitting <a href="http://madrid2014.symfony.com/speakers">SymfonyCon Madrid</a>
+on November 27-29. He will talk about Namshi&rsquo;s experience with AngularJs!</p></blockquote>
+
+<p><strong>Here is the list with awesome links to keep you busy during the weekend:</strong></p>
+
+<ul>
+<li><p><a href="http://osquery.io/">SQL powered operating system instrumentation and analytics.</a></p></li>
+<li><p><a href="http://www.regexper.com/">Regexper: a good way to visualize your regex</a></p></li>
+<li><p><a href="http://monkey.org/~marius/unix-tools-hints.html?">Hints for writing Unix tools</a></p></li>
+</ul>
+
+
+<!-- more -->
+
+
+<ul>
+<li><p><a href="http://jonathan.bergknoff.com/journal/building-good-docker-images">Building good docker images</a></p></li>
+<li><p><a href="http://bit.ly/1weC6l8">Why Open Source Is Becoming A Big Developer-Recruiting Tool</a></p></li>
+<li><p>[React (and why it’s awesome) &ndash; Slides] (<a href="http://bit.ly/1yIRgyv">http://bit.ly/1yIRgyv</a>)</p></li>
+<li><p><a href="http://bit.ly/10ApTLP">4 Biggest Reasons Why Software Developers Suck at Estimation</a></p></li>
+<li><p><a href="http://davidwalsh.name/for-and-against-let">For and Against ‘Let’ in ES6</a></p></li>
+<li><p><a href="https://github.com/enaqx/awesome-react">A collection of awesome React libraries, resources and shiny things.</a></p></li>
+<li><p><a href="http://www.andrewconnell.com/blog/atscript-another-language-to-compile-down-to-javascript">AtScript &ndash; Another Language to Compile Down to JavaScript?</a></p></li>
+<li><p><a href="https://medium.com/@garychambers108/understanding-flux-f93e9f650af7">Understanding Flux Architecture</a></p></li>
+<li><p><a href="http://blog.pascal-martin.fr/post/php-versions-stats-2014-10-en">PHP versions stats &ndash; Oct 2014: >70% of installs are unmaintained versions!</a></p></li>
+<li><p><a href="http://blog.ircmaxell.com/2014/10/foundations-of-oo-design.html?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+Ircmaxell+%28ircmaxell%29">Foundation of OOP design</a></p></li>
+<li><p><a href="https://blog.engineyard.com/2014/on-love-open-course-and-community">On love, open source and community</a></p></li>
+<li><p><a href="https://github.com/virtkick/virtkick">VirtKick is a simple, open source orchestrator for managing virtual machines and Docker containers.</a></p></li>
+<li><p><a href="https://www.atatus.com/">Atatus: Frontend JavaScript Contextual Error Tracking &ndash; See which user actions triggered your frontend errors.</a></p></li>
+<li><p><a href="https://humongous.io/">Humongous.io: mongoDB User Interface</a></p></li>
+<li><p><a href="http://contribsys.com/inspeqtor/">Inspeqtor: Easy application infrastructure monitoring</a></p></li>
+<li><p><a href="http://lwan.ws/">Lwan: Experimental, scalable, high performance HTTP server</a></p></li>
+<li><p><a href="http://www.javaworld.com/article/2840332/html-css-js/next-up-for-node-js-going-mobile.html">Next up for Node.js: Going mobile</a></p></li>
+<li><p><a href="https://ahmetalpbalkan.com/blog/docker-http-basic-auth/">Securing Docker with HTTP Basic Authentication</a></p></li>
+<li><p><a href="http://tylermcginnis.com/angularjs-factory-vs-service-vs-provider/">AngularJS: Factory vs Service vs Provider</a></p></li>
+<li><p><a href="http://java.dzone.com/articles/docker-rabbitmq-cluster">Docker RabbitMQ Cluster</a></p></li>
+<li><p><a href="http://ropensci.org/blog/2014/10/23/introducing-rocker/">Introducing Rocker: Docker for R</a></p></li>
+<li><p><a href="https://clusterhq.com/blog/deploying-multi-node-elasticsearch-logstash-kibana-cluster-using-docker/">Deploying and migrating a multi-node ElasticSearch-Logstash-Kibana cluster using Docker</a></p></li>
+<li><p><a href="https://www.linkedin.com/today/post/article/20141027200232-1485298-why-i-left-my-254-895-pm-role-at-microsoft-to-start-a-seattle-tech-startup">Why I left my $254,895 PM role at Microsoft to start a Seattle tech startup</a></p></li>
+<li><p><a href="http://nginx.com/blog/deploying-nginx-nginx-plus-docker/">Deploying NGINX and NGINX Plus with Docker</a></p></li>
+<li><p><a href="http://jonathan.bergknoff.com/journal/building-good-docker-images">What constitutes a good docker image</a></p></li>
+<li><p><a href="http://www.infoworld.com/article/2838008/javascript/nginx-has-big-plans-for-javascript.html">Nginx has big plans for JavaScript</a></p></li>
+<li><p><a href="http://flapjack.io/">flapjack: monitoring notification routing + event processing system</a></p></li>
+<li><p><a href="http://venturebeat.com/2013/11/08/the-future-of-web-apps-is-ready-isomorphic-javascript/">The future of web apps is — ready? — isomorphic JavaScript</a></p></li>
+<li><p><a href="http://berzniz.com/post/98422338286/ocd-js-javascript-obsessive-compulsive-disorder">OCD.JS: JavaScript Obsessive-Compulsive disorder</a></p></li>
+<li><p><a href="https://readme.io/">Beautiful Documentation made easy</a></p></li>
+<li><p><a href="https://nakedsecurity.sophos.com/2014/10/24/do-we-really-need-strong-passwords">Do we really need strong passwords?</a></p></li>
+<li><p><a href="http://www.infoworld.com/article/2838799/node-js/next-up-for-nodejs-going-mobile.html">Next up for NodeJs, going mobile</a></p></li>
+<li><p><a href="http://www.elasticsearchtutorial.com/elasticsearch-in-5-minutes.html">ElasticSearch in 5 minutes</a></p></li>
+<li><p><a href="http://www.elasticsearch.org/blog/kibana-3-0-0-ga-now-available/">Kibana 3.0.0 GA is now available!</a></p></li>
+<li><p><a href="https://www.joyent.com/blog/node-js-advisory-board">Node gets an advisory board</a></p></li>
+<li><p><a href="http://blog.nodejs.org/2014/10/23/node-v0-10-33-stable/">And don&rsquo;t forget to update your nodes to the 0.10.33!!</a></p></li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Year and a Half journey with Namshi Tech]]></title>
+    <link href="http://namshi.github.io/blog/2014/10/30/a-year-and-a-half-journey-with-namshi-tech/"/>
+    <updated>2014-10-30T09:48:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/10/30/a-year-and-a-half-journey-with-namshi-tech</id>
+    <content type="html"><![CDATA[<p>Today, I bed farewell to the team and the culture that introduced me to software development. A year and six months have passed since I
+landed my first job straight out of college as a Junior Software Engineer at Namshi where I had the great, the average and the bad
+days. I must admit, time has passed super fast.</p>
+
+<!--more-->
+
+
+<p>It was a very exciting journey, from completing my first assignment, changing <code>robots.txt</code> :&ndash;), to the latest extra large,
+super complicated tasks, it was a journey involving lots and lots of learning and late working hours.</p>
+
+<p>I was lucky to join Namshi Tech at a time where migration to a more sustainable, robust and scalable architecture was
+taking place. After a little bit of struggling with completing assignments on legacy software, Symfony2 kicked in and
+paved the way of my learning path and ended up to be my most valuable experience. Javascript for me was that nice
+language I used to manipulate DOM elements, I could not be more wrong! After finally understanding what a directive is supposed to be,
+I started working with AngularJs and I couldn&rsquo;t help but be amazed on what it can achieve. Fighting and watching my
+teammates fight through the craziness of Javascript, NodeJs came into the picture and my first impression was exactly
+as you might think, this javascript craziness on the server?! But the simplicity and the ultimate performance of this
+platform proved me wrong again.</p>
+
+<p>The newly employed technologies brought with them a set of valuable practices like code review, code testing and
+automated testing tools, pair programming and many more which are very important skills for a software developer to pick up.</p>
+
+<p>Attending SymfonyLive London 2014 was a great chance to meet people from the Symfony and PHP community, getting to know
+the latest trends surrounding this framework and most importantly, realizing that there are people across continents
+facing the same issues and struggling through the same parts you had hard time working on. The level of passion towards
+software is just fascinating!</p>
+
+<p>One of the most valuable lessons I learned was that paying back to the open source community is an important part of
+our job as software developers. During this period at Namshi, I had the chance to participate in <a href="https://www.npmjs.org/package/mockserver">Mockserver</a>
+and <a href="https://www.npmjs.org/package/shisha">shisha</a>.</p>
+
+<p>Finally, words of gratitude go to <a href="http://tech.namshi.com/team/#Alessandro%20Nadalin">Alessandro Nadalin</a> for taking a
+leap of faith in hiring a fresh graduate and going through the painful process of developing him from scratch.
+I just hope I set a right example. Of course, lots of thanks to the team and to <a href="http://tech.namshi.com/team/#Alessandro%20Cinelli%20(cirpo">Alessandro Cinelli</a>)
+for sharing their knowledge and their guidance along the way.</p>
+
+<p><img class="center" src="http://namshi.github.io/images/wall.jpg" title="On the Namshi Wall" alt="On the Namshi Wall"></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Namshi went to Germany!<br>WebTechCon and International PHPConference 2014]]></title>
@@ -1620,429 +1737,6 @@ PHP panorama can offer.</p>
 <p>We wish Hallal a safe trip to the United Kingdom
 and we hope he&rsquo;ll have a blast learning some new stuff
 and seeing a new place!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Newsletter #54]]></title>
-    <link href="http://namshi.github.io/blog/2014/09/04/newsletter-number-54/"/>
-    <updated>2014-09-04T11:17:00+04:00</updated>
-    <id>http://namshi.github.io/blog/2014/09/04/newsletter-number-54</id>
-    <content type="html"><![CDATA[<p>It&rsquo;s <a href="http://namshi.github.io/blog/categories/techthursday/">TechThursday</a> again!</p>
-
-<blockquote><p>Big news, in case you missed it: we&rsquo;re going public!</p>
-
-<p><a href="http://kinnevik.se/en/Media/Press-releases/Kinnevik-and-Rocket-Internet-to-create-global-fashion-e-commerce-group/">http://kinnevik.se/en/Media/Press-releases/Kinnevik-and-Rocket-Internet-to-create-global-fashion-e-commerce-group/</a></p></blockquote>
-
-<p>This week we&rsquo;ve been quite busy, in fact we announced
-that <a href="http://namshi.github.io/blog/2014/08/31/welcome-daniel/">Daniel is joining us</a> and
-we took the time to talk about how we <a href="http://namshi.github.io/blog/2014/09/02/innovate-payment-gate-way-library/">process payments</a>
-and how we&rsquo;ve been trying to shift more to a
-<a href="http://namshi.github.io/blog/2014/09/01/5-devops-practices-you-should-consider-starting-today/">devops-ish culture</a> &mdash; long road ahead though!</p>
-
-<p>Last but not least, we also wrote an article explaining
-<a href="http://namshi.github.io/blog/2014/08/31/php-generators-explained/">generators in PHP</a>
-for whoever has missed them so far!</p>
-
-<p>But what has the team been looking at over the past week? Below
-you&rsquo;ll find the usual list of interesting articles we discovered
-in the past 7 days.</p>
-
-<!-- more -->
-
-
-<ul>
-<li><a href="http://buff.ly/1xbWXrt">JoliCI: run your CI builds locally, through docker</a></li>
-<li><a href="http://buff.ly/1nWsdBi">Design how your objects talk through mocking</a></li>
-<li><a href="http://buff.ly/Y9oaM6">HHVM Long Term Support</a></li>
-<li><a href="http://buff.ly/1nmUssN">Configuring Redis High Availability</a></li>
-<li><a href="http://speakingjs.com/">Another awesome book on JavaScript</a></li>
-<li><a href="http://duojs.org/">Next generation package manager for the front-end</a></li>
-<li><a href="http://tc39wiki.calculist.org/es6/">Redesigned TC39 ES6 Features</a></li>
-<li><a href="https://github.com/medikoo/es6-symbol">ES-6 symbols shims for node</a></li>
-<li><a href="https://github.com/reactphp/vagrant">React Vagrant</a></li>
-<li><a href="http://code.tutsplus.com/series/working-with-symfony-2--cms-636">Working with Symfony 2</a></li>
-<li><a href="http://arstechnica.com/information-technology/2014/08/is-there-a-benefit-to-compiling-your-code-as-you-go/">Is there a benefit to compiling your code as you go?</a></li>
-<li><a href="https://gist.github.com/mathisonian/c325dbe02ea4d6880c4e">requiring npm modules in the browser console</a></li>
-<li><a href="http://perf.fail/">perf.fail &ndash; do, learn, fail forward.</a></li>
-<li><a href="http://samlambert.com/posts/how-we-work-on-queries-at-gitHub/">How we work on queries at github</a></li>
-<li><a href="http://blog.flux7.com/benchmarking-analyzing-aws-m3-instances-for-performance-bandwidth">Benchmarking: Analyzing AWS m3 Instances for Performance, Bandwidth</a></li>
-<li><a href="http://opensource.com/business/14/9/security-for-docker">Bringing new security features to Docker</a></li>
-<li><a href="http://www.drdobbs.com/architecture-and-design/containers-for-development/240168801">Containers for Development</a></li>
-<li><a href="http://www.davidmkerr.com/2014/08/dockerfile-golf-or-optimizing-docker.html">Dockerfile Golf (or optimizing the Docker build process) </a></li>
-<li><a href="http://blog.ezyang.com/2014/08/the-fundamental-problem-of-programming-language-package-management/">The fundamental problem of programming language package management</a></li>
-<li><a href="http://softwaredefinedtalk.com/">SoftwareDefinedTalk</a></li>
-<li><a href="http://techblog.netflix.com/2014/08/announcing-scumblr-and-sketchy-search.html">Scumblr is an interesting tool for keeping an eye on potential exploits or discussions of your company/application elsewhere on the internet. All sorts of potential monitoring applications for this: https://github.com/netflix/scumblr</a></li>
-<li><a href="https://github.com/spotify/helios">Helios is another docker orchestration platform designed for managing containers across a large fleet. Instructive documentation, debian packages and a vagrant setup for trying it out are all plus points</a></li>
-<li><a href="https://github.com/ConradIrwin/aws-name-server">DNS server that lets you look up ec2 instances by instance name</a></li>
-<li><a href="https://www.skylight.io/">Skylight is a smart profiler data detective code whisperer bug catcher flag raiser for rails apps</a></li>
-<li><a href="http://www.liquibase.org/">Liquibase:&ndash; Source control for your database</a></li>
-<li><a href="http://dweet.io/">dweet.io: Ridiculously simple messaging (and alerts) for the Internet of Things</a></li>
-<li><a href="https://github.com/slap-editor/slap">Slap: Sublime-like terminal-based text editor</a></li>
-<li><a href="http://pre-commit.com/">Pre-commit:&ndash;  A framework for managing and maintaining multi-language pre-commit hooks</a></li>
-<li><a href="http://www.youtube.com/watch?v=aQipuiTcn3U">Julie Ralph (from Google) talks about End to End Angular Testing with Protractor</a></li>
-<li><a href="http://www.appcelerator.com/blog/2012/05/comparing-titanium-and-phonegap/">Comparing Titanium and PhoneGap (Mobile app development)</a></li>
-<li><a href="http://maurizzzio.github.io/PojoViz/public/vulcanize.htm">PojoViz &ndash; Plain Old JavaScript Object Visualization</a></li>
-<li><a href="https://github.com/newrelic/centurion/">A mass deployment tool for Docker fleets</a></li>
-<li><a href="https://github.com/josephyzhou/github-trending">Tracking the most popular Github repos, updated daily</a></li>
-<li><a href="http://devops.com/blogs/specialists-vs-generalists-enterprise-devops/">Specialists vs. Generalists for Enterprise DevOps</a></li>
-</ul>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Innovate Payment Gateway Library]]></title>
-    <link href="http://namshi.github.io/blog/2014/09/02/innovate-payment-gate-way-library/"/>
-    <updated>2014-09-02T19:23:00+04:00</updated>
-    <id>http://namshi.github.io/blog/2014/09/02/innovate-payment-gate-way-library</id>
-    <content type="html"><![CDATA[<p>In the tech <a href="https://namshi.com">Namshi</a> team, as you probably know, we fully support the open source movement,
-that&rsquo;s why we try to release open source software as soon as we can, in the full &ldquo;give back to the community&rdquo; mindset.
-You can check all our project on <a href="http://github.com/namshi">github</a></p>
-
-<p>Lots of e-commerce companies and service providers have online payments for their
-customers. So do we.</p>
-
-<p>Our weapon of choice, apart from PayPal, to carry out payments is: <a href="http://www.innovatepayments.com">Innovate.</a>
-That&rsquo;s why we developed and released the <a href="https://github.com/namshi/innovate">Innovate library</a>, written in PHP.</p>
-
-<p><a href="http://www.innovatepayments.com">Innovate</a> payment gateway accepts all types of credit card payments.</p>
-
-<!-- more -->
-
-
-<h2>Installation</h2>
-
-<p>You can easily integrate the Innovate library in your project via <a href="https://getcomposer.org">composer</a>:</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>composer install namshi/innovate</span></code></pre></td></tr></table></div></figure>
-
-
-<p><img class="center" src="http://namshi.github.io/images/posts/cards.png" title="payment cards" ></p>
-
-<h2>Usage</h2>
-
-<p>Using this library is easy, here is what you need:</p>
-
-<ul>
-<li>initialize the Innovate client</li>
-</ul>
-
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="cp">&lt;?php</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">use</span> <span class="nx">Namshi\Innovate\Payment\Transaction</span><span class="p">;</span>
-</span><span class='line'><span class="k">use</span> <span class="nx">Namshi\Innovate\Payment\BillingInformation</span><span class="p">;</span>
-</span><span class='line'><span class="k">use</span> <span class="nx">Namshi\Innovate\Payment\Browser</span><span class="p">;</span>
-</span><span class='line'><span class="k">use</span> <span class="nx">Namshi\Innovate\Payment\Billing\Customer</span><span class="p">;</span>
-</span><span class='line'><span class="k">use</span> <span class="nx">Namshi\Innovate\Payment\Billing\Address</span><span class="p">;</span>
-</span><span class='line'><span class="k">use</span> <span class="nx">Namshi\Innovate\Payment\Card</span><span class="p">;</span>
-</span><span class='line'><span class="k">use</span> <span class="nx">Namshi\Innovate\Client</span><span class="p">;</span>
-</span><span class='line'>
-</span><span class='line'><span class="nv">$client</span>      <span class="o">=</span> <span class="k">new</span> <span class="nx">Client</span><span class="p">(</span><span class="nv">$storeId</span><span class="p">,</span> <span class="nv">$authenticationKey</span><span class="p">);</span> <span class="c1">// retrieve them from your Innovate account</span>
-</span><span class='line'><span class="nv">$transaction</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Transaction</span><span class="p">(</span><span class="s1">&#39;sale&#39;</span><span class="p">,</span> <span class="s1">&#39;ecom&#39;</span><span class="p">,</span> <span class="k">true</span><span class="p">,</span> <span class="s1">&#39;ORDER_NUMBER&#39;</span><span class="p">,</span> <span class="s1">&#39;DESCRIPTION&#39;</span><span class="p">,</span> <span class="s1">&#39;USD&#39;</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="s1">&#39;AN OPTIONAL REFERENCE TO YOUR TRANSACTION&#39;</span><span class="p">);</span>
-</span><span class='line'><span class="nv">$card</span>        <span class="o">=</span> <span class="k">new</span> <span class="nx">Card</span><span class="p">(</span><span class="s1">&#39;1234123412341234&#39;</span><span class="p">,</span> <span class="s1">&#39;111&#39;</span><span class="p">,</span> <span class="k">new</span> <span class="nx">\DateTime</span><span class="p">(</span><span class="nv">$cardExpiryDate</span><span class="p">));</span>
-</span><span class='line'><span class="nv">$customer</span>    <span class="o">=</span> <span class="k">new</span> <span class="nx">Customer</span><span class="p">(</span><span class="s1">&#39;Mr&#39;</span><span class="p">,</span> <span class="s1">&#39;John&#39;</span><span class="p">,</span> <span class="s1">&#39;Doe&#39;</span><span class="p">);</span>
-</span><span class='line'><span class="nv">$address</span>     <span class="o">=</span> <span class="k">new</span> <span class="nx">Address</span><span class="p">(</span><span class="s1">&#39;My address info 1&#39;</span><span class="p">,</span> <span class="s1">&#39;My address info 2&#39;</span><span class="p">,</span> <span class="s1">&#39;My address info 3&#39;</span><span class="p">,</span> <span class="s1">&#39;San Francisco&#39;</span><span class="p">,</span> <span class="s1">&#39;California&#39;</span><span class="p">,</span> <span class="s1">&#39;US&#39;</span><span class="p">,</span> <span class="s1">&#39;00000&#39;</span><span class="p">);</span>
-</span><span class='line'><span class="nv">$billing</span>     <span class="o">=</span> <span class="k">new</span> <span class="nx">BillingInformation</span><span class="p">(</span><span class="nv">$customer</span><span class="p">,</span> <span class="nv">$address</span><span class="p">,</span> <span class="s2">&quot;customers&#39;s-email@gmail.com&quot;</span><span class="p">,</span> <span class="nv">$customerIpAddress</span><span class="p">);</span>
-</span><span class='line'><span class="nv">$browser</span>     <span class="o">=</span> <span class="k">new</span> <span class="nx">Browser</span><span class="p">(</span><span class="nv">$customUserAgent</span><span class="p">,</span> <span class="nv">$requestAcceptHeader</span><span class="p">);</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>We used OOP to cover all the data we need to send to Innovate:</p>
-
-<p><code>$client</code> is a model that contains the Innovate account info.</p>
-
-<p><code>$transaction</code> represents a detailed transaction where we pass as many arguments as Innovate needs.</p>
-
-<p><code>$card</code> represents the required card details to perform the payment.</p>
-
-<p><code>$customer</code> represents the customer details.</p>
-
-<p><code>$address</code> represents the customer address details.</p>
-
-<p><code>$billing</code> represents the customer billing address and contact details.</p>
-
-<p><code>$browser</code> represents detailed browser info, including the User-Agent.</p>
-
-<p><code>$customUserAgent</code> is the browser user agent header.</p>
-
-<p><code>$requestAcceptHeader</code> is the browser accept header.</p>
-
-<h2>How It Works</h2>
-
-<p>To perform the payment you need to create a request to <a href="http://www.innovatepayments.com">Innovate</a> and pass the previous created objects:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="cp">&lt;?php</span>
-</span><span class='line'>
-</span><span class='line'><span class="nv">$response</span> <span class="o">=</span> <span class="nv">$client</span><span class="o">-&gt;</span><span class="na">performPayment</span><span class="p">(</span><span class="nv">$transaction</span><span class="p">,</span> <span class="nv">$card</span><span class="p">,</span> <span class="nv">$billing</span><span class="p">,</span> <span class="nv">$browser</span><span class="p">);</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>You will then get one of the following responses:</p>
-
-<ul>
-<li><h2>Normal transaction</h2>
-
-<p>A normal transaction follows a very simple flow: It just requires authentication through Innovate, and the library then performs the payment.</p></li>
-<li><h2>3D secure transactions</h2>
-
-<p>A <a href="http://en.wikipedia.org/wiki/3-D_Secure">3-D_Secure</a> transaction requires two requests to Innovate and one request for 3D Secure in order
-to add an additional security layer while performing the payment.
-The first request is already sent to Innovate and if it is 3D Secure transaction you will need to redirect the user to the concerned party
-(primarily, the bank) to confirm the payment.</p></li>
-</ul>
-
-
-<p>After that the process continues by sending another request to Innovate containing the extra validation values.</p>
-
-<p>You can easily distinguish between the two possible types of payments, 3D Secure and Normal, by looking at the type of Innovate response received:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="cp">&lt;?php</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">use</span> <span class="k">use</span> <span class="nx">Namshi\Innovate\Http\Response\Redirect</span><span class="p">;</span>
-</span><span class='line'>
-</span><span class='line'><span class="nv">$response</span> <span class="o">=</span> <span class="nv">$client</span><span class="o">-&gt;</span><span class="na">performPayment</span><span class="p">(</span><span class="nv">$transaction</span><span class="p">,</span> <span class="nv">$card</span><span class="p">,</span> <span class="nv">$billing</span><span class="p">,</span> <span class="nv">$browser</span><span class="p">);</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">if</span> <span class="p">(</span><span class="nv">$response</span> <span class="nx">instanceOf</span> <span class="nx">Redirect</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>    <span class="c1">// 3D secure transactions</span>
-</span><span class='line'><span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-</span><span class='line'>    <span class="c1">// Normal transactions</span>
-</span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>In case of normal Transactions, the library will perform the payment directly.
-In case of 3D Secure transactions you need to send another request
-with more details (related to the third security party) as follows:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="cp">&lt;?php</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">use</span> <span class="nx">Namshi\Innovate\Http\Response\Redirect</span><span class="p">;</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">if</span> <span class="p">(</span><span class="nv">$response</span> <span class="nx">instanceof</span> <span class="nx">Redirect</span><span class="p">)</span> <span class="p">{</span>
-</span><span class='line'>    <span class="c1">// build a form</span>
-</span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>The response object contains the values (&lsquo;targetUrl&rsquo;, &lsquo;session&rsquo;, &lsquo;paReq&rsquo;) which are needed to build the form:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="cp">&lt;?php</span>
-</span><span class='line'>
-</span><span class='line'><span class="nv">$targetUrl</span>  <span class="o">=</span> <span class="nv">$response</span><span class="o">-&gt;</span><span class="na">getTargetUrl</span><span class="p">();</span>
-</span><span class='line'><span class="nv">$session</span>    <span class="o">=</span> <span class="nv">$response</span><span class="o">-&gt;</span><span class="na">getSession</span><span class="p">();</span>
-</span><span class='line'><span class="nv">$pareq</span>      <span class="o">=</span> <span class="nv">$response</span><span class="o">-&gt;</span><span class="na">getPareq</span><span class="p">();</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Then, the receiving the previous values will be used to build a form as hidden values.
-The form will be sent to the <code>$targetUrl</code> which is the 3D-secure service page as the following:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-</pre></td><td class='code'><pre><code class='xml'><span class='line'><span class="nt">&lt;form</span> <span class="na">name=</span><span class="s">&quot;acsform&quot;</span> <span class="na">action=</span><span class="s">&quot;[targetUrl from the response]&quot;</span> <span class="na">method=</span><span class="s">&quot;post&quot;</span><span class="nt">&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;hidden&quot;</span> <span class="na">name=</span><span class="s">&quot;PaReq&quot;</span> <span class="na">value=</span><span class="s">&quot;[The pareq data from response]&quot;</span><span class="nt">&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;hidden&quot;</span> <span class="na">name=</span><span class="s">&quot;MD&quot;</span> <span class="na">value=</span><span class="s">&quot;[Any value can be stored here which will be sent back unchanged in the the 3d secure response e.g to preserve the session id which we can send back to complete the transaction]&quot;</span><span class="nt">&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;hidden&quot;</span> <span class="na">name=</span><span class="s">&quot;TermUrl&quot;</span> <span class="na">value=</span><span class="s">&quot;[return URL on your site]&quot;</span><span class="nt">&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;noscript&gt;</span>
-</span><span class='line'>        <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;Submit&quot;</span><span class="nt">&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;/noscript&gt;</span>
-</span><span class='line'><span class="nt">&lt;/form&gt;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p><code>termUrl</code>: the URL that we need to direct the user to, after the user submits the form.</p>
-
-<p>See an example of an ACS (Access Control Server) Form</p>
-
-<p>We need to submit the form with Javascript:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='javascript'><span class='line'><span class="kd">function</span> <span class="nx">autosub</span><span class="p">()</span> <span class="p">{</span>
-</span><span class='line'>    <span class="nb">document</span><span class="p">.</span><span class="nx">forms</span><span class="p">[</span><span class="s1">&#39;acsform&#39;</span><span class="p">].</span><span class="nx">submit</span><span class="p">();</span>
-</span><span class='line'><span class="p">}</span>
-</span><span class='line'>
-</span><span class='line'><span class="nb">document</span><span class="p">.</span><span class="nx">onload</span><span class="o">=</span><span class="nx">autosub</span><span class="p">;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>After the form is submitted, the user is redirected to a 3D Secure page which asks for extra credentials.
-Once the user submits the 3D Secure form, he/she gets redirected to the &lsquo;termUrl&rsquo; page with two hidden values
-(&lsquo;PaRes&rsquo;, &lsquo;MD&rsquo;) which are used to create the final request to Innovate:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="cp">&lt;?php</span>
-</span><span class='line'>
-</span><span class='line'><span class="nv">$extraData</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span>
-</span><span class='line'>    <span class="s1">&#39;PaRes&#39;</span>     <span class="o">=&gt;</span> <span class="s1">&#39;Authentication response&#39;</span><span class="p">,</span> <span class="c1">// we get this value from hidden fields after redirection to termUrl</span>
-</span><span class='line'>    <span class="s1">&#39;session&#39;</span>   <span class="o">=&gt;</span> <span class="s1">&#39;MD&#39;</span><span class="p">,</span> <span class="c1">// we get this value from hidden fields after redirection to termUrl</span>
-</span><span class='line'><span class="p">);</span>
-</span><span class='line'>
-</span><span class='line'><span class="nv">$finalResponse</span> <span class="o">=</span> <span class="nv">$client</span><span class="o">-&gt;</span><span class="na">send</span><span class="p">(</span><span class="nv">$client</span><span class="o">-&gt;</span><span class="na">createRemoteRequest</span><span class="p">(</span><span class="s1">&#39;POST&#39;</span><span class="p">,</span> <span class="nx">Client</span><span class="o">::</span><span class="na">INNOVATE_URL</span><span class="p">,</span> <span class="k">null</span><span class="p">,</span> <span class="k">null</span><span class="p">,</span> <span class="nv">$extraData</span><span class="p">));</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Then we get the final response which can be checked for payment status &ndash; success or denied:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="cp">&lt;?php</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">if</span> <span class="p">(</span><span class="mi">200</span> <span class="o">===</span> <span class="nv">$finalResponse</span><span class="o">-&gt;</span><span class="na">getStatusCode</span><span class="p">())</span> <span class="p">{</span>
-</span><span class='line'>    <span class="c1">// payment done</span>
-</span><span class='line'><span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
-</span><span class='line'>    <span class="c1">// authentication failed</span>
-</span><span class='line'><span class="p">}</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h2>Tests</h2>
-
-<p>We added two types of tests; to run them you need to install the dev dependencies using composer and then run
-the test using <a href="http://phpunit.de">PHPUnit</a></p>
-
-<ul>
-<li><h3>Functional Test:</h3>
-
-<p>These test the library functionality without sending any real request to Innovate, just hit this on your terminal:</p></li>
-</ul>
-
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="x">phpunit</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<ul>
-<li><h3>integration Test</h3>
-
-<p>There are a couple of integration tests that verify that the library works flawlessly by creating
-real requests to the Innovate payment gateway. Just use valid test credentials, then create a file
-called .innovate.config in the project directory with four parameters:</p></li>
-</ul>
-
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-<span class='line-number'>20</span>
-<span class='line-number'>21</span>
-</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="cp">&lt;?php</span>
-</span><span class='line'>
-</span><span class='line'><span class="nv">$configs</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span>
-</span><span class='line'>    <span class="s1">&#39;storeId&#39;</span>           <span class="o">=&gt;</span> <span class="s1">&#39;xxxxx&#39;</span><span class="p">,</span> <span class="c1">//store Id in Innovate</span>
-</span><span class='line'>    <span class="s1">&#39;authenticationKey&#39;</span> <span class="o">=&gt;</span> <span class="s1">&#39;xxxxxxxxxxx&#39;</span><span class="p">,</span> <span class="c1">//authentication key</span>
-</span><span class='line'><span class="p">);</span>
-</span><span class='line'>
-</span><span class='line'><span class="c1">// Card info</span>
-</span><span class='line'><span class="nv">$cardInfo</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span>
-</span><span class='line'>    <span class="s1">&#39;number&#39;</span>    <span class="o">=&gt;</span> <span class="s1">&#39;xxxxxxxxxxxx&#39;</span><span class="p">,</span>
-</span><span class='line'>    <span class="s1">&#39;cvv&#39;</span>       <span class="o">=&gt;</span> <span class="s1">&#39;XXX&#39;</span><span class="p">,</span>
-</span><span class='line'><span class="p">);</span>
-</span><span class='line'>
-</span><span class='line'><span class="c1">// The card which need redirection for 3d secured</span>
-</span><span class='line'><span class="nv">$redirectUrlCardInfo</span> <span class="o">=</span> <span class="k">array</span><span class="p">(</span>
-</span><span class='line'>    <span class="s1">&#39;number&#39;</span>    <span class="o">=&gt;</span> <span class="s1">&#39;xxxxxxxxxxxx&#39;</span><span class="p">,</span>
-</span><span class='line'>    <span class="s1">&#39;cvv&#39;</span>       <span class="o">=&gt;</span> <span class="s1">&#39;XXX&#39;</span><span class="p">,</span>
-</span><span class='line'><span class="p">);</span>
-</span><span class='line'>
-</span><span class='line'><span class="c1">// your ip, it should be in Innovate white list</span>
-</span><span class='line'><span class="nv">$ip</span> <span class="o">=</span> <span class="s1">&#39;xxx.xxx.xxx.xxx&#39;</span><span class="p">;</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>After the setup, just run:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='php'><span class='line'><span class="x">phpunit tests/Namshi/Innovate/Test/Integration/ServiceTest.php</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>We hope that you enjoy using Namshi&rsquo;s open source library. We&rsquo;ve been using this library for almost a year and
-it&rsquo;s working fine with no issues on our side. As always, any feedback and pull requests are welcome :)</p>
 ]]></content>
   </entry>
   

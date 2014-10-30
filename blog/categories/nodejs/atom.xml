@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: NodeJS | Tech @ Namshi.com]]></title>
+  <title><![CDATA[Category: nodejs | Tech @ Namshi.com]]></title>
   <link href="http://namshi.github.io/blog/categories/nodejs/atom.xml" rel="self"/>
   <link href="http://namshi.github.io/"/>
-  <updated>2014-10-30T10:13:30+04:00</updated>
+  <updated>2014-10-30T15:42:07+04:00</updated>
   <id>http://namshi.github.io/</id>
   <author>
     <name><![CDATA[Namshi]]></name>
@@ -14,363 +14,308 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Interested in the history of NodeJS? Then let's hear it from Lucio at the ConFoo]]></title>
-    <link href="http://namshi.github.io/blog/2014/09/20/interested-in-the-history-of-nodejs-then-lets-hear-it-from-lucio-at-the-confoo/"/>
-    <updated>2014-09-20T22:37:00+04:00</updated>
-    <id>http://namshi.github.io/blog/2014/09/20/interested-in-the-history-of-nodejs-then-lets-hear-it-from-lucio-at-the-confoo</id>
-    <content type="html"><![CDATA[<p>Not really hard to believe, NodeJS is a beloved one among
-the plethora of technologies that we use at <a href="https://namshi.com">Namshi</a>;
-that&rsquo;s why we got people like <a href="/team#Luciano%20Colosio">Lucio</a> on board so that we
-could expand in that direction.</p>
+    <title type="html"><![CDATA[winston-graylog2: a new life under Namshi]]></title>
+    <link href="http://namshi.github.io/blog/2014/10/27/winston-graylog2-a-new-life-under-namshi/"/>
+    <updated>2014-10-27T10:32:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/10/27/winston-graylog2-a-new-life-under-namshi</id>
+    <content type="html"><![CDATA[<p>As our herd of node.js apps grows, we soon needed a way to keep an eye on them.
+Having already in out tool belt a <a href="http://www.graylog2.org/">graylog2</a> facility in place, looking for a way to leverage it was the most natural thing to do.</p>
 
-<!-- more -->
+<p>Because of its nice modular <code>transports feature</code> our node-logging weapon of choice is <a href="https://github.com/flatiron/winston">winston</a>, the <code>graylog2</code> transport library looked a bit alone though and in need of a maintainer.
+I our usual <strong>give back</strong> spirit we choose to adopt the lib instead of publishing a new one, and today we merged our 1st PR! :)</p>
 
+<p>As for now our intervention was isolated to move away from the custom GELF protocol implementation, relying instead on the <a href="https://github.com/Wizcorp/node-graylog2">node-graylog2</a> library:
+they&rsquo;ll most likely do a better job than us on the protocol side, and we&rsquo;ll be able to focus more on the winston integration.
+We also started introducing some basic tests: definitely some better work can be done on this side ;)</p>
 
-<p><img class="left team" src="/images/lucio.jpg" title="Luciano Colosio" ></p>
+<p>So here it is: <a href="https://github.com/namshi/winston-graylog2">winston-graylog2</a>
+and here&rsquo;s briefly how you use it:</p>
 
-<p>And you know what? Lucio loves Node so much that he&rsquo;d like
-to talk about it at a big stage, like the one the
-<a href="http://confoo.ca/">ConFoo</a> of next february.</p>
-
-<p>Then don&rsquo;t miss the chance to
-<a href="http://confoo.ca/en/call-for-papers/speaker/luciano-colosio">vote one of his proposals</a>
-as he&rsquo;d be very happy to introduce you the history of NodeJS
-(I heard part of that talk, since he already gave it internally
-for the Namshi team, and I have to admit it was freaking
-interesting), how it was born and what pushed
-<a href="http://www.quora.com/Who-is-Ryan-Dahl">Rian Dahl</a> to write
-this beautiful platform; the other talk that he has in the
-pipeline is a good introduction on how to embrace the
-non-blocking paradigm and he will explain how to make sure
-that you treat the Event Loop responsibly :)</p>
-
-<p>Definitely worth it!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[node-file-ensure, a small filesystem utility to make sure a file is there]]></title>
-    <link href="http://namshi.github.io/blog/2014/08/22/node-file-ensure-a-small-filesystem-utility-to-make-sure-a-file-is-there/"/>
-    <updated>2014-08-22T19:42:00+04:00</updated>
-    <id>http://namshi.github.io/blog/2014/08/22/node-file-ensure-a-small-filesystem-utility-to-make-sure-a-file-is-there</id>
-    <content type="html"><![CDATA[<p>This weekend we&rsquo;ve come up with a small utility
-that will make our life easier, and hopefully <strong>yours</strong>
-as well!</p>
-
-<!-- more -->
-
-
-<p>We use cascading mechanisms for our configurations, so, for
-example, we define the config in a few different files:</p>
-
-<ul>
-<li><code>base.yml</code>, that has all the common configurations</li>
-<li><code>dev.yml</code>, which is for local environments</li>
-<li><code>staging.yml</code>, which is for our staging environment</li>
-<li><code>live.yml</code>, well&hellip;you guessed it!</li>
-</ul>
-
-
-<p>So, for example, a <code>live.yml</code> might look like:</p>
-
-<p><code>yaml
-domain:   'namshi.com'
-</code></p>
-
-<p>whereas the base one has many more values:</p>
-
-<p>
-<code>yaml
-apis:
-  version:   'v1'
-  domain:    'api.{{ domain }}'
-  baseUrl:   'https://{{ apis.domain }}'
+<p>the usual
+<code>bash
+npm install winston-graylog2
 </code>
-</p>
+and then</p>
 
-<p>There&rsquo;s a problem with this approach: if one of the developers
-wants to change a value in his <code>dev.js</code> git will tell him that
-the file has changed, which is quite annoying!</p>
+<p>```javascript
+  var winston = require(&lsquo;winston&rsquo;);
+  winston.add(require(&lsquo;winston-graylog2&rsquo;), options);</p>
 
-<p>To overcome this we always put it in the <code>.gitignore</code>:</p>
+<p>```</p>
 
-<p><code>
-dev.yml
-</code></p>
+<p>or</p>
 
-<p>and instead commit a <code>dev.yml.example</code> file that has the
-skeleton of the file, asking everyone, when booting the application
-for the first time, to copy that file to a <code>dev.js</code>.</p>
+<p>```javascript
+var WinstonGraylog2 = require(&lsquo;winston-graylog2&rsquo;);
+var logger = new(winston.Logger)({</p>
 
-<p>Things work flawlessly until you need to do this 10 times
-(I mean, in 10 projects, like we do) or when you forget this step
-during the installation and waste a lot of time trying to debug why
-the application is not running correctly.</p>
+<pre><code>    exitOnError: false,
+    transports: [new(WinstonGraylog2)(options)]
+  });
+</code></pre>
 
-<p>To overcome this annoying issue we decided to develop a small utility,
-<a href="https://github.com/namshi/node-file-ensure">node-file-ensure</a>, that
-does all of this for you:</p>
+<p>```</p>
 
-<p>``` javascript
-var ensure = require(&lsquo;file-ensure&rsquo;);</p>
+<p>Enjoy! :)</p>
 
-<p>ensure(&lsquo;./config/dev.yml&rsquo;, {from: &lsquo;./config/dev.yml.example&rsquo;});
-```</p>
-
-<p>Simple as that!</p>
-
-<p><code>ensure</code> will make sure to create an empty file if it doesnt find
-the one you specified:</p>
-
-<p><code>javascript
-ensure('./config/dev.yml');
-</code></p>
-
-<p>and is able to copy the contents from another file,
-like in the first example above:</p>
-
-<p><code>javascript
-ensure('./config/dev.yml', {from: './config/dev.yml.example'});
-</code></p>
-
-<p>If you need to run any check after <code>ensure</code> has run,
-you can provide a callback:</p>
-
-<p><code>javascript
-ensure('path/to/config/dev.yml', {src: 'path/to/config/dev.yml.example'}, function(err){
-  console.log(fs.readFileSync('path/to/config/dev.yml').toString() === fs.readFileSync('path/to/config/dev.yml.example').toString());
-});
-</code></p>
-
-<p>That&rsquo;s it! Tests run through mocha and we&rsquo;ve set them up
-on <a href="https://travis-ci.org/namshi/node-file-ensure">travis</a>,
-to be on the safe side :)</p>
-
-<p>If you have patches, suggestions or rants&hellip;feel free to open
-an <a href="https://github.com/namshi/node-file-ensure/issues">issue on GitHub</a>!</p>
+<p>Publishing something new is always a great feeling, and it&rsquo;s even more fulfilling when it involves not letting a project die :)<br> So let us know if you like it and share the love with some RP!!!! ;)</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Newsletter #46]]></title>
-    <link href="http://namshi.github.io/blog/2014/07/10/newsletter-number-46/"/>
-    <updated>2014-07-10T10:07:00+04:00</updated>
-    <id>http://namshi.github.io/blog/2014/07/10/newsletter-number-46</id>
-    <content type="html"><![CDATA[<p>As usual, it&rsquo;s #TechThursday!</p>
+    <title type="html"><![CDATA[Newsletter #61]]></title>
+    <link href="http://namshi.github.io/blog/2014/10/23/newsletter-number-61/"/>
+    <updated>2014-10-23T12:17:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/10/23/newsletter-number-61</id>
+    <content type="html"><![CDATA[<p>Hey folks!</p>
+
+<p>It&rsquo;s <a href="/blog/categories/techthursday/">#TechThursday</a> at <a href="http://twitter.com/techNamshi">#namshi</a>!</p>
+
+<blockquote><p>Thanks to <a href="https://github.com/shidhincr">Shidhin</a>, we have a shiny new blog theme! Also, he wrote an incredible
+<a href="http://tech.namshi.com/blog/2014/10/19/welcome-es6-javascript-is-not-fancy-anymore/">blog post</a> about Javascript ES6,
+you should check it out!</p></blockquote>
+
+<p><strong>Here is the list with awesome links to keep you busy during the weekend:</strong></p>
+
+<ul>
+<li><p><a href="http://www.smashingmagazine.com/2014/10/21/providing-a-native-experience-with-web-technologies/">Hybrid Mobile Apps: Providing A Native Experience With Web Technologies</a></p></li>
+<li><p><a href="http://strongloop.com/strongblog/modular-node-js-express/">Writing Modular Node.js Projects for Express and Beyond</a></p></li>
+<li><p><a href="https://github.com/mosaicxm/vagrant-hostmaster">Vagrant plugin to manage /etc/hosts entries on both the host OS and guest VMs</a></p></li>
+<li><p><a href="https://github.com/sameersbn/docker-extras">Helper scripts for everyday docker use</a></p></li>
+<li><p><a href="http://reqr.es/">Reqres &ndash; A hosted REST-API ready to respond to your AJAX requests</a></p></li>
+</ul>
+
 
 <!-- more -->
 
 
-<blockquote><p>We wanted to take a moment to share the <a href="http://www.gofundme.com/b9dfcg">fundraiser for
-Joe Watkins</a>, a very
-active contributor to the PHP core ecosystem, who has
-recently struggled and is looking for some help.</p></blockquote>
-
-<p>And&hellip;what about us?</p>
-
-<p>This week we&rsquo;ve been talking about <a href="http://buff.ly/1j5avP6">rules to follow when writing OS code</a>
-and are still very excited for <a href="/team#Oluwaseun%20Obajobi">Oba</a>, who is gonna be in Las Vegas to attend
-the <a href="http://tech.namshi.com/blog/2014/07/05/a-bit-of-namshi-at-the-2014-aws-re-invent/">AWS re:invent</a> later this year.</p>
-
-<p>Hungry for tech news and tutorials, the team has collected this amazing list of
-resources over the past weeK:</p>
-
 <ul>
-<li><a href="http://techcrunch.com/2014/07/07/programmer-craig-muth-kickstarts-a-new-version-of-his-arguably-amazing-shell-xiki/">Programmer Craig Muth Kickstarts A New Version Of His (Arguably Amazing) Shell, Xiki</a></li>
-<li><a href="http://startuptabs.com/">Startup Tabs, Discover a new startup on each new tab</a></li>
-<li><a href="http://nakedsecurity.sophos.com/2014/07/07/remember-macro-viruses-infected-word-and-excel-files-theyre-back/">Remember macro viruses? Infected Word and Excel files? They&rsquo;re back&hellip;</a></li>
-<li><a href="http://brikis98.blogspot.ae/2014/05/dont-learn-to-code-learn-to-think.html">Don&rsquo;t learn to code. Learn to think.</a></li>
-<li><a href="https://www.apichangelog.com/">API Changelog monitors the docs of APIs you depend on and sends you notifications when they change</a></li>
-<li><a href="https://medium.com/code-adventures/4ba9e7f3e52b">Farewell NodeJs, Hello Go</a></li>
-<li><a href="http://www.google.com/design/">Design @ Google</a></li>
-<li><a href="http://www.techempower.com/benchmarks/">Web Framework Benchmarks</a></li>
-<li><a href="http://buff.ly/1jZU0ip">Rob Pike&rsquo;s Rules of Programming</a></li>
-<li><a href="http://www.mysqlperformanceblog.com/2014/07/08/timestamp-columns-amazon-rds-5-6-and-you/">TIMESTAMP Columns, Amazon RDS 5.6, and You</a></li>
-<li><a href="http://flux7.com/blogs/uncategorized/examining-elastic-load-balancing-policies/?utm_source=Flux7+Blog+Subscriptions&amp;utm_medium=email&amp;utm_campaign=74cd5ecda2-RSS_EMAIL_CAMPAIGN&amp;utm_term=0_3f65e75df7-74cd5ecda2-108386453">Examining Elastic Load Balancing Policies</a></li>
-<li><a href="https://simplytestable.com/">Automated front-end web testing</a></li>
-<li><a href="https://xpect.io/">Xpect.io helps you monitor any piece of code as fast as copy-pasting, so you can be assured that what you did yesterday, is still working today. Get instantly notified so problems can be contained before they adversely affect your business</a></li>
-<li><a href="https://www.getstacker.com">Stacker:&ndash; The Easiest way to Publish &amp; Reply on Social Media</a></li>
-<li><a href="https://appthwack.com">AppThwack:&ndash; Test your app on 100s of real Android and iOS devices in the cloud</a></li>
-<li><a href="https://www.twilert.com/">Twilert:&ndash; Get realtime alerts via email when your brand names, keywords or hashtags are mentioned on Twitter </a></li>
-<li><a href="http://blog.pagerduty.com/2014/06/10-common-ops-mistakes/">10 Common Ops Mistakes</a></li>
-<li><a href="http://techblog.netflix.com/2014/06/announcing-security-monkey-aws-security.html">Netflix introduces new Security Monkey</a></li>
-<li><a href="https://github.com/whummer/toaster">Toaster:&ndash; Automated testing of Infrastructure as Code automation scripts (e.g., Chef)</a></li>
-<li><a href="http://www.ibm.com/developerworks/library/d-security-considerations-devops-adoption/index.html">Security considerations for DevOps adoption</a></li>
-<li><a href="http://buff.ly/1qcuj20">HTTP API Design guide</a></li>
-<li><a href="http://buff.ly/1zkxbzU">So you want to be a PHP Developer?</a></li>
-<li><a href="http://buff.ly/1qOTAD4">Google Has Given #HTTPS a Huge Boost</a></li>
-<li><a href="http://buff.ly/1jhGmfT">The Next Big #Programming Language You’ve Never Heard Of</a></li>
-<li><a href="http://buff.ly/1ou121C">Inbox — The next-generation email platform</a></li>
-<li><a href="http://buff.ly/1j99JRc">New Low Cost EC2 Instances with Burstable Performance</a></li>
-<li><a href="http://buff.ly/1q4ZA6Y">Call me maybe: Elasticsearch gotchas</a></li>
-<li><a href="http://jsmodules.io">A Guide to JavaScript Modules</a></li>
-<li><a href="http://journal.crushlovely.com/post/89978453593/7-patterns-to-refactor-javascript-applications-query">7 Patterns to Refactor JavaScript Applications: Query Objects</a></li>
-<li><a href="http://davidandsuzi.com/using-react-for-faster-renders-and-isomorphism-in-angular">Using React for Faster Renders and Isomosphism in Angular</a></li>
-<li><a href="http://css-tricks.com/fixing-tables-long-strings/">Understanding Fixed Table Layout in CSS</a></li>
-<li><a href="http://ariya.ofilabs.com/2014/07/extracting-parts-of-git-repository-and-keeping-the-history.html">Extracting Parts of Git Repository and Keeping the History</a></li>
-<li><a href="http://www.smashingmagazine.com/2014/07/08/breakpoints-and-the-future-websites">Breakpoints And The Future Of Websites</a></li>
-<li><a href="http://keyholesoftware.com/2014/07/07/lessons-in-automated-testing">Lessons Learned in Automated Testing</a></li>
-<li><a href="http://strongloop.com/strongblog/automatic-node-js-clustering-with-log-aggregation">Automatic Node.js Clustering with Log Aggregation </a></li>
-<li><a href="http://javascript.crockford.com/tdop/tdop.html">Top Down Operator Precedence</a></li>
+<li><p><a href="http://www.dzone.com/links/r/4_programming_languages_with_the_potential_to_rev.html">4 Programming Languages with the Potential to Revolutionize the World of Programming</a></p></li>
+<li><p><a href="http://arstechnica.com/information-technology/2014/10/ten-years-of-ubuntu-how-linuxs-beloved-newcomer-became-its-criticized-king/">Ten years of Ubuntu: How Linux&rsquo;s beloved newcomer became its criticized king</a></p></li>
+<li><p><a href="http://www.yegor256.com/2014/09/09/restful-web-sites.html">RESTful API and a Web Site in the same URL</a></p></li>
+<li><p><a href="http://blog.npmjs.org/post/100099402720/registry-roadmap">Fixing Npm: Registry roadmap</a></p></li>
+<li><p><a href="http://www.sitepoint.com/preparing-ecmascript-6-new-number-methods/">ES6 new Numbers</a></p></li>
+<li><p><a href="https://github.com/danielstjules/jsinspect">Jsinspect: detect your duplicate code before is too late</a></p></li>
+<li><p><a href="http://scotch.io/bar-talk/the-future-of-expressjs-and-alternatives">The Future of ExpressJS and Alternatives</a></p></li>
+<li><p><a href="http://dorey.github.io/JavaScript-Equality-Table/">JavaScript Equality Table</a></p></li>
+<li><p><a href="http://www.smashingmagazine.com/2012/10/09/designing-javascript-apis-usability/">Useful Principles for Creating Simple and Flexible JavaScript APIs</a></p></li>
+<li><p><a href="http://jsdatav.is/intro.html">Data Visualization with JavaScript</a></p></li>
+<li><p><a href="http://jhusain.github.io/learnrx/">Functional Programming in JavaScript: A Collection of Hands-on Exercises</a></p></li>
+<li><p><a href="http://www.benhowell.net/guide/2014/06/20/multithreaded-javascript-using-nashorn/">Multithreaded Javascript using Nashorn</a></p></li>
+<li><p><a href="http://paasifier.herokuapp.com/">Find the best PaaS for your applications</a></p></li>
+<li><p><a href="http://symfony.com/blog/the-symfony-project-turns-9">Symfony project turns 9!</a></p></li>
+<li><p><a href="http://notebook.ideapublic.org/2014/one-less-password">One Less Password</a></p></li>
+<li><p><a href="http://swarmjs.github.io/articles/todomvc">Swarm.js+React — real-time, offline-ready Holy Grail web apps</a></p></li>
+<li><p><a href="http://mozilla.github.io/nunjucks">A rich and powerful templating language for JavaScript.</a></p></li>
+<li><p><a href="http://arqex.com/939/learning-much-javascript-one-line-cod">Learning much javascript from one line of code</a></p></li>
+<li><p><a href="http://www.theepochtimes.com/n3/1031947-5-deadly-linux-commands-you-should-never-run/">5 Deadly Linux Commands You Should Never Run</a></p></li>
+<li><p><a href="http://blog.codeship.io/2014/10/21/proper-server-naming-scheme.html">A Proper Server Naming Scheme</a></p></li>
+<li><p><a href="http://blog.iron.io/2014/10/docker-in-production-what-weve-learned.html">Docker in Production — What We’ve Learned Launching Over 300 Million Containers</a></p></li>
+<li><p><a href="https://hashicorp.com/blog/introducing-consul-template.html">Introducing Consul Template</a></p></li>
+<li><p><a href="https://github.com/romansanchez/Calaca">Search UI for Elasticsearch</a></p></li>
+<li><p><a href="http://utcc.utoronto.ca/~cks/space/blog/web/VegetaLoadTesting">Vegeta, a tool for web server stress testing</a></p></li>
+<li><p><a href="https://sslmate.com/">Buy SSL certs from the command line</a></p></li>
 </ul>
 
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[ClusterJS, clusterify your NodeJS applications and achieve zero-downtime deployments]]></title>
-    <link href="http://namshi.github.io/blog/2014/06/27/clusterjs-clusterify-your-nodejs-applications-and-achieve-zero-downtime-deployments/"/>
-    <updated>2014-06-27T00:45:00+04:00</updated>
-    <id>http://namshi.github.io/blog/2014/06/27/clusterjs-clusterify-your-nodejs-applications-and-achieve-zero-downtime-deployments</id>
-    <content type="html"><![CDATA[<p>NodeJS has a very nice built-in support for clusters
-through its native <a href="http://nodejs.org/api/cluster.html">cluster module</a>:
-by using it and realizing we wanted to achieve zero-downtime
-deployments (ZDD) on our node apps we decided to kick in.</p>
+    <title type="html"><![CDATA[Newsletter #60]]></title>
+    <link href="http://namshi.github.io/blog/2014/10/16/newsletter-number-60/"/>
+    <updated>2014-10-16T12:52:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/10/16/newsletter-number-60</id>
+    <content type="html"><![CDATA[<p>Hello, It&rsquo;s <a href="/blog/categories/techthursday/">#TechThursday</a> at <a href="http://twitter.com/techNamshi">#namshi</a>!</p>
+
+<blockquote><p>News from the IT Team:</p>
+
+<p>As you probably know reading our newsletter we are very interested in Docker, the open platform for distributed applications, that&rsquo;s why
+<a href="http://tech.namshi.com/team/#Oluwaseun%20Obajobi">Oba</a>, <a href="http://tech.namshi.com/team/#Alessandro%20Nadalin">Alex</a> and <a href="http://tech.namshi.com/team/#Luciano%20Colosio">Lucio</a> will attend
+the <a href="http://europe.dockercon.com/">Docker Europe conference in December</a></p>
+
+<p>Have fun in the cold and grey Amsterdam guys :D</p></blockquote>
+
+<p><strong>Here is the list with awesome links to keep you busy during the weekend::</strong></p>
+
+<ul>
+<li><p><a href="http://vimeo.com/105955605">Mary live-codes a JavaScript game from scratch </a></p></li>
+<li><p><a href="http://tia.mat.br/blog/html/2014/10/06/life_of_a_http_request.html">Life of a HTTP request, as seen by my toy web server</a></p></li>
+<li><p><a href="http://antirez.com/news/79">Redis cluster, no longer vaporware</a></p></li>
+<li><p><a href="http://buff.ly/1sKB2ns">Passwordless authentication: Secure, simple, and fast to deploy</a></p></li>
+<li><p><a href="http://buff.ly/1rukgDK">How POODLE Happened</a></p></li>
+<li><p><a href="http://buff.ly/1sy0Cwc">Container Computing and AWS</a></p></li>
+<li><p><a href="http://buff.ly/1xR9RYG">Google Map Tracks Your Every Move. Check Your &lsquo;Location History&rsquo; to Verify It</a></p></li>
+<li><p><a href="http://buff.ly/1sJTgXC">Developer Preview of Version 3 of AWS SDK for PHP</a></p></li>
+<li><p><a href="http://buff.ly/1sebUnL">HastyScribe, markdown to self-contained HTML pages</a></p></li>
+<li><p><a href="http://buff.ly/1sEg4b4">AngularJS 1.3.0</a></p></li>
+</ul>
+
 
 <!-- more -->
 
 
-<p>This afternoon <a href="/team#Luciano%20Colosio">Lucio</a> came up to me
-and asked me a simple question:</p>
+<ul>
+<li><p><a href="http://dendory.net/screenshots/abstraction_of_code.pdf">A study of code abstraction</a></p></li>
+<li><p><a href="http://blog.ircmaxell.com/2014/10/an-open-letter-to-php-fig.html">An open letter to PHP-FIG</a></p></li>
+<li><p><a href="http://kotlinlang.org/">Kotlin &ndash; Statically typed programming language targeting the JVM and JavaScript</a></p></li>
+<li><p><a href="http://nodeframework.com/">Hand-picked registry of Node.js frameworks</a></p></li>
+<li><p><a href="https://www.npmjs.org/package/restling">Restling: a promise based asynchronous http requests</a></p></li>
+<li><p><a href="http://buff.ly/1nj1bcv">Loading webfonts with high performance on responsive websites</a></p></li>
+<li><p><a href="http://buff.ly/1xGLtJe">Symfony3 upgrade guide</a></p></li>
+<li><p><a href="http://buff.ly/1nhqhbV">Meteor.js: not new but better recheck :)</a></p></li>
+<li><p><a href="http://buff.ly/1qG1b1s">Sharing micro-service authentication using Nginx, Passport and Redis Glozic</a></p></li>
+<li><p><a href="http://buff.ly/1vZdoon">5 Programming Languages Marked for Death</a></p></li>
+<li><p><a href="http://buff.ly/1sy17Xj">Amazon finally launched SSD storages for RDS</a></p></li>
+<li><p><a href="http://buff.ly/1yYI10P">What does the adoption of the Blink rendering engine by the Chromium project mean for WebKit?</a></p></li>
+<li><p><a href="http://www.sitepoint.com/javascript-beyond-web-2014/">All the places where you can use javascript</a></p></li>
+<li><p>Comparison: <a href="https://medium.com/este-js-framework/whats-wrong-with-angular-js-97b0a787f903">what&rsquo;s wrong</a> and <a href="http://www.sitepoint.com/love-angularjs/">why I love</a> AngularJs</p></li>
+<li><p><a href="https://www.datadoghq.com/2014/08/monitor-coreos-scale-datadog/">Monitor CoreOS at scale with Datadog</a></p></li>
+<li><p><a href="http://swrveengineering.wordpress.com/2014/10/14/how-we-increased-our-ec2-event-throughput-by-50-for-free/">How we increased our EC2 event throughput by 50%, for free</a></p></li>
+<li><p><a href="http://www.agileweboperations.com/supporting-millions-of-pretty-url-rewrites-in-nginx-with-lua-and-redis">Supporting Millions of Pretty URL Rewrites in Nginx with Lua and Redis</a></p></li>
+<li><p><a href="http://www.filamentgroup.com/lab/to-picturefill.html">To Picturefill, or not to Picturefill</a></p></li>
+<li><p><a href="http://www.benlesh.com/2014/09/dynamic-worker-threads-in-javascript.html">Dynamic Worker Threads In JavaScript</a></p></li>
+<li><p><a href="http://www.toptal.com/angular-js/angular-js-demystifying-directives">AngularJS: Demystifying Directives</a></p></li>
+<li><p><a href="https://www.youtube.com/watch?v=8aGhZQkoFbQ">What the heck is the event loop anyway ?</a></p></li>
+<li><p><a href="http://instagram-engineering.tumblr.com/post/97740520316/betterandroid">Building a better Instagram app for Android</a></p></li>
+<li><p><a href="http://www.whitewashing.de/2014/10/14/lightweight_symfony2_controllers.html">Lightweight Symfony2 Controllers</a></p></li>
+<li><p><a href="https://www.acquia.com/blog/future-php-shared-power-tools">The Future of PHP is Shared Power Tools</a></p></li>
+</ul>
 
-<blockquote><p>Let&rsquo;s do some NodeJS today?</p></blockquote>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Newsletter #58]]></title>
+    <link href="http://namshi.github.io/blog/2014/10/02/newsletter-number-58/"/>
+    <updated>2014-10-02T13:27:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/10/02/newsletter-number-58</id>
+    <content type="html"><![CDATA[<p>Hello, It&rsquo;s <a href="/blog/categories/techthursday/">#TechThursday</a> at <a href="http://namshi.com">#namshi</a> again!</p>
 
-<p>and my answer was clear and simple: we need a robust solution
-for ZDD, let&rsquo;s do this.</p>
+<blockquote><p>News from the IT Team:</p>
 
-<p>Before jumping with our usual <code>git init</code> and <code>npm init</code>
-we searched a bit and found a few alternatives, which
-weren&rsquo;t exactly fitting our scenarios:</p>
+<p>Our fella Hallal is back from <a href="http://london2014.live.symfony.com">Symfony Live London</a> and he wrote a <a href="http://tech.namshi.com/blog/2014/10/02/what-went-down-at-symfonylive-london/">nice recap</a>, go and check it out.</p></blockquote>
+
+<p>But what has the team been looking at over the past week? Below
+you&rsquo;ll find the usual list of interesting articles we discovered
+in the past 7 days.</p>
 
 <ul>
-<li><a href="http://learnboost.github.io/cluster/">learnboost/cluster</a>, which is
-quite old, discontinued and hasn&rsquo;t been updated in a couple of years</li>
-<li><a href="https://github.com/isaacs/cluster-master">isaacs/cluster-master</a>, which
-seems to have a whole lot of great things but we wanted to have
-the startup script as a global command rather than having to write
-a script on our own (but we might wrap it, as it
-has a lot of cool features, like resizing your cluster)</li>
+<li><p><a href="http://www.centurylinklabs.com/docker-filesystem-persistence-with-flocker/">Docker Filesystem Persistence With Flocker</a></p></li>
+<li><p><a href="http://www.ansible.com/blog/official-ansible-content-on-docker-hub">Official Ansible Content on Docker Hub</a></p></li>
+<li><p><a href="http://www.youtube.com/watch?v=U4oB28ksiIo&amp;feature=youtu.be">What happens when you steal a hackers computer</a></p></li>
+<li><p><a href="https://blog.cloudflare.com/introducing-universal-ssl/">Introducing Universal SSL</a></p></li>
 </ul>
 
 
-<p>At the end we decided to go for a simple solution after reading
-<a href="http://jaxbot.me/articles/zero_downtime_nodejs_reloads_with_clusters_7_5_2013">this post from Jax</a>
-that explains how to achieve ZDD on NodeJS.</p>
+<!-- more -->
 
-<p>In a few, very productive hours, Lucio was able to write
-<a href="https://www.npmjs.org/package/clusterjs">ClusterJS</a> and
-we decided to release it to the public, as it might
-be interesting out there (and because we really like
-to receive feedbacks!).</p>
 
-<p>Suppose you have a typical <a href="http://expressjs.com/">ExpressJS</a>
-app that runs through an <code>app.js</code> script, in order to run it through
-ClusterJS you simply have to:</p>
+<ul>
+<li><p><a href="https://www.loggly.com/blog/five-things-every-developer-know-syslog/">Five Things Every Developer Should Know About Syslog</a></p></li>
+<li><p><a href="https://blog.cloudflare.com/keyless-ssl-the-nitty-gritty-technical-details/">Keyless SSL: The Nitty Gritty Technical Details</a></p></li>
+<li><p><a href="https://www.joyent.com/developers/node/design">Node.js Best Practices</a></p></li>
+<li><p><a href="http://mywiki.wooledge.org/FtpMustDie#preview">FTP Must Die</a></p></li>
+<li><p><a href="http://www-users.cs.york.ac.uk/susan/joke/cpp.htm">Stroustrup C++ &lsquo;interview&rsquo;</a></p></li>
+<li><p><a href="http://kartar.net/2014/09/when-logstash-and-syslog-go-wrong/">When Logstash and Syslog go wrong</a></p></li>
+<li><p><a href="http://blog.thestateofme.com/2014/09/12/docker-networking/">Docker Networking</a></p></li>
+<li><p><a href="https://practicingruby.com/articles/infrastructure-automation">Infrastructure automation by example</a></p></li>
+<li><p><a href="http://cwebber.net/blog/2014/09/26/i-am-not-a-coder/">I Am Not a Coder</a></p></li>
+<li><p><a href="https://kobra.io">Collaborative &ldquo;Google Docs&rdquo; for code</a></p></li>
+<li><p><a href="http://paypal.github.io/nemo/">PayPal’s open source node.js automation framework</a></p></li>
+<li><p><a href="https://github.com/angular/material">Material Design for AngularJS Apps</a></p></li>
+<li><p><a href="http://www.centurylinklabs.com/simple-introduction-to-coreos-with-ceo-alex-polvi-and-cto-brandon-philips/">Simple Introduction to CoreOS</a></p></li>
+<li><p><a href="https://github.com/winebarrel/roadworker">Roadworker is a tool to manage Route53</a></p></li>
+<li><p><a href="http://mysqlhighavailability.com/mysql-group-replication-hello-world/">MySQL High Availability</a></p></li>
+<li><p><a href="http://wiert.me/2014/04/08/venn-diagrams-of-sql-join-queries-via-data-visualization-google/">Venn Diagrams of SQL Join queries </a></p></li>
+<li><p><a href="https://github.com/kasperisager/fig-phpstack">Fig managed docker PHP stack</a></p></li>
+<li><p><a href="http://www.brightball.com/devops/docker-is-the-heroku-killer">Docker is the heroku killer</a></p></li>
+<li><p><a href="http://blog.learningbyshipping.com/2014/09/25/beauty-of-testing/">Beauty of Testing</a></p></li>
+<li><p><a href="http://buytaert.net/scaling-open-source-communities">Scaling Open Source communities</a></p></li>
+<li><p><a href="https://speakerdeck.com/tammielis/a-tale-of-sass-in-an-open-source-world">A tale of Sass in an open source world</a></p></li>
+<li><p><a href="https://github.com/osscafe/gulp-cheatsheet">A quite useful Gulp.js cheat sheet</a></p></li>
+<li><p><a href="https://medium.com/@lucasalvini/on-organizing-conferences-a3737ad195a3">On organising conferences</a></p></li>
+<li><p><a href="http://www.businessinsider.com/10-things-in-tech-you-need-to-know-today-october-1-2014-9">10 Things In Tech You Need To Know Today</a></p></li>
+<li><p><a href="http://www.troyhunt.com/2014/09/everything-you-need-to-know-about.html">Everything you need to know about the Shellshock Bash bug</a></p></li>
+<li><p><a href="http://philipwalton.com/articles/what-no-one-told-you-about-z-index/">What no one told you about z-index</a></p></li>
+<li><p><a href="https://github.com/faif/python-patterns">Python design patterns</a></p></li>
+<li><p><a href="https://www.joyent.com/developers/node/design">Nodejs best practices by Joyen</a></p></li>
+<li><p><a href="http://www.slideshare.net/gummyindustries/why-is-a-blizzard-s-a-gamer-a-better-manager-than-you">Why is a Blizzard &rsquo;s gamer a better manager than you?</a></p></li>
+<li><p><a href="http://method.ac/">Design for programmers</a></p></li>
+<li><p><a href="http://addyosmani.com/blog/fixmyjs/">Automatically fix all the JavaScript linting errors</a></p></li>
+<li><p><a href="http://tylergaw.com/articles/building-osx-apps-with-js">Building OSX Apps With JavaScript</a></p></li>
+<li><p><a href="https://www.igvita.com/2013/12/16/optimizing-nginx-tls-time-to-first-byte/">Optimizing nginx tls time to first byte</a></p></li>
+<li><p><a href="http://blnight.github.io/ngMario/">Learn AngularJS by Playing Mario</a></p></li>
+<li><p><a href="http://mtdowling.com/blog/2014/09/28/guzzle-ring/">Guzzle-Ring and Future Responses</a></p></li>
+<li><p><a href="https://wiki.php.net/rfc/remove_alternative_php_tags#vote">RFC to remove alternative PHP tags accepted for PHP 7</a></p></li>
+<li><p><a href="https://blog.cloudflare.com/inside-shellshock/">Inside Shellshock: How hackers are using it to exploit systems</a></p></li>
+<li><p><a href="http://symfony.com/blog/new-in-symfony-2-6-security-component-improvements">New in Symfony 2.6: Security component improvements</a></p></li>
+<li><p><a href="http://symfony.com/blog/new-in-symfony-2-6-improvements-for-the-translation-component">New in Symfony 2.6: Improvements for the Translation component</a></p></li>
+</ul>
 
-<p>```
-npm install -g clusterjs</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Newsletter #57]]></title>
+    <link href="http://namshi.github.io/blog/2014/09/25/newsletter-number-57/"/>
+    <updated>2014-09-25T11:41:00+04:00</updated>
+    <id>http://namshi.github.io/blog/2014/09/25/newsletter-number-57</id>
+    <content type="html"><![CDATA[<p>Hello, It&rsquo;s <a href="/blog/categories/techthursday/">#TechThursday</a> at <a href="http://namshi.com">#namshi</a> again!</p>
 
-<p>clusterjs path/to/app.js
-```</p>
+<blockquote><p>News from the IT Team:</p>
 
-<p>At this point you should be able to see something like this:</p>
+<p>Hallal has already landed in London for <a href="http://london2014.live.symfony.com">Symfony Live</a> conference and he is having a blast.
+{% img thumb left /images/mohomad-sf-live.jpg %}</p>
 
-<p>```
-~/projects/clusterjs (master ✔) ᐅ clusterjs test/testApp/app.js</p>
+<p>And we are back with some more proposals to the <a href="http://confoo.ca/en">Confoo</a> conference in Canada:
+check, and support them by voting <a href="http://tech.namshi.com/blog/2014/09/22/coding-on-the-edge-at-confoo/">for Alex</a>,
+<a href="http://tech.namshi.com/blog/2014/09/20/interested-in-the-history-of-nodejs-then-lets-hear-it-from-lucio-at-the-confoo/">for Lucio</a> and <a href="http://tech.namshi.com/blog/2014/09/20/stop-using-crons-start-listening-to-geshan/">for Geshan</a>, go team Namshi!</p></blockquote>
 
-<p>Booting a cluster of ./test/testApp/app.js
-We are gonna be launching 4 workers
-The cluster will reload on: SIGUSR2
-&mdash;&ndash; test app loaded as pid: 21543
-&mdash;&ndash; test app loaded as pid: 21544
-&mdash;&ndash; test app loaded as pid: 21546
-&mdash;&ndash; test app loaded as pid: 21547
-Worker 1 running!
-Worker 2 running!
-Worker 3 running!
-Worker 4 running!
-```</p>
+<p>But what has the team been looking at over the past week? Below
+you&rsquo;ll find the usual list of interesting articles we discovered
+in the past 7 days.</p>
 
-<p>Cool! You have just put your app in a cluster with four workers!</p>
+<ul>
+<li><p><a href="http://mnapoli.fr/decoupling-packages/">Decoupling packages</a></p></li>
+<li><p><a href="https://github.com/igorw/retry">A tiny library for retrying failing operations</a></p></li>
+<li><p><a href="https://github.com/recoilphp/recoil">Cooperative multitasking for PHP via co-routines</a></p></li>
+<li><p><a href="http://bit.ly/1peew15">The Right Way (In computer science, everything is a trade-off)</a></p></li>
+</ul>
 
-<p>By default, ClusterJS will boot as many workers as CPUs
-in your system; if you wanna change it, simply:</p>
 
-<p>```
-~/projects/clusterjs (master ✔) ᐅ clusterjs test/testApp/app.js &mdash;workers 10</p>
+<!-- more -->
 
-<p>Booting a cluster of ./test/testApp/app.js
-We are gonna be launching 10 workers
-The cluster will reload on: SIGUSR2
-&mdash;&ndash; test app loaded as pid: 21636
-&mdash;&ndash; test app loaded as pid: 21635
-Worker 2 running!
-Worker 1 running!
-&mdash;&ndash; test app loaded as pid: 21650
-&mdash;&ndash; test app loaded as pid: 21640
-Worker 9 running!
-&mdash;&ndash; test app loaded as pid: 21639
-&mdash;&ndash; test app loaded as pid: 21641
-Worker 4 running!
-&mdash;&ndash; test app loaded as pid: 21644
-Worker 5 running!
-Worker 3 running!
-Worker 6 running!
-&mdash;&ndash; test app loaded as pid: 21648
-&mdash;&ndash; test app loaded as pid: 21646
-Worker 8 running!
-&mdash;&ndash; test app loaded as pid: 21652
-Worker 7 running!
-Worker 10 running!
-```</p>
 
-<p>How to achieve ZDD? Simply issue a SIGUSR2 command
-to your master process, after updating the files
-in your app:</p>
+<ul>
+<li><p><a href="http://bit.ly/1rnFojIr">Docker Introduction &ndash; Slides from a Red Hat Software Engineer</a></p></li>
+<li><p><a href="http://bit.ly/1ClG2ly">Doctrine filters and annotations to improve security and ease development in a Symfony app</a></p></li>
+<li><p><a href="http://bit.ly/1ssxTdJ">Do Programmers Need to Be &lsquo;Masters of Their Domain&rsquo;?</a></p></li>
+<li><p><a href="http://blog.npmjs.org/post/98131109725/npm-2-0-0">npm 2.0 released</a></p></li>
+<li><p><a href="https://github.com/kissyteam/xtemplate">yet another javascript template language: eXtensible</a></p></li>
+<li><p><a href="http://buff.ly/Y8wHhI">New in Symfony 2.6: LockHandler</a></p></li>
+<li><p><a href="http://buff.ly/1umFydE">Prevent errors from breaking gulp watch</a></p></li>
+<li><p><a href="http://buff.ly/1x8bO5r">CloudScale – Automatic Cloud Infrastructure Scaling</a></p></li>
+<li><p><a href="http://buff.ly/1v5l3zZ">CTOs are the new PANDAs</a></p></li>
+<li><p><a href="http://buff.ly/1rlSMoL">PHP: why GOTO instead of recursion?</a></p></li>
+<li><p><a href="http://buff.ly/1vcJ6w5">New in Symfony 2.6: Smarter assets:install command</a></p></li>
+<li><p><a href="http://buff.ly/XZAWfx">Symfony 2.6 fast approaching its stabilization phase</a></p></li>
+<li><p><a href="http://buff.ly/1mz0prV">An Early Investor Offers Some Lessons From Alibaba’s Evolution</a></p></li>
+<li><p><a href="http://buff.ly/1tNRLGV">One Thing Well – blog about simple, useful software</a></p></li>
+<li><p><a href="http://buff.ly/1rb7vCE">Amazon SNS &ndash; Now With Enhanced Support for iOS 8</a></p></li>
+<li><p><a href="http://buff.ly/1mrlPap">JavaScript Memory Management Masterclass</a></p></li>
+<li><p><a href="http://buff.ly/Z2xrpM">Apple announces API that allows using JavaScript for Automation</a></p></li>
+<li><p><a href="http://buff.ly/1rb0NfY">Resource management in Docker</a></p></li>
+<li><p><a href="http://buff.ly/1tGyWoT">Node OS</a></p></li>
+<li><p><a href="http://buff.ly/Z2v5Hq">Why I changed my mind about Node.js</a></p></li>
+<li><p><a href="http://blog.enfocussolutions.com/">The Business Analyst as Explorer: An Inquiry, Not an Inquisition</a></p></li>
+<li><p><a href="http://www.technologyreview.com/news/529011/can-technology-fix-medicine/">Can Technology Fix Medicine? Medical data is a hot spot for venture investing and product innovation.</a></p></li>
+<li><p><a href="https://news.layervault.com/stories/33347-pdf-mobile--multidevice--design-lessons--learned-building-polar-by-luke-wroblewski">Mobile &amp; multi-device lessons learned, a free e-book by Luke Wroblewski</a></p></li>
+<li><p><a href="http://erenyagdiran.github.io/I-was-just-asked-to-crack-a-program-Part-1/">&ldquo;I was just asked to crack a program in a job interview !&rdquo;</a></p></li>
+<li><p><a href="http://www.youtube.com/watch?v=XCVOxht34Hs">Be a happier developer with Docker</a></p></li>
+<li><p><a href="http://www.thinkful.com/learn/angularjs-tutorial-build-a-gmail-clone/Directives-Overview">Learn AngularJS by Creating a Gmail Clone</a></p></li>
+<li><p><a href="http://www.html5rocks.com/en/tutorials/shapes/getting-started/">Getting Started with CSS Shapes</a></p></li>
+</ul>
 
-<p>```
-~/projects/clusterjs (master ✔) ᐅ clusterjs test/testApp/app.js &mdash;workers 2
-Booting a cluster of ./test/testApp/app.js
-We are gonna be launching 2 workers
-The cluster will reload on: SIGUSR2
-&mdash;&ndash; test app loaded as pid: 22007
-&mdash;&ndash; test app loaded as pid: 22008
-Worker 1 running!
-Worker 2 running!</p>
-
-<p>SIGUSR2 received, reloading the app
-<strong><em> reloading workers!
-restarting worker: 1
-Shutdown complete for worker 1
-Worker 1 died :(
-&mdash;&ndash; test app loaded as pid: 22018
-&mdash;&ndash; test app loaded as pid: 22021
-Worker 3 running!
-Worker 4 running!
-Replacement worker online.
-</em></strong> reloading workers!
-restarting worker: 2
-Shutdown complete for worker 2
-Worker 2 died :(
-&mdash;&ndash; test app loaded as pid: 22055
-&mdash;&ndash; test app loaded as pid: 22056
-Worker 5 running!
-Worker 6 running!
-Replacement worker online.
-```</p>
-
-<p>If you want to change the signal used to reload the cluster,
-you can do it with a simple option:</p>
-
-<p><code>
-clusterjs test/testApp/app.js --workers 2 --reloadon SIGUSR1
-</code></p>
-
-<p>That&rsquo;s (basically) it! Kudos to Lucio for his work and&hellip;</p>
-
-<p>&hellip;if you wanna play with ClusterJS or suggest any improvement,
-feel free to have a look around, as
-<a href="https://github.com/namshi/clusterjs">ClusterJS is on GitHub</a>.</p>
 ]]></content>
   </entry>
   
