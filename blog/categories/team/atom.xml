@@ -18,7 +18,7 @@
     <link href="http://namshi.github.io/blog/2014/08/31/welcome-daniel/"/>
     <updated>2014-08-31T21:37:00+04:00</updated>
     <id>http://namshi.github.io/blog/2014/08/31/welcome-daniel</id>
-    <content type="html"><![CDATA[<p>{% img team left /images/daniel.png %}</p>
+    <content type="html"><![CDATA[<p><img class="team left" src="/images/daniel.png"></p>
 
 <p>We are very excited to welcome <a href="/team#Daniel%20Ribeiro">Daniel</a> in
 the crazy Namshi family!</p>
@@ -80,7 +80,7 @@ directives or a bunch of frontend-ish NodeJS apps,
 is devastated as they feel they are missing a third
 element who can help them achieve greatness.</p>
 
-<p>{% img center /images/frontend-sad.png %}</p>
+<p><img class="center" src="/images/frontend-sad.png"></p>
 
 <p>To make Lucio and Shidhin happy, we want to add a new
 member in our team, a <strong>Frontend Developer</strong>, someone who
@@ -111,7 +111,7 @@ get more informations about this job opening!</p></blockquote>
 <p>Look at the systeam, so sad: they really
 need some new buddy for their games.</p>
 
-<p>{% img center /images/sys-sad.png %}</p>
+<p><img class="center" src="/images/sys-sad.png"></p>
 
 <p>The chair is empty, and that makes me so sad! If only
 we could find someone who would like to come and join
@@ -138,7 +138,7 @@ get more informations about this job opening!</p></blockquote>
 <p>Look at how sad Cirpo, our lead API engineer, was
 today:</p>
 
-<p>{% img center /images/cirpo-sad.png %}</p>
+<p><img class="center" src="/images/cirpo-sad.png"></p>
 
 <p>It&rsquo;s true that he might be sad because we decided
 to use a lot of NodeJS instead of PHP, but I
